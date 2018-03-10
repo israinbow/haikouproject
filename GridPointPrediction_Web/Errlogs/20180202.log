@@ -1,0 +1,342 @@
+2018-02-02 09:10:45：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 09:10:45：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 09:14:02：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 09:14:02：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 09:15:35：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 09:15:36：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 09:39:06：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 09:39:06：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 09:51:29：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 09:51:29：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 10:09:24：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 10:09:24：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 10:20:06：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 10:20:06：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 10:20:33：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 10:20:33：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 10:21:50：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 10:21:50：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 10:24:01：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 10:24:01：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 10:25:49：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 10:25:49：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 10:29:01：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 10:29:01：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 10:32:08：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 10:32:08：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 10:35:48：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 10:35:48：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 10:35:57：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 10:35:57：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 14:05:18：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 14:05:18：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 14:28:35：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 14:28:35：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 15:57:17：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 15:57:17：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2018-02-02 15:57:22：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2018-02-02 15:57:22：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321

@@ -1,0 +1,14 @@
+时间：2018/1/17 星期三 09:29:20 Message:ORA-02289: 序列不存在 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 DAL.OracleHelper.db_ExecuteNonQuery(String strSQL) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 310  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+时间：2018/1/17 星期三 09:29:21 Message:ORA-02289: 序列不存在 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 DAL.OracleHelper.db_ExecuteNonQuery(String strSQL) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 310  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)

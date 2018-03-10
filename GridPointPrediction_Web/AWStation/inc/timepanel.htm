@@ -1,0 +1,46 @@
+     <table style="display: inline-block; margin-left:5px;">
+                <tr>
+                   
+                    <td>
+                        <div  style="width:118px;">                        
+                        <input type="button" id="comfirm_input" value="更新" class="blueRadiusButton" onclick="pageProxy.comfirmTime()" />&nbsp;<input id="lastTime_input" type="button" value="最新" class="blueRadiusButton" onclick="pageProxy.getLastOBT()" /></div> 
+                    </td>
+                    <td>
+                        <div id="dateTimePicker2" style="width: 180px;"></div>
+                    </td>
+                    <td>
+                        <table style="margin-left: 10px;">
+                            <tr>
+                                <td style="vertical-align:bottom;">
+                                    <div id="animation_span" style="width: 280px;"></div>
+                                </td>
+                                <td style="width: 110px;padding-left:4px!important;">
+                                    <div style="width: 100px;">
+                                        <img id="play_back_img" alt="back" src="../Images/PageImage/left.png" style="cursor: pointer; width:30px; margin-right:-3px;" />
+                                        <img id="play_img" style="cursor: pointer; width:35px;" src="../Images/PageImage/play.png" />
+                                        <img id="play_front_img" style="cursor: pointer; width: 30px; margin-left: -3px;" alt="front" src="../Images/PageImage/right.png" />
+                                    </div>
+                                </td>
+                                <td style="font-size: small; display:none;">
+                                    <div style="width: 100px;">
+                                        步长<select id="playstep_select" style="margin-left: 3px; width:60px;" onchange="pageProxy.resetPlayer()">
+                                            <option value="5">5分钟</option>
+                                            <option value="10">10分钟</option>
+                                            <option value="20">20分钟</option>
+                                            <option value="30">30分钟</option>
+                                        </select>
+                                    </div>
+                                </td>
+                                <td style="font-size: small;">
+                                    <div style="width: 90px;">
+                                        速度 <div style="display: inline-block;">
+                                            <input id="horizontalSlider_speed" style="width: 60px;" data-slider-id='ex1Slider' type="text" data-slider-min="1" data-slider-max="10" data-slider-step="1" />
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+

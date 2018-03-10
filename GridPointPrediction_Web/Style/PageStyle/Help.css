@@ -1,0 +1,136 @@
+﻿.menu_list li{
+    display:block;
+    height:40px;
+    line-height:40px;
+    font-size:14px; 
+    font-weight:600;
+    margin-bottom:2px;
+    position:relative;
+    text-align:center;
+}
+.container-fluid{
+    padding:0!important;
+}
+body {
+    padding:0;
+    margin:0;
+    font-family:"微软雅黑";
+}
+a{
+    text-decoration:none!important;
+}
+li{
+    list-style:none;
+}
+
+.box{
+    padding:5px 0px!important;
+    margin:0 auto;
+    background:#EAEEFA;
+}
+.box .row{
+    margin:0;
+}
+.box .row{
+    padding:0px!important;
+}
+.sidebar_menu{
+    margin:0px 7px 0px 60px;
+    padding:0!important;
+}
+.sidebar_menu h4{
+    height:35px;
+    line-height:35px;
+    text-align:center;
+    color:#fff;
+    font-size:17px;
+    background:#208DDF;
+    border-radius:9px 9px 0px 0px;
+    margin:0;
+    font-weight:bold;
+}
+.menu_list{
+    background:#fff;
+    padding:0;
+    margin:0;
+    color:#337ab7;
+    border-radius: 0 0 9px 9px;
+}
+.control_arrow{
+    left:350px;
+    top:0px;
+}
+.menu_list li.active{
+    background:#E23525;
+    color:#fff;
+}
+.menu_list li:hover{
+    background:#E23525;
+    color:#fff;
+}
+.menu_list li:hover a{
+    color:#fff!important;
+}
+.menu_list li.active a{
+    color:#fff;
+}
+.content{
+    margin:5px;
+    padding:0 25px 0px 15px!important;
+    color:#696969;
+    font-size:14px;
+}
+.innerCont{
+    padding:20px 50px;
+    background:#fff;
+     border-radius:9px;
+}
+.aboutSys span{
+    color:#616161;
+    font-weight:bold;
+    margin:35px 0px 6px 0px;
+    display:block;
+}
+.aboutSys p{
+    line-height:28px;
+}
+.aboutSys b{
+    color:#616161;
+    font-weight:bold;
+    display:block;
+    margin-top:10px;
+}
+.aboutSys b:last-child{
+    margin-bottom:40px;
+}
+.sysFunc span{
+    color:#616161;
+    font-weight:bold;
+    margin:35px 0px 6px 0px;
+    display:block;
+}
+.sysFunc p{
+    line-height:28px;
+}
+.sysFunc b{
+    color:#616161;
+    font-weight:bold;
+    display:block;
+    margin-top:10px;
+}
+.sysFunc b:last-child{
+    margin-bottom:40px;
+}
+
+.operateEnvironment span{
+    color:#616161;
+    font-weight:bold;
+    margin:15px 0px 6px 0px;
+    display:block;
+}
+.operateEnvironment p{
+    line-height:28px;
+}
+.operateEnvironment span:last-child{
+    margin-bottom:210px;
+}

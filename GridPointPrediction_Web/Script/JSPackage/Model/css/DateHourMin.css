@@ -1,0 +1,28 @@
+﻿#DateHourMin{
+    background-image:url("../image/time_bg.gif");
+    background-repeat:no-repeat;
+    height: 40px;
+    width: 380px;
+    float:left;
+}
+
+    #DateHourMin .inputdate {
+        width: 100px;
+        height: 23px;
+        margin:6px 0 0 30px;
+    }
+    #DateHourMin .hour {
+        height: 23px;
+        width: 45px;
+        margin-left:5px;
+    }
+    #DateHourMin .min {
+        height: 23px;
+        width: 45px;
+    }
+    #DateHourMin .link{
+        margin:6px 0 0 270px;
+    }
+ 
+
+

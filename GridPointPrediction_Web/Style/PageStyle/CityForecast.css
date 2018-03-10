@@ -1,0 +1,284 @@
+﻿body {
+    background:#F0F8FF;
+}
+* {
+    font-family: "微软雅黑" !important;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+input,select{
+    outline:none;
+}
+.top{
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+#publishPre {
+    width: 138px;
+    height: 31px;
+    line-height: 19px;
+    background: url(../../Images/NewPageImage/bg_publishpreview.png) no-repeat;
+    border: 0px #1ea1fb solid;
+    color: white;
+    font-family: 微软雅黑;
+    font-size: 15px;
+    background-color: white;
+    box-shadow: none;
+    outline: none;
+    margin-left: 40px;
+    margin-bottom: 3px;
+}
+
+.early_weather,.haikou_weather,.defenSuggest{
+    background:#fff;
+    margin:auto;
+    border: 2px solid #F5F5F5;
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+
+.xuanfu {
+    overflow: auto;
+    position: fixed;
+    height: 500px;
+    width: 850px;
+    z-index: 10;
+    top: 25%;
+    background: #fff;
+    left: 28%;
+    border: 7px solid #90CAF9;
+    background: #E3E7EB;
+}
+
+.xuanfu label{
+    margin:0;
+}
+
+.leixing {
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    width: 830px;
+    height: 25px;
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.haikouWeather_table{
+    border:1px solid #BFC4C6;
+	border-collapse: collapse;
+    width:98%;
+    font-size:13px;
+    margin:10px auto;
+}
+
+
+
+.haikouWeather_table td{
+	border:1px solid #BFC4C6; 
+    width:120px;
+    height:60px;
+    text-align:center;
+}
+.haikouWeather_table td input{
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding:5px;
+    border:none;
+}
+.haikouWeather_table .pic{
+    margin-bottom:3px;
+    height:30px;
+}
+
+
+.haikouWeather_table tr:nth-child(odd){
+    margin-bottom:3px;
+    height:30px;
+}
+.haikouWeather_table tr:nth-child(odd) div,.haikouWeather_table tr:nth-child(odd) td,.haikouWeather_table tr:nth-child(odd) td input{
+    background:#E9F1F5; 
+}
+.haikouWeather_table tr:nth-child(even) div,.haikouWeather_table tr:nth-child(even) td,.haikouWeather_table tr:nth-child(even) td input{
+    background:#fff;
+}
+.haikouWeather_table tbody td img{
+    display:inline-block;
+}
+/*.haikouWeather_table .weather label{
+    display:inline-block; 
+    margin-right:10px;
+}*/
+.haikouWeather_table .weather label img{
+    width:40px;
+}
+.haikouWeather_table .weather .pic{
+    display:inline-block;
+}
+.haikouWeather_table tbody td.weather{
+    text-align:center;
+}
+.haikouWeather_table tr:first-child td{
+    color: #005E9D;
+	background-color: #C8E6FF;
+    width:120px;
+    text-align:center;
+    height:35px;
+    line-height:35px;
+}
+.haikouWeather_table tr:first-child td input{
+    background-color: #C8E6FF;
+    width:100%;
+    height:100%;
+    border:none;
+}
+.haikouWeather_table tr td:nth-child(1){
+    width:40px;
+    padding:5px;
+    font-size:13px;
+    font-weight:bold;
+    background:#fff;
+}
+.haikouWeather_table tr:first-child td:first-child{
+    background:#C8E6FF;
+}
+
+.previewContainer{
+    width:61%;
+    margin:-15px auto;
+    background:#fff;
+    text-align:center;
+    padding:70px 65px;
+    font-size:17px;
+}
+.copyright{
+    margin-top:60px;
+    border-bottom:3px solid #00B050;
+    position:relative;
+}
+.copyright span{
+    display:inline-block;
+    position:absolute;
+}
+.copyright span:first-child{
+    top:-25px;
+    left:8px;
+}
+.copyright span:last-child{
+    top:-25px;
+    right:8px;
+}
+.cont1,.cont2,.cont3{
+    text-align:left;
+    font-size:16px;
+}
+.cont1 .title,.cont2 .title:first-child,.cont3 .title{
+    font-weight:bold;
+    margin-top:20px;
+    text-indent:2em;
+}
+.cont2 b,.cont2 span{
+    display:block;
+    text-indent:2em;
+    margin-top:-5px;
+}
+.cont2 span.title{
+    text-indent:0;
+}
+.cont1 p,.cont2 p,.cont3 p{
+    line-height:24px;
+    text-indent:2em;
+}
+.cont3 b{
+    text-indent:2em;
+    display:block;
+    margin-bottom:5px;
+}
+.release_time{
+    display:block;
+    font-size:16px;
+    margin:30px 0px 0px 380px;
+}
+.back{
+    display:inline-block;
+    width: 80px;
+    height: 25px;
+    line-height:25px;
+    color:#fff;
+    text-align:center;
+    background:#306FDA;
+    cursor:pointer;
+}
+
+
+.table_info td{
+   
+    width:90px;
+    font-size:15px;
+    height: 60px;
+    border:1px solid #000;
+    text-align:center;
+}
+.table_info tr:last-child td{
+    padding:0 10px;
+}
+.table_info tr:nth-child(3) td{
+    padding:0 5px;
+}
+.table_info tr:first-child{
+    background:#348DA5;
+}
+.table_info tr td:first-child{
+    font-weight:bold;
+    padding:0 5px;
+    width:58px!important;
+}
+.table_info tr:nth-child(3) td:first-child{
+    font-weight:400;
+}
+.table_info{
+    width:100%;
+    margin:10px auto;
+    border:1px solid #A0A0A0;
+}
+.table_info img{
+    width:32px;
+}
+.cont3 p b{
+    text-indent:0;
+    display:inline-block;
+}
+
+.releaseReport{
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.25);
+    float: left;
+    margin-top: 20px;
+    background-color: grey;
+    text-decoration:none;
+    font-weight: normal;
+    font-style: normal;
+    outline: none;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    cursor:pointer;
+}
+.releaseReport:hover{
+    color: #fff;
+    text-decoration:none;
+    background: rgb(56, 121, 217);
+    cursor:pointer;
+}
+

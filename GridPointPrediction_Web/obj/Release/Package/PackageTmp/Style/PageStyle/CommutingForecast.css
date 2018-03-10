@@ -1,0 +1,209 @@
+﻿body {
+    /*padding:0px;*/
+    /*margin:0px;*/
+}
+
+* {
+    font-family: "Microsoft YaHei   \5FAE\8F6F\96C5\9ED1" !important;
+}
+
+.padding0 {
+    padding: 0px;
+}
+
+.maxcontainer {
+    width: 1540px;
+    background-color: #eeeeee;
+    /*border:1px solid red;*/
+}
+
+.FunctionSelection {
+    background: white;
+    height: 88px;
+    margin-top: 10px;
+}
+
+    .FunctionSelection .foretime {
+        height: 28px;
+        line-height: 28px;
+        width: 95px;
+    }
+
+    .FunctionSelection .row {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 5px;
+    }
+
+    .FunctionSelection .FS_title {
+        font-size: 14px;
+        font-weight: bold;
+        color: #527ba5;
+        padding-right: 5px;
+    }
+
+.FunctionSelection_top {
+    height: 35px;
+    line-height: 35px;
+    width: 1540px;
+}
+
+.timeOperation {
+    height: 35px;
+    line-height: 35px;
+}
+
+.choosebtn {
+    background-color: #58befe;
+    font-size: 14px;
+    border: none;
+}
+
+    .choosebtn:hover {
+        background-color: #3a7fde;
+    }
+
+    .choosebtn:focus {
+        background-color: #3a7fde;
+    }
+
+    .choosebtn.active {
+        background-color: #3a7fde;
+    }
+
+.publishingoperation {
+    height: 40px;
+    line-height: 40px;
+}
+
+    .publishingoperation span {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .publishingoperation .checkbox-inline {
+        margin-top: -6px;
+    }
+
+        .publishingoperation .checkbox-inline input {
+            padding: 0px;
+            margin-top: 3px;
+            height: 40px;
+            line-height: 40px;
+        }
+
+.FunctionSelection_bottom {
+    height: 35px;
+    line-height: 35px;
+    margin-top: 5px;
+}
+
+/*.FS_Forecastdisplay {
+    padding: 6px;
+}*/
+
+.FS_Weatherreview {
+    padding: 6px;
+    background-color: white;
+    height: 187px;
+}
+
+.FS_WeatherCommute {
+    padding: 6px;
+    margin-top: 8px;
+    background-color: white;
+    height: 187px;
+}
+
+.FS_Weather_title {
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.45);
+    font-weight: bold;
+    color: #527ba5;
+    font-size: 14px;
+    background-color: white;
+}
+
+    .FS_Weather_title span.line {
+        padding-left: 3px;
+        margin-left: 5px;
+        margin-right: 20px;
+        background-color: #f2cb94;
+    }
+
+.FS_Forecastcontent {
+    width: 100%;
+    height: 138px;
+}
+
+/*.FS_AWStomapdisplay {
+    height: 176px;
+    padding: 6px;
+}*/
+
+#map_aws {
+    width: 100%;
+    height: 283px;
+}
+
+#map_road {
+    width: 100%;
+    height: 100%;
+}
+
+.showawstext {
+    font-size: 12px;
+    /*font-weight: bold;*/
+    cursor: pointer;
+    /*-webkit-text-stroke: 1px #0a43fc;*/
+    /*color: black;*/
+}
+
+    .showawstext:hover {
+        stroke-width: 8;
+        /*stroke: white;*/
+        /*fill: none;*/
+    }
+
+.awstext {
+    margin-left: 7px !important;
+    margin-top: -17px !important;
+}
+
+.map_aws_title {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 9999999;
+    left: 0px;
+    right: 0px;
+    top: -6px;
+}
+
+.MessagePreview {
+    width: 702px;
+    height: 670px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    background: white;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.mp_content {
+    height: 370px;
+}
+
+.mp_con .mp_line.top {
+    margin-top: 30px;
+    border-bottom: 2px solid red;
+    height: 30px;
+    line-height: 30px;
+}
+
+.mp_con .mp_line.bottom {
+    margin-top: 30px;
+    border-top: 2px solid red;
+    height: 30px;
+    line-height: 30px;
+}

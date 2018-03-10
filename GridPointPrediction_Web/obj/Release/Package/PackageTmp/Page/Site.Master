@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="GridPointPrediction_Web.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+
+    <!-- jQuery文件 -->
+    <script src="../Script/jquery-1.11.3/jquery.min.js"></script>
+    <script src="../Script/leaflet-1.0.2/leaflet.js"></script>
+    <link href="../Style/leaflet-1.0.2/leaflet.css" rel="stylesheet" />
+    <script src="../Script/leaflet-1.0.2/esri-leaflet.js"></script>
+    <script src="../Script/time/My97DatePicker/WdatePicker.js"></script>
+    <script src="../Script/util/jquery.mousewheel.min.js"></script>
+    <!-- Bootstrap 核心 CSS 文件 -->
+    <link href="../Script/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap 核心 JavaScript 文件 -->
+    <script src="../Script/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src="../Script/util/common.js"></script>
+    <script src="../Script/layer/layer.js"></script>
+    <script src="../Script/time/ToolsDateTime.js"></script>
+    <%--<link href="../Style/Other/Button.css" rel="stylesheet" />--%>
+    <link href="../Style/PageStyle/SiteMaster.css" rel="stylesheet" />
+    <script src="../Script/PageScript/SitMaster.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="nav" style="width:100%; height: 93px;text-align:center">
+
+
+            <div style="position: relative;">
+                <%--  这个层为外面的父层，只需设置相对位置样式即可 --%>
+                <%--<div style="position: absolute;">--%>     <%--  这个为里面要叠加的层，只需设置绝对样式  --%>
+                    <%--<img src="../Images/PageImage/logoNew.png" style="margin-top: 8px"/>--%><%-- 这个为层里面的内容图片  --%>
+                <%--</div>--%>
+                <img src="../Images/PageImage/bgImg.png" width="100%" height="93" /><%-- 这个为父层内容 --%>
+
+                <div id="div-Navigation" style="width:600px;height:111px;position:absolute;right:0;bottom:0" data-toggle="buttons">
+                   <%-- <button type="button" class="btn btn-primary"  style="position: absolute;left: 0;bottom: 0;width:72px; height:43px; "> 
+                        单个切换
+                    </button>--%>
+                       <label class="btn btn-primary" id="GridPoint" style="position: absolute;left: 0;bottom: 0;width:90px; height:43px; padding: 10px 12px;">
+                        <input type="radio" name="options" id="optionGridPoint" />
+                        格点预报
+                    </label>
+                       <label class="btn btn-primary" id="tenday_Forecast" style="position: absolute;left: 100px;bottom: 0;width:90px; height:43px;padding: 10px 12px;">
+                        <input type="radio" name="options" id="option10" />
+                        十天预报
+                    </label>
+                    <label class="btn btn-primary" id="CityForecast12Hour" style="position: absolute;bottom: 0;width:90px; height:43px;left:200px;padding: 10px 12px;">
+                        <input type="radio" name="options" id="option11" />
+                        逐12时预报
+                    </label>
+                     <label class="btn btn-primary" id ="CityForecast6Hour" style="position: absolute;bottom: 0;width:90px; height:43px;left:300px;padding: 10px 12px;">
+                        <input type="radio" name="options" id="option06" />
+                        逐6时预报
+                    </label>
+                     <label class="btn btn-primary" id="CommutingForecast" style="position: absolute;bottom: 0;width:90px; height:43px;left:400px;padding: 10px 12px;">
+                        <input type="radio" name="options" id="optionWork" />
+                        上下班预报
+                    </label>
+                     <label class="btn btn-primary" id="forecastTest" style="position: absolute;bottom: 0;width:90px; height:43px;left:500px;padding: 10px 12px;">
+                        <input type="radio" name="options" id="optionTest" />
+                        预报检验
+                    </label>
+                </div> 
+            </div>
+
+        </div>
+        <div></div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

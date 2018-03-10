@@ -1,0 +1,1 @@
+window.awsLastInfo=new Object();awsLastInfo.lastDdatetime=new Date('2017/06/08 09:10');

@@ -1,0 +1,57 @@
+﻿
+        .left {
+            line-height: 30px;
+    float: left;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+        }
+        .meantop
+        {
+                display: inline-block;
+    background: #0f82e2;
+    width: 200px;
+    height: 35px;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+        }
+
+                .button {
+            cursor: pointer;
+            width: 50px;
+            background: red;
+            height: 25px;
+            display: inline-block;
+            line-height: 25px;
+            text-align: center;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            color: #fff;
+        }
+        .buttonof {
+            cursor: pointer;
+            width: 50px;
+            background: #428bca;
+            height: 25px;
+            display: inline-block;
+            line-height: 25px;
+            text-align: center;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            color: #fff;
+        }
+#qiya {
+
+    border-radius: 5px;
+    width: 65px;
+    font-size: 12px;
+    height: 23px;
+    background: #ddd;
+    border: 1px solid #aaa;
+}
+    
+ 

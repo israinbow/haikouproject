@@ -1,0 +1,217 @@
+<style type="text/css">
+    #obtList_table td{
+        border: 1px solid #C9C9C9;
+    }
+    #obtList_table tr:nth-child(odd) {
+        background: #F1F1F1;
+    }
+    #obtList_table tr:nth-child(even) {
+        background: #F6FBFF;
+    }
+    #obtList_table tr td{
+        height:28px;
+    }
+    #obtList_table tr td:nth-child(2){
+        width:120px;
+    }
+    #area_gd_div > div:hover {
+        color: Red;
+    }
+    #unit_th{
+        text-align:center;
+    } #obtList_table td, #obtList_table th {
+        padding: 2px;
+    }
+
+    #area_sz_div > div {
+        display: inline-block;
+        font-size: small;
+        text-align: center;
+        color: #444444;
+        width: 55px;
+        border-bottom: 1px solid #C0D4DD;
+        margin: 0 0 3px 0;
+        cursor: pointer;
+    }
+
+        #area_sz_div > div:hover {
+            color: Red;
+        }
+    #panelContainer{
+        margin:8px 0px 0px 8px;
+        width:360px;
+    }
+    .btn_menu label,
+    .def_btn {
+        display: inline-block;
+        width: 110px;
+        height: 36px;
+        line-height: 11px;
+        text-align: center;
+        background: url(../../Images/NewPageImage/bg_aws.png) no-repeat;
+        border: 0px solid #A9A9A9;
+        color: #13598f;
+        font-size: 15px;
+        font-family: "微软雅黑";
+        box-shadow: none;
+        outline: none;
+        margin-right: 3px;
+    }
+   
+    .active_btn {
+        padding: 0px;
+        width: 110px;
+        height: 36px;
+        background: url(../../Images/NewPageImage/bg_aws_s.png) no-repeat !important;
+        border: 0px white solid;
+        color: white;
+        font-family: 微软雅黑;
+        font-size: 14px;
+        background-color: white;
+        box-shadow: none;
+        outline: none;
+        color: #fff !important;
+    }
+
+    .btn_menu label:hover, .def_btn:hover {
+        background: url(../../Images/NewPageImage/bg_aws_s.png) no-repeat !important;
+        color: #fff !important;
+    }
+    .def_btn{
+        line-height:30px;
+    }
+</style>
+<script>
+    function leftpanelSwitch(btn) {
+        var panelContainer = document.getElementById("panelContainer");
+        if (panelContainer.style.display != "none") {
+            panelContainer.style.display = "none";
+            btn.value = ">";
+            btn.style.left = 0;
+            btn.style.top = "0px";
+        } else {
+            panelContainer.style.display = "";
+            btn.value = "<";
+            btn.style.left = "99.8%";
+            btn.style.top = "60px";
+        }
+    }
+    function checkRadar(obj, id) {
+        var enable = true;
+        if (obj.className.indexOf("active_btn") >= 0) enable = !enable;
+        if (obj.className.indexOf("active_btn") == -1) {
+            $(obj).addClass("active_btn").siblings().removeClass("active_btn");
+        }
+        else if (obj.className.indexOf("active_btn") >= 0) {
+            $(obj).removeClass("active_btn").removeClass("active");
+        }
+        pageProxy.picShow(id, enable, obj);
+    }
+</script>
+
+<div id="obtList_div" style="position:absolute; margin-left:1px; z-index:510;">
+    <input type="button" onclick="leftpanelSwitch(this)" value="<" style="outline:none;background-color:#fff; position:absolute;top:60px;left:99.8%; border-bottom-width:2px; border-color:#4990E2;  border-left:0;border-radius:0 4px 4px 0; border-style:solid;" />
+    <div id="panelContainer">
+        <div class="panel panel-primary" style="box-shadow:0px 1px 5px gray;margin:3px;">
+            <div class="panel-heading" style="color:white">估测预报</div>
+            <div class="panel-body" style="padding:0px;">
+                <div>
+                    <div id="prediction_div" style="width:100%; margin: 8px auto;">
+                        <div class="btn-group btn-group-sm btn-radar-group btn_menu" data-toggle="buttons" style="display: inline-block;font-weight:bold; width: 100%;margin-left:8px;">
+                            <!--<img style="float:left;width:45px;height:30px;" src="/AWStation/images/radar.png">-->
+                            <label class="btn" onclick="checkRadar(this,0)">
+                                <input type="radio" />拼图+估测降水
+                            </label>
+                            <label class="btn" onclick="checkRadar(this,1)">
+                                <input type="radio" />回波
+                            </label>
+                            <label class="btn" onclick="checkRadar(this,2)">
+                                <input type="radio" />估测降水
+                            </label>
+                        </div>
+                        <div class="btn-group btn-group-sm btn_menu" data-toggle="buttons" style="display: inline-block; width: 100%; margin-left: 8px;">
+                            <!--<img style="float:left;width:45px;height:30px;" src="/AWStation/images/settle.png">-->
+                            <label class="btn" onclick="checkRadar(this,3)">
+                                <input type="radio" />红外云图
+                            </label>
+                            <label class="btn" onclick="checkRadar(this,4)">
+                                <input type="radio" />水汽
+                            </label>
+                            <label class="btn" onclick="checkRadar(this,5)">
+                                <input type="radio" />能见度
+                            </label>
+                        </div>
+                        <div class="btn-group btn-group-sm btn_menu" data-toggle="buttons" style="display:none; width: 100%;">
+                            <img style="float:left;width:45px;height:30px;" src="/AWStation/images/light.png">
+                            <label class="btn btn-default">
+                                <input type="radio" />闪电定位实况
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="panel panel-primary" style="box-shadow:0px 1px 5px gray;margin:3px;">
+            <div class="panel-heading" style="color:white"> 范围</div>
+            <div class="panel-body" style="padding:0px;">
+                <div>
+                    <div id="area_gd_div" style="width:245px; margin: 7px 10px;">
+                        <div class="def_btn" onclick='pageProxy.changeCity(this,"haikou",[19.919846,110.373243],10,["海口市"])'>海口市</div>
+                        <div onclick='pageProxy.changeArea("LOCAL")' class="def_btn">海南省</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="panel panel-primary" style="box-shadow:1px 1px 5px gray;margin:0 0 0 3px;font-size: small; ">
+            <div class="panel-heading" id="dataList_panel">数据排名</div>
+            <div class="panel-body" style="padding:0px; overflow:auto; height:320px;">
+                <table style="width: 100%; border-collapse: collapse;">
+                    <caption id="awsList_caption">
+                        <div class="btn-group btn-group-xs" data-toggle="buttons" style="margin:0 0 0 10px; display:inline-block;">
+                            <label class="btn btn-default active">
+                                <input type="radio" name="showAWSList" onchange="pageProxy.showAWSList(1)" />全景范围
+                            </label>
+                            <label class="btn btn-default">
+                                <input type="radio" name="showAWSList" onchange="pageProxy.showAWSList(0)" />可视范围
+                            </label>
+                        </div>
+                        <div class="btn-group btn-group-xs" data-toggle="buttons" style="margin:0 0 0 10px; display:inline-block">
+                            <label class="btn btn-default">
+                                <input type="radio" id="order_asc_input" name="setDataOrderby" onchange="pageProxy.changeListOrder(false)" />升序
+                            </label>
+                            <label class="btn btn-default active">
+                                <input type="radio" id="order_desc_input" name="setDataOrderby" onchange="pageProxy.changeListOrder(true)" />倒序
+                            </label>
+                        </div>
+                    </caption>
+                    <thead style="background-color: #E8F6FF; font-size: small;">
+                        <tr style="border: 1px solid #C1E1F8; height: 30px; color: #17567F;">
+                            <th style="width:40px; text-align:center;">编号</th>
+                            <th style="width:35px; text-align:center;display:none; " id="list_area_td">区</th>
+                            <th style="display:none;text-align:center; width:40px;" id="list_street_td">街道</th>
+                            <th style="text-align:center;" id="list_name_td">站名</th>
+                            <th style="width:40px; text-align:center;">时间</th>
+                            <th style="text-align:center;width:55px;"><span id="unit_th"></span></th>
+                        </tr>
+                    </thead>
+                    <tbody id="obtList_table" style="font-size:11px;"></tbody>
+                </table>
+            </div>
+            <div class="panel-footer" style="padding:5px;">
+                <button id="obtList_footer" style=" display:none; " onclick="pageProxy.sortByStreet()" class="btn-block">分区排序</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="playerContainer" style="display:none; position: absolute; bottom: 70px; left: 380px; z-index: 510; border-radius: 5px; background-color: rgba(0, 0, 0, 0.5); padding: 10px; font-family: 微软雅黑; color: aqua;">
+</div>
+
+<script>
+    $("#area_gd_div div").click(function () {
+        $(this).addClass("active_btn").siblings().removeClass("active_btn");
+        $(this).siblings().css("font-size", "15px");
+        $(this).css("font-size", "15px");
+    });
+</script>

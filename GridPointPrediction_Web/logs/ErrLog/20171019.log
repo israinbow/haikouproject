@@ -1,0 +1,130 @@
+时间:2017/10/19 星期四 09:03:31Message:ORA-12170: TNS: 连接超时
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/10/19 星期四 09:31:32Message:ORA-12170: TNS: 连接超时
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/10/19 星期四 09:56:06Message:ORA-12170: TNS: 连接超时
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/10/19 星期四 09:57:17Message:ORA-12170: TNS: 连接超时
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/10/19 星期四 09:58:16Message:ORA-12170: TNS: 连接超时
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/10/19 星期四 10:03:18Message:ORA-12170: TNS: 连接超时
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/10/19 星期四 10:04:22Message:ORA-12170: TNS: 连接超时
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/10/19 星期四 10:04:58Message:ORA-12170: TNS: 连接超时
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/10/19 星期四 10:12:05Message:ORA-12170: TNS: 连接超时
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/10/19 星期四 10:19:58Message:ORA-12170: TNS: 连接超时
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/10/19 星期四 11:12:24Message:ORA-12170: TNS: 连接超时
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/10/19 星期四 14:10:05Message:ORA-12170: TNS: 连接超时
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/10/19 星期四 14:14:44Message:ORA-12170: TNS: 连接超时
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================

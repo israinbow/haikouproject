@@ -1,0 +1,322 @@
+时间:2017-04-05 14:53:35Message:参数无效。
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 116
+ TargetSiteVoid .ctor(Int32, Int32, System.Drawing.Imaging.PixelFormat)
+===============================================================================
+时间:2017-04-05 14:53:36Message:参数无效。
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 116
+ TargetSiteVoid .ctor(Int32, Int32, System.Drawing.Imaging.PixelFormat)
+===============================================================================
+时间:2017-04-05 14:53:37Message:参数无效。
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 116
+ TargetSiteVoid .ctor(Int32, Int32, System.Drawing.Imaging.PixelFormat)
+===============================================================================
+时间:2017-04-05 14:53:38Message:参数无效。
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 116
+ TargetSiteVoid .ctor(Int32, Int32, System.Drawing.Imaging.PixelFormat)
+===============================================================================
+时间:2017-04-05 14:53:38Message:参数无效。
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 116
+ TargetSiteVoid .ctor(Int32, Int32, System.Drawing.Imaging.PixelFormat)
+===============================================================================
+时间:2017-04-05 14:53:39Message:参数无效。
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 116
+ TargetSiteVoid .ctor(Int32, Int32, System.Drawing.Imaging.PixelFormat)
+===============================================================================
+时间:2017-04-05 14:53:40Message:参数无效。
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 116
+ TargetSiteVoid .ctor(Int32, Int32, System.Drawing.Imaging.PixelFormat)
+===============================================================================
+时间:2017-04-05 15:00:36Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:40Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:40Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:41Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:42Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:43Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:44Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:45Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:46Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:46Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:47Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:48Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:49Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:49Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:50Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:51Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:51Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:00:52Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:04:55Message:参数无效。
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 116
+ TargetSiteVoid .ctor(Int32, Int32, System.Drawing.Imaging.PixelFormat)
+===============================================================================
+时间:2017-04-05 15:05:08Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:05:14Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:05:15Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:05:16Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:05:17Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:05:17Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:06:11Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:06:14Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:06:42Message:参数无效。
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 116
+ TargetSiteVoid .ctor(Int32, Int32, System.Drawing.Imaging.PixelFormat)
+===============================================================================
+时间:2017-04-05 15:06:44Message:参数无效。
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 116
+ TargetSiteVoid .ctor(Int32, Int32, System.Drawing.Imaging.PixelFormat)
+===============================================================================
+时间:2017-04-05 15:06:45Message:参数无效。
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   在 System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 116
+ TargetSiteVoid .ctor(Int32, Int32, System.Drawing.Imaging.PixelFormat)
+===============================================================================
+时间:2017-04-05 15:08:56Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 15:08:56Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 16:25:11Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 16:28:57Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 16:30:18Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 16:30:40Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 16:31:10Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 16:43:19Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================
+时间:2017-04-05 16:43:22Message:F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\Images/test1.png
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   在 System.Drawing.Image.FromFile(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 120
+ TargetSiteSystem.Drawing.Image FromFile(System.String, Boolean)
+===============================================================================

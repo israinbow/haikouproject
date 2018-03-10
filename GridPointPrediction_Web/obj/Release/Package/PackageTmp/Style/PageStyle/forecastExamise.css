@@ -1,0 +1,165 @@
+﻿
+*{margin:0;padding:0;} 
+.ifr_div{left: 360px;
+    top: 100px;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    opacity: 0.2;}  
+.ifr_div img{ vertical-align:middle;} 
+.proccess{border:0px solid;border-color:#009900;height:800px;line-height:600px;width:1540px;text-align:center;background:#eee;margin:0;position:absolute;top:0;left:-158px;} 
+.proccess b{vertical-align:middle;background:url(http://ok22.org/upload/images/20110902143538381.gif) no-repeat 0 center;padding-left:35px;display:inline-block;}
+
+.layui-layer-content {
+overflow-x:hidden;
+}
+ #allContent
+        {
+        width:1540px;
+        margin:auto;
+        height:800px;
+        background:#DEDDDD;
+        }
+        .top
+        {
+        margin-left: 10px;
+        width: 1520px;
+        height: 100px;
+        background: #fff;
+        }
+        .button
+        {
+        font-size:14px;
+        float: left;
+        text-align: center;
+        width: 100px;
+        height: 30px;
+        display: inline-block;
+        line-height: 30px;
+        border: 1px solid #AAA;
+        border-top-left-radius: 5PX;
+        border-top-right-radius: 5px;
+        margin-top:5px;
+        background:#ddd;
+        cursor: pointer;
+        }
+        .Textin
+        {
+        margin-left: 50px;
+        font-size: 13px;
+        color: #5dbcfe;
+        line-height: 30px;
+        height: 20px;
+        width: 250px;
+        display: inline-block;
+        }
+        .Textin-rain 
+        {
+        margin-left:30px;
+        font-size: 10px;
+        color: #5dbcfe;
+        line-height: 30px;
+        height: 20px;
+        width: 800px;
+        display: inline-block;
+        }
+        .table
+        {
+        margin-left: -8px;
+        color: #2196F3;
+        font-size: 14px;
+        line-height: 30px;
+        height: 30px;
+        display: inline-block;
+        width: 200px;
+        text-align: center;
+        border-right: 1px solid #aaa;
+        border-top: 1px solid #aaa;
+        }
+        .table-cs
+        {
+            position: absolute;
+    color: #2196F3;
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    border-right: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+            }
+        .tablename
+        {
+        border: 1px solid #aaa;       
+        color: #2196F3;
+        font-size: 14px;
+        line-height: 30px;
+        height: 30px;
+        display: inline-block;
+        width: 290px;
+        text-align: center;
+        background: linear-gradient(to bottom, #D4EBFF, #B5DDFF);
+        }
+         .tablename1
+        {
+    font-family: 微软雅黑;
+    font-weight: inherit;
+    font-size: 14px;
+    width: 290px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    text-align: center;
+    line-height: 30px;
+    color: #353333;
+        }
+           .tablename2
+        {
+        border: 1px solid #aaa;       
+        color: #2196F3;
+        font-size: 14px;
+        line-height: 30px;
+        height: 30px;
+        display: inline-block;
+        width: 241px;
+        text-align: center;
+        background: linear-gradient(to bottom, #D4EBFF, #B5DDFF);
+        }
+         .tablename2_1
+        {
+    font-family: 微软雅黑;
+    font-weight: inherit;
+    font-size: 14px;
+    width: 241px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    text-align: center;
+    line-height: 30px;
+    color: #353333;
+        }
+                   .tablename3
+        {
+        border: 1px solid #aaa;       
+        color: #2196F3;
+        font-size: 14px;
+        line-height: 30px;
+        height: 30px;
+        display: inline-block;
+        width: 363px;
+        text-align: center;
+        background: linear-gradient(to bottom, #D4EBFF, #B5DDFF);
+        }
+         .tablename3_1
+        {
+    font-family: 微软雅黑;
+    font-weight: inherit;
+    font-size: 14px;
+    width: 363px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    text-align: center;
+    line-height: 30px;
+    color: #353333;
+        }

@@ -1,0 +1,11 @@
+时间:2017-04-20 17:22:42Message:ORA-00904: "FORECASTER": invalid identifier
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteScalar()
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.Savegriddata(String type, String griddata, String username) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 106
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+===============================================================================

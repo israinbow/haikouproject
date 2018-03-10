@@ -1,0 +1,690 @@
+时间：2017-03-01 14:17:38 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast6HourDAL.GetCityForecastInfoList(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 108  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:17:42 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:17:42 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 278
+   在 DAL.CityForecast12HourDAL.Get12HourForecaster(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 25  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:17:42 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:17:47 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CommutingForecast.GetSZForecastTXT(DateTime dt, Int32 dayHour) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CommutingForecast.cs:行号 52  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:18:34 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CommutingForecast.GetSZForecastTXT(DateTime dt, Int32 dayHour) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CommutingForecast.cs:行号 52  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:19:56 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CommutingForecast.GetSZForecastTXT(DateTime dt, Int32 dayHour) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CommutingForecast.cs:行号 52  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:25:57 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CommutingForecast.GetSZForecastTXT(DateTime dt, Int32 dayHour) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CommutingForecast.cs:行号 52  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:26:18 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CommutingForecast.GetSZForecastTXT(DateTime dt, Int32 dayHour) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CommutingForecast.cs:行号 52  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:26:28 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CommutingForecast.GetSZForecastTXT(DateTime dt, Int32 dayHour) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CommutingForecast.cs:行号 52  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:28:40 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CommutingForecast.GetSZForecastTXT(DateTime dt, Int32 dayHour) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CommutingForecast.cs:行号 52  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:09 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:09 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 278
+   在 DAL.CityForecast12HourDAL.Get12HourForecaster(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 25  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:09 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:20 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.GetHour12InfoList(String Strdt, String Strdt2) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 1031  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:34 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:34 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:35 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:35 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:44 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast6HourDAL.GetUserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 41  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:44 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 278
+   在 DAL.CityForecast6HourDAL.Get6HourForecastName(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 22  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:44 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast6HourDAL.GetCityForecastInfoList(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 108  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:47 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:47 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:47 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:50:47 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:32 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast6HourDAL.GetUserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 41  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:32 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast6HourDAL.GetCityForecastInfoList(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 108  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:34 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:34 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 278
+   在 DAL.CityForecast12HourDAL.Get12HourForecaster(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 25  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:34 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:34 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:34 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:35 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast6HourDAL.GetUserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 41  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:35 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 278
+   在 DAL.CityForecast6HourDAL.Get6HourForecastName(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 22  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:35 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast6HourDAL.GetCityForecastInfoList(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 108  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:36 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 278
+   在 DAL.CityForecast12HourDAL.Get12HourForecaster(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 25  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:36 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:36 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:36 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:36 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:36 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:37 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 278
+   在 DAL.CityForecast6HourDAL.Get6HourForecastName(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 22  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:37 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast6HourDAL.GetCityForecastInfoList(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 108  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:37 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast6HourDAL.GetUserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 41  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:38 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:38 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 278
+   在 DAL.CityForecast12HourDAL.Get12HourForecaster(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 25  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:38 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:38 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:38 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:51:38 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:52:01 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast6HourDAL.GetUserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 41  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:52:01 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 278
+   在 DAL.CityForecast6HourDAL.Get6HourForecastName(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 22  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:52:01 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast6HourDAL.GetCityForecastInfoList(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 108  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:52:29 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:52:29 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:52:29 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 278
+   在 DAL.CityForecast12HourDAL.Get12HourForecaster(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 25  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:52:29 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:52:29 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:54:33 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:54:33 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 278
+   在 DAL.CityForecast12HourDAL.Get12HourForecaster(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 25  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:54:33 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:54:41 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.GetHour12InfoList(String Strdt, String Strdt2) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 1031  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:57:55 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 278
+   在 DAL.CityForecast12HourDAL.Get12HourForecaster(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 25  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:57:55 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 14:57:58 Message:'Unicode' is an invalid connection string attribute 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.ParseConnectionString()
+   在 Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   在 Oracle.DataAccess.Client.OracleConnection..ctor(String connectionString)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 245
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid ParseConnectionString()
+时间：2017-03-01 15:02:49 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 15:04:06 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 15:04:27 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 15:04:48 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 15:06:32 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 15:57:59 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 15:58:35 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 15:58:56 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 15:59:17 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 15:59:38 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 15:59:59 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast6HourDAL.GetCityForecastInfoList(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 112  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 16:00:21 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 16:00:42 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 16:01:03 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 17:40:32 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 17:42:54 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 654  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 17:43:16 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast6HourDAL.GetCityForecastInfoList(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 112  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+时间：2017-03-01 17:43:37 Message:ORA-12170: TNS: 连接超时 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast6HourDAL.GetCityForecastInfoList(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast6HourDAL.cs:行号 112  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)

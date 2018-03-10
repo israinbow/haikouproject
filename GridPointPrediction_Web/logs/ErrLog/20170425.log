@@ -1,0 +1,228 @@
+时间:2017-04-25 11:34:07Message:ORA-01036: 非法的变量名/编号
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 DAL.DALGridDatas.Savegriddata(String type, String griddata, String username) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 194
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+===============================================================================
+时间:2017-04-25 15:41:25Message:ORA-01036: 非法的变量名/编号
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 DAL.DALGridDatas.Savegriddata(String type, String griddata, String username) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 209
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+===============================================================================
+时间:2017-04-25 17:00:43Message:ORA-24381: error(s) in array DML
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+
+ORA-01400: cannot insert NULL into ("TMAC"."T_SZ_GRID_FORECAST_USER"."RECID")
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 DAL.DALGridDatas.Savegriddata(String type, String griddata, String username) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 186
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+===============================================================================
+时间:2017-04-25 17:14:10Message:ORA-01036: 非法的变量名/编号
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   在 DAL.DALGridDatas.Savegriddata(String type, String griddata, String username) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 187
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String)
+===============================================================================

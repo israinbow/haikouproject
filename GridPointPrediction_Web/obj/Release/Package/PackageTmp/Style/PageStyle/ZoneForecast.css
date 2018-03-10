@@ -1,0 +1,400 @@
+﻿body {
+}
+
+* {
+    margin: 0px auto;
+    padding: 0;
+    list-style: none;
+}
+
+    * ul li {
+        float: left;
+    }
+
+
+.txt {
+    color: #3C7EDC;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+
+#Max {
+    width: 100%;
+    _height: 500px;
+    min-height: 500px;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+}
+
+#head {
+    width: 99%;
+    height: 120px;
+    margin-top: 10px;
+    background-color: white;
+    padding-left: 15px;
+    line-height: 60px;
+}
+
+#content, #foot {
+    width: 99%;
+    height: 100%;
+    margin-top: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.txtdate ul li {
+    float: left;
+    margin-left: 5px;
+}
+
+    .txtdate ul li button {
+        height: 26px;
+        line-height: 14px;
+        color: white;
+        margin-left: 10px;
+    }
+
+        .txtdate ul li button:hover {
+            background-color: red;
+            border: 1px solid red;
+        }
+
+#forecast {
+    margin-left: 10px;
+    float: left;
+}
+
+    #forecast ul li {
+        float: left;
+    }
+
+.txtbox {
+    width: 100px;
+    height: 25px;
+    background-color: #E6F0F9;
+}
+
+#pwd {
+    margin-left: 10px;
+    line-height: 10px;
+    border: 1px solid #A9A9A9;
+}
+
+#ForecastType {
+    margin-left: 10px;
+}
+
+    #ForecastType ul li {
+        margin-left: 5px;
+    }
+
+    #ForecastType button {
+        width: 85px;
+        height: 26px;
+        line-height: 11px;
+        text-align: center;
+        background-color: #E6F0F9;
+        color: #306DA8;
+        border: 1px solid #A9A9A9;
+        font-weight: bold;
+        font-size: 15px;
+        font-family: "微软雅黑";
+    }
+
+#ForecastZone ul li button {
+    width: 85px;
+    height: 26px;
+    line-height: 11px;
+    text-align: center;
+    background-color: #E6F0F9;
+    color: #306DA8;
+    border: 1px solid #A9A9A9;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+
+#ForecastType {
+    margin-left: 530px;
+}
+
+#DetailDiv ul li {
+    margin-left: 100px;
+}
+
+#ForecastZone ul li {
+    margin-left: 5px;
+}
+
+#CopyData button {
+    width: 125px;
+    height: 26px;
+    line-height: 11px;
+    text-align: center;
+    background-color: #E6F0F9;
+    color: #306DA8;
+    border: 1px solid #A9A9A9;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+
+#DetailDiv button {
+    width: 125px;
+    height: 26px;
+    line-height: 11px;
+    text-align: center;
+    background-color: #E6F0F9;
+    color: #306DA8;
+    border: 1px solid #A9A9A9;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+
+#c_head, #AWSInfo p {
+    height: 45px;
+    line-height: 37px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid #A9A9A9;
+}
+
+    #c_head label {
+        margin-right: 30px;
+    }
+
+    #c_head ul li {
+        margin-right: 10px;
+    }
+
+#copydata:hover {
+    cursor: pointer;
+    color: red;
+}
+
+
+
+#CopyData ul li {
+    margin-left: 10px;
+}
+
+#CopyData button {
+    width: 75px;
+    height: 26px;
+    line-height: 11px;
+    text-align: center;
+    background-color: #E6F0F9;
+    color: #306DA8;
+    border: 1px solid #A9A9A9;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+
+#ChartT {
+    /*width: 1500px;*/
+    height: 300px;
+}
+
+#DataShow table, #HistoryData table, #AWSInfo table {
+    text-align: center;
+    /*height: 400px;*/
+    width: 98%;
+    border: 1px solid #BFC3C5;
+}
+
+    #DataShow table tr th, #HistoryData table tr th, #AWSInfo table tr th {
+        text-align: center;
+        height: 40px;
+        background: linear-gradient(to bottom, #D4EBFF, #B5DDFF);
+    }
+
+    #DataShow table tr td, #HistoryData table tr td, #AWSInfo table tr td {
+        height: 40px;
+        border: 1px solid #BFC3C5;
+    }
+
+/*编辑提示框信息开始*/
+#Mes_Max {
+    width: 850px;
+    height: 490px;
+    background-color: #E5E8EB;
+}
+
+#Mes_Head {
+    width: 850px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+#Mes_center {
+    width: 850px;
+    height: 380px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#Mes_Left {
+    width: 600px;
+    height: 380px;
+    float: left;
+}
+
+#Mes_text {
+    width: 590px;
+    height: 380px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+#Mes_Right {
+    width: 225px;
+    height: 380px;
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+    #Mes_Right h4 {
+        font-weight: bold;
+    }
+
+    #Mes_Right p {
+        font-size: 12px;
+    }
+
+#Mes_Foot {
+    width: 850px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+/*编辑提示框信息结束*/
+/*#TypeFile {
+    height: 60px;
+    background-color: white;
+    padding-left: 15px;
+    line-height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #A9A9A9;
+}*/
+/*======翻页============*/
+#Flip {
+    text-align: right;
+    margin-right: 60px;
+    padding-right: 10px;
+}
+
+
+.MessagePreview {
+    width: 702px;
+    height: 670px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    background: white;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.mp_content {
+    height: 370px;
+}
+
+.mp_con .mp_line.top {
+    margin-top: 30px;
+    border-bottom: 2px solid red;
+    height: 30px;
+    line-height: 30px;
+}
+
+.mp_con .mp_line.bottom {
+    margin-top: 30px;
+    border-top: 2px solid red;
+    height: 30px;
+    line-height: 30px;
+}
+
+.realsePage {
+    overflow: auto;
+    position: fixed;
+    height: 750px;
+    width: 940px;
+    z-index: 10;
+    top: 100px;
+    background: #fff;
+    left: 27%;
+}
+
+.Text {
+    margin: auto;
+    width: 930px;
+    height: 590px;
+    border: 1px solid #aaa;
+    overflow: auto;
+}
+
+.content {
+    margin: auto;
+    width: 820px;
+    height: 660px;
+}
+
+.topTitle {
+    font-size: 40px;
+    text-align: center;
+    height: 60px;
+    width: 800px;
+    line-height: 60px;
+    color: red;
+    font-weight: bold;
+}
+
+.xuhao {
+    line-height: 30px;
+    text-align: center;
+    height: 30px;
+    border-bottom: 2px solid red;
+}
+
+.footContent {
+    width: 800px;
+    font-size: 14px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.canlle {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #aaa;
+    background-color: #00BCD4;
+    border-radius: 5px;
+}
+
+.realse {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #aaa;
+    background-color: REd;
+    border-radius: 5px;
+}

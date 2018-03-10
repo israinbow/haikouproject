@@ -1,0 +1,8 @@
+时间:2017-04-06 10:03:58Message:GDI+ 中发生一般性错误。
+ Source:System.Drawing
+ StackTrace:   在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 System.Drawing.Image.Save(String filename, ImageFormat format)
+   在 System.Drawing.Image.Save(String filename)
+   在 DAL.DALGridDatas.DrawGridsImg(String vluesname, DataTable dt, DateTime time) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 198
+ TargetSiteVoid Save(System.String, System.Drawing.Imaging.ImageCodecInfo, System.Drawing.Imaging.EncoderParameters)
+===============================================================================

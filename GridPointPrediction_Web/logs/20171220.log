@@ -1,0 +1,7 @@
+时间：2017/12/20 星期三 14:50:52 Message:ORA-12154: TNS: 无法解析指定的连接标识符 
+ Source:Oracle Data Provider for .NET 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 281  
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)

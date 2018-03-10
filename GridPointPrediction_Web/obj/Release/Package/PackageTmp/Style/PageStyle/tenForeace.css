@@ -1,0 +1,287 @@
+﻿
+        button, input, optgroup, select, textarea {
+        margin:0,0,0,0;
+        display:inline-block;
+        }
+        label {
+        font-weight: normal;
+        margin-bottom:0px;
+        line-height:1;
+        }
+
+        select:hover {
+        background-color: #f1eded;
+        }
+
+        #cbUser {
+        width: 100px;
+        height: 28px;
+        background: #E6F0F9;
+        border: 1px solid #aaa;
+        color: #0094e7;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        color:#34495e;
+        }
+
+
+        .leixing
+        {
+        display: inline-block;
+        line-height: 25px;
+        text-align: center;
+        width: 830px;
+        height: 25px;
+        color: red;
+        font-weight: bold;
+        font-size: 14px;
+        }
+        .top
+        {
+        width:98%;
+        margin:auto;
+        height: 45px;
+        background: #fff;
+        }
+        .center-left
+        {
+        height: 360px;
+        margin-top: 10px;
+        width: 40%;
+        float:left;
+        }
+        .center-right
+        {
+        height: 360px;
+        background: #fff;
+        margin-top: 10px;
+        width: 59%;
+        float: right;
+        }
+        .weatherReview
+        {
+        background: #fff;
+        height: 170px;
+        }
+        .weatherProspect
+        {
+        margin-top:10px;
+        background: #fff;
+        height: 180px;
+        }
+        #allContent
+        {
+        width:1540px;
+        height:1260px;
+        background:#DEDDDD;
+        }
+        .foot
+        {
+        width: 100%;
+        height: 816px;
+        background: #fff;
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 0px; 
+       <%-- overflow:auto;--%>
+        }
+        
+        .button
+        {
+                display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+        color: #fff;
+    background-color: #337ab7;
+
+        /*cursor: pointer;
+        width: 50px;
+        background: #428bca;
+        height: 25px;
+        display: inline-block;
+        line-height: 25px;
+        text-align: center;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        color: #fff;*/
+        }
+        .buttonof
+        {
+                display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+        color: #fff;
+    background-color: red;
+
+        /*cursor: pointer;
+        width: 50px;
+        background: red;
+        height: 25px;
+        display: inline-block;
+        line-height: 25px;
+        text-align: center;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        color: #fff;*/
+        }
+        .eroupe
+        {
+        width: 620px;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        margin-left: 35px;   
+        }
+        .temp,.windl
+        {
+        width: 110px;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        }
+        .windx,.rain
+        {
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        }
+        .reality
+        {
+        width: 130px;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        }
+        .xuanfu
+        {
+        overflow: auto;
+        position: fixed;
+        height: 500px;
+        width: 850px;
+        z-index: 10;
+        top: 25%;
+        background: #fff;
+        left: 28%;
+           border: 7px solid #90CAF9;
+    background: #E3E7EB;
+        } 
+        .realsePage
+        {
+                overflow: auto;
+    position: fixed;
+    height: 750px;
+    width: 940px;
+    z-index: 10;
+    top: 100px;
+    background: #fff;
+    left: 27%;
+            }  
+                    .Text
+        {
+        margin: auto;
+        width: 930px;
+        height: 590px;
+        border: 1px solid #aaa;
+        overflow: auto;
+        }
+        .content
+        {
+        margin: auto;
+        width:820px;
+        height: 660px;
+        }
+        .topTitle
+        {
+        font-size: 40px;
+        text-align: center;
+        height: 60px;
+        width: 800px;
+        line-height: 60px;
+        color: red;
+        font-weight: bold;
+        }
+        .xuhao
+        {
+        line-height: 30px;
+        text-align: center;
+        height: 30px;
+        border-bottom: 2px solid red;
+        }
+        .footContent
+        {
+        width: 800px;
+        font-size: 14px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        }
+        .canlle
+        {
+                font-size: 15px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #aaa;
+    background-color: #00BCD4;
+    border-radius: 5px;
+            }
+            .realse
+            {
+                    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #aaa;
+    background-color: REd;
+    border-radius: 5px;
+                }

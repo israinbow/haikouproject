@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>自动站风速</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="../AWStation/css/default.css?ver=1.1" rel="stylesheet" type="text/css" />
+    <link href="../AWStation/js/library/leaflet-1.0.3/leaflet.css" rel="stylesheet" type="text/css" />
+    <link href="../AWStation/js/library/bootstrap-3.3.5/css/bootstrap.css" rel="stylesheet" />
+    <link href="../AWStation/js/library/bootstrap-slider-9.1.3/bootstrap-slider.min.css" rel="stylesheet" />
+    <link href="../AWStation/js/library/bootstrap-datepicker-1.6.4/css/bootstrap-datepicker.min.css" rel="stylesheet" />
+    <script src="../AWStation/js/library/jquery-2.2.3.min.js"></script>
+    <script src="../AWStation/js/library/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src="../AWStation/js/library/bootstrap-datepicker-1.6.4/js/bootstrap-datepicker.min.js"></script>
+    <script src="../AWStation/js/library/bootstrap-slider-9.1.3/bootstrap-slider.min.js"></script>
+    <script src="../AWStation/js/library/leaflet-1.0.3/leaflet.js"></script>
+    <script src="../AWStation/js/library/linq.js/linq.js"></script>
+    <script src="../AWStation/js/library/esri-leaflet.js"></script>
+    <script src="../AWStation/js/library/dojo-1.11.2.js?ver=1.1"></script>
+    <script>require(["app/wind"], function (export0) { new export0.windApp(); })</script>
+
+    <style>
+        .select_btn label {
+            padding: 2px 5px;
+            text-align: center;
+            display: inline-block;
+            background: linear-gradient(top, #DCF5F9,#D2EEFF,#BAE7FE);
+            background: -moz-linear-gradient(left, #73AAD6,#ADCBE7,#D6E3EF);
+            background: -webkit-linear-gradient(top, #DCF5F9,#D2EEFF,#BAE7FE);
+            background: -ms-linear-gradient(left, #73AAD6,#ADCBE7,#D6E3EF);
+            border: 1px solid #C8E5F0;
+            border-radius: 6px !important;
+            font-size: 12px;
+            margin: 0px 5px 0px 0px;
+            color: #155F82;
+        }
+
+            .select_btn label:hover {
+                color: #fff;
+                background: #007FFF!important;
+                border-color: #007FFF;
+            }
+             
+    </style>
+</head>
+<body style="position:relative">
+    <!--#include virtual="AWStation/inc/head.htm"-->
+    <div id="header_div" style="width:50.8%;position:absolute;right:1px;top:3px;z-index:500">
+        <div style="margin: 0; padding: 0;position:absolute;right:0;">
+            <div class="panel-body" style="padding: 5px;">
+                <table>
+                    <tr>
+                        <td style="vertical-align: bottom; background: #fff; padding:5px 5px 0px 0px; ">
+                            <!--#include virtual="AWStation/inc/timepanel.htm"-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="btn-group btn-group-sm select_btn" data-toggle="buttons" style="display: inline-block;margin-top:5px;position:absolute;right:5px;padding:7px;background:#fff;">
+                                <label class="btn btn-default">
+                                    <input type="radio" name="windtypeRadio" onchange="pageProxy.changeAwsField('WD2DF',0,'2分风速')" />2M
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="windtypeRadio" onchange="pageProxy.changeAwsField('WD10DF',0,'10分风速')" />10M
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="windtypeRadio" onchange="pageProxy.changeAwsField('WD10MAXDF',0,'小时最大10分风速')" />时最大10M
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="windtypeRadio" onchange="pageProxy.changeAwsField('WDIDF',0,'瞬时风')" />瞬时风
+                                </label>
+                                <label class="btn btn-default active">
+                                    <input type="radio" name="windtypeRadio" checked="checked" onchange="pageProxy.changeAwsField('WD3SMAXDF',0,'小时极大风')" />小时极大风
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="radio" name="windtypeRadio" onchange="pageProxy.changeAwsField('WD10MAXDF',2,'日最大10分风速')" />日最大10M
+                                </label>
+                                <label class="btn btn-default" style="margin-right:0px;">
+                                    <input type="radio" name="windtypeRadio" onchange="pageProxy.changeAwsField('WD3SMAXDF',2,'日极大风')" />日极大风
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="awstype_div"></div>
+    <!--#include virtual="AWStation/inc/arealist.htm"-->
+    <div id="playtime_div" style="position: absolute; z-index: 600; font-size: large; text-align: right; color: blue; text-shadow: 0px 5px 10px #fff; bottom:60px; right: 20px;"></div>
+    <div id="leaflet_map" style="height: 720px;"></div>
+    <div id="remark_div" style="position: absolute; z-index: 1000; background-color: #f2f2f2; bottom: 70px; font-size: small; padding: 3px; right: 15px;"></div>
+    <div id="dataSliderContainer" style="position: fixed; position:absolute;z-index: 600; margin: 0; bottom: 0px;clear:both;right:3px; "></div>
+</body>
+</html>

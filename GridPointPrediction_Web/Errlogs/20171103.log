@@ -1,0 +1,628 @@
+2017-11-03 10:42:27：System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.155.95.202:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadData(Uri address)
+   在 System.Net.WebClient.DownloadData(String address)
+   在 DAL.DefaultService.GetPondsTime() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 497
+2017-11-03 10:42:48：System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.155.95.202:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadData(Uri address)
+   在 System.Net.WebClient.DownloadData(String address)
+   在 DAL.DefaultService.GetEcmwfTime() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 521
+2017-11-03 10:43:10：System.Exception: select W_CONTENT from(select W_CONTENT,CITY,W_TYPE,W_LEVEL,DDATETIME from t_hk_warning t ORDER BY DDATETIME DESC) where rownum<2ORA-12170: TNS: 连接超时
+
+   在 Maticsoft.DBUtility.DbHelperOra.GetSingle(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 237
+   在 DAL.DefaultService.GetWarningData() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 367
+2017-11-03 10:43:10：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 275
+2017-11-03 10:43:10：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-12170: TNS: 连接超时
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 10:43:11：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+select DDATETIME,CITY,W_TYPE,W_LEVEL from t_hk_warning t where DDATETIME between to_date('2017/11/03 08:57:00','yyyy-mm-dd hh24:mi:ss') and to_date('2017/11/03 13:00:00','yyyy-mm-dd hh24:mi:ss')
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 275
+2017-11-03 10:43:11：System.Exception: select DDATETIME,CITY,W_TYPE,W_LEVEL from t_hk_warning t where DDATETIME between to_date('2017/11/03 08:57:00','yyyy-mm-dd hh24:mi:ss') and to_date('2017/11/03 13:00:00','yyyy-mm-dd hh24:mi:ss')ORA-12170: TNS: 连接超时
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetRecentTrips(Int32 TRIPTYPE, DateTime dt) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 120
+2017-11-03 10:43:11：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+select DDATETIME,CITY,W_TYPE,W_LEVEL from t_hk_warning t where DDATETIME between to_date('2017/11/03 08:57:00','yyyy-mm-dd hh24:mi:ss') and to_date('2017/11/03 13:00:00','yyyy-mm-dd hh24:mi:ss')
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 275
+2017-11-03 10:43:11：System.Exception: select DDATETIME,CITY,W_TYPE,W_LEVEL from t_hk_warning t where DDATETIME between to_date('2017/11/03 08:57:00','yyyy-mm-dd hh24:mi:ss') and to_date('2017/11/03 13:00:00','yyyy-mm-dd hh24:mi:ss')ORA-12170: TNS: 连接超时
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetForecastTrips(DateTime dt) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 211
+2017-11-03 10:43:11：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+select T2m,WSPD10M,FORECASTTIME  from T_HK_NEW_GRID_FORECAST where venueid=55 and  ddatetime=to_date('2017-11-02 20:00:00','yyyy-mm-dd hh24:mi:ss') order by FORECASTTIME
+System.Data.OracleClient.OracleException (0x80131938): ORA-12170: TNS: 连接超时
+
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 275
+2017-11-03 10:43:11：System.Exception: select T2m,WSPD10M,FORECASTTIME  from T_HK_NEW_GRID_FORECAST where venueid=55 and  ddatetime=to_date('2017-11-02 20:00:00','yyyy-mm-dd hh24:mi:ss') order by FORECASTTIMEORA-12170: TNS: 连接超时
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetEcmwfData(DateTime dt) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 545
+2017-11-03 10:43:33：System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.155.95.202:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadData(Uri address)
+   在 System.Net.WebClient.DownloadData(String address)
+   在 DAL.DefaultService.GetPondsTime() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 497
+2017-11-03 10:43:55：System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 10.155.95.202:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadData(Uri address)
+   在 System.Net.WebClient.DownloadData(String address)
+   在 DAL.DefaultService.GetEcmwfTime() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 521
+2017-11-03 10:45:59：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 10:45:59：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 10:46:36：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 10:46:36：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 10:46:50：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 10:46:50：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 10:47:02：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 10:47:02：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 14:28:29：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 14:28:29：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 14:28:36：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 14:28:36：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 15:25:33：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 15:25:33：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 15:26:18：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 15:26:18：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 15:26:32：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 15:26:33：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 15:31:13：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 15:31:13：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 15:32:00：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 15:32:00：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 15:32:08：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 15:32:08：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 15:33:01：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 15:33:02：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 15:33:08：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 15:33:08：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 15:33:31：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 15:33:31：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 15:37:50：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 15:37:50：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 15:38:12：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 15:38:12：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 15:39:16：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 15:39:17：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 15:41:20：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 15:41:20：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 15:50:28：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 15:50:28：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 16:24:10：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 16:24:10：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 16:37:24：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 16:37:24：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 16:39:58：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 16:39:58：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 16:40:55：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 16:40:55：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 16:41:03：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 16:41:03：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 16:41:29：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 16:41:29：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 16:41:55：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 16:41:55：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 16:42:01：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 16:42:01：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 16:42:42：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 16:42:42：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321
+2017-11-03 17:20:24：Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=10.155.95.203)(PORT=1521)))(CONNECT_DATA=(SID=orcl)(SERVER=DEDICATED)));Persist Security Info=True;User ID=szym;Password=szyama;Unicode=True
+SELECT * from LWS_WARNPRE order by DDATETIME desc
+System.Data.OracleClient.OracleException (0x80131938): ORA-00942: 表或视图不存在
+
+   在 System.Data.OracleClient.OracleConnection.CheckError(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, Boolean needRowid, OciRowidDescriptor& rowidDescriptor, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.Execute(OciStatementHandle statementHandle, CommandBehavior behavior, ArrayList& resultParameterOrdinals)
+   在 System.Data.OracleClient.OracleCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OracleClient.OracleCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, String srcTable)
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 277
+2017-11-03 17:20:24：System.Exception: SELECT * from LWS_WARNPRE order by DDATETIME descORA-00942: 表或视图不存在
+
+   在 Maticsoft.DBUtility.DbHelperOra.Query(String SQLString, String connectionString) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DbHelperOra.cs:行号 282
+   在 DAL.DefaultService.GetLWSPreWord() 位置 e:\pikaqiu\workspace\haikouproject\DAL\DefaultService.cs:行号 321

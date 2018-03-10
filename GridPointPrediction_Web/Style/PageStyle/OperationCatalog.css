@@ -1,0 +1,232 @@
+﻿.header{
+    width:100%;
+}
+.menu_list li{
+    display:block;
+    height:40px;
+    line-height:40px;
+    font-size:14px; 
+    font-weight:600;
+    margin-bottom:2px;
+    position:relative;
+    text-align:center;
+}
+.container-fluid{
+    padding:0!important;
+}
+body {
+    padding-bottom:0;
+    margin:0;
+    font-family:"微软雅黑";
+}
+a{
+    text-decoration:none!important;
+}
+li{
+    list-style:none;
+}
+
+.box{
+    padding:5px 0px!important;
+    margin:0 auto;
+    background:#EAEEFA;
+    background-size:cover;
+}
+.box .row{
+    margin:0;
+}
+.box .row{
+    padding:0px!important;
+}
+.sidebar_menu{
+    margin:0px 7px 0px 60px;
+    padding:0!important;
+}
+.sidebar_menu h4{
+    height:35px;
+    line-height:35px;
+    text-align:center;
+    color:#fff;
+    font-size:17px;
+    background:#208DDF;
+    border-radius:9px 9px 0px 0px;
+    margin:0;
+    font-weight:bold;
+}
+.menu_list{
+    background:#fff;
+    padding:0;
+    margin:0;
+    color:#337ab7;
+    border-radius: 0 0 9px 9px;
+}
+.control_arrow{
+   left:350px;
+   top:0px;
+}
+.menu_list li.active{
+    background:#E23525;
+    color:#fff;
+}
+.menu_list li:hover{
+    background:#E23525;
+    color:#fff;
+}
+.menu_list li:hover a{
+    color:#fff!important;
+}
+.menu_list li.active a{
+    color:#fff;
+}
+
+.subTimemenu
+{
+    height:50px;
+    line-height:50px;
+    margin:5px 0px 10px 0px;
+    background:white;
+    border-radius:9px;
+    padding-left:30px;
+    color:#005E9D;
+}
+.subTimemenu input
+{
+    background-color: #E9E5E2;
+    cursor: pointer; 
+    color:#000;
+    margin-left:10px; 
+    border-radius: 4px;
+    border: 1px solid #C7C6C2;
+    width:95px;
+    text-align:center;
+    height:24px;
+    line-height:30px;
+    font-size:12px;
+    display:inline-block;
+}
+.searchData{
+    display:inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align:center;
+    color:#fff;
+    margin-left: 50px;
+    background-color: #1054c9;
+    border-color: #1054c9;
+    border-radius: 8px;
+}
+.forecastListTitle{
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+    background: #208DDF;
+    border-radius: 9px 9px 0px 0px;
+    margin: 0;
+    padding-left:30px;
+    font-weight: bold;
+}
+
+#forecastList_table tr td:last-child,#close_pic{
+    cursor:pointer;
+}
+
+.inner_container,#forecastList_table tbody{
+    height:565px;
+}
+.inner_container{
+     position: relative;
+     overflow: hidden;
+     padding-left:5px;
+}
+#forecastList_table tbody{
+    position: absolute; 
+    left:5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding-bottom:5px;
+}
+
+
+#forecastList_table{
+    border:1px solid #C1E1EC;
+	border-collapse: collapse;
+    width:100%;
+    font-size:13px;
+}
+#forecastList_table th{
+    color: #005E9D;
+	background-color: #E8F6FF;
+    text-align:center;
+    height:35px;
+    line-height:35px;
+    width:7%;
+}
+#forecastList_table td{
+    width:7%;
+	border:1px solid #DCDCDC; 
+    height: 45px;
+    text-align:center;
+}
+#forecastList_table tr td:nth-child(1){
+    font-size:12px;
+    line-height:15px;
+}
+#forecastList_table tr:nth-child(odd){
+    background:#F1F1F1;
+}
+#forecastList_table tr:nth-child(even){
+    background:#F6FBFF;
+}
+
+/*半透明的遮罩层*/
+.showbg {
+    background: #000;
+    filter: alpha(opacity=50); /* IE的透明度 */
+    opacity: 0.5; 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display:none;
+}
+.showDt{
+    z-index: 10000; 
+    width:24%;
+    height:30%;
+    position:absolute;
+    top:36%;
+    left:40%;
+    font-size:13px;
+    line-height:19px;
+    display:none;
+}
+.showDt p{
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+    background: #208DDF;
+    border-radius: 9px 9px 0px 0px;
+    margin: 0;
+    padding-left: 30px;
+    font-weight: bold;
+    position:relative;
+}
+.showDt ul{
+    padding:25px 50px;
+    background:#fff;
+    border-radius: 0px 0px 10px 10px;
+}
+.showDt ul li{
+    list-style:disc;
+    color:#313332;
+}
+.showDt ul li b{
+    padding-left:5px;
+}

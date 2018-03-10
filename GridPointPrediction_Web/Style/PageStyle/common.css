@@ -1,0 +1,133 @@
+﻿body {
+    padding:0;
+    margin:0;
+    font-family:"微软雅黑";
+}
+a{
+    text-decoration:none!important;
+}
+.container-fluid{
+    padding:0!important;
+}
+li{
+    list-style:none;
+}
+.headermemu span:nth-child(3) a {
+    background: url(../../Images/NewPageImage/levelmenu_select.png) no-repeat;
+    text-decoration: none;
+    color: white;
+}
+.box{
+    padding:5px 0px!important;
+    margin:0 auto;
+    background:#EAEEFA 100%;
+}
+.box .row{
+    margin:0;
+}
+.box .row{
+    padding:0px!important;
+}
+.sidebar_menu{
+    margin:0px 7px 0px 60px;
+    padding:0!important;
+}
+.sidebar_menu h4{
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    color:#fff;
+    font-size:17px;
+    background:#208DDF;
+    border-radius:9px 9px 0px 0px;
+    margin:0;
+    font-weight:bold;
+}
+.menu_list{
+    background:#fff;
+    padding:0;
+    margin:0;
+}
+.menu_list li a.indexShow,.menu_list li a.SevereWeatherTips,.menu_list li a.mesoscaleAnalysis{
+    display:block;
+    height:40px;
+    line-height:40px;
+    font-size:14px; 
+    font-weight:600;
+    text-align:center;
+    margin-bottom:2px;
+    position:relative;
+}
+.EC_index{
+    height:40px;
+    line-height:40px;
+    font-size:14px; 
+    font-weight:600;
+    margin-bottom:2px;
+    text-align:center;
+    position:relative;
+}
+.EC_index span{
+    position:relative;
+    width:100%;
+}
+.EC_index img{
+    width:17px;
+    position:absolute;
+    top:50%;
+    left:125px;
+}
+
+.menu_list li.active{
+    background:#E23525;
+}
+.menu_list li:hover{
+    background:#E23525;
+}
+.menu_list li:hover a{
+    color:#fff!important;
+}
+.menu_list li.active a{
+    color:#fff;
+}
+.dropDownMenu li{
+    font-size:12px!important;
+    font-weight:600;
+    height:42px;
+    line-height:42px;
+    font-size:13px; 
+    text-align:center;
+    margin-bottom:2px;
+}
+.dropDownMenu li:hover{
+    background:#E23525;
+}
+.dropDownMenu li:hover a{
+    color:#FFF;
+}
+.dropDownMenu li a{
+    color:#155F82;
+}
+.dropDownMenu{
+     border:1px solid #DDE1EB;
+     border-top:none;
+     padding:0;
+     background:#F0F3FA;
+     border-radius:0px 0px 9px 9px;
+}
+
+.content{
+    padding:0!important;
+}
+
+.ui-datepicker-title select{
+    font-size:12px;
+    outline:none;
+}
+#datetimePicker_div input{
+    cursor:pointer;
+}
+.ui-datepicker-title select:last-child{
+    position:relative;
+    top:2px!important;
+}

@@ -1,0 +1,543 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F0F8FF;
+}
+
+span {
+    font-size: 15px;
+    font-family: 微软雅黑;
+    color: #058dde;
+}
+
+.ifr_div {
+    left: 0px;
+    top: 170px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.2;
+}
+
+    .ifr_div img {
+        vertical-align: middle;
+    }
+
+.proccess {
+    border: 0px solid;
+    border-color: #009900;
+    height: 800px;
+    line-height: 600px;
+    width: 1540px;
+    text-align: center;
+    background: #eee;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: -158px;
+}
+
+    .proccess b {
+        vertical-align: middle;
+        background: url(http://ok22.org/upload/images/20110902143538381.gif) no-repeat 0 center;
+        padding-left: 35px;
+        display: inline-block;
+    }
+
+.layui-layer-content {
+    overflow-x: hidden;
+}
+
+
+.top {
+    margin: 0px;
+    padding: 0px !important;
+}
+
+.sidebar_menu {
+    margin: 0px 7px 0px 60px;
+    padding: 0 !important;
+}
+
+    .sidebar_menu h4 {
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        background: #208DDF;
+        border-radius: 9px 9px 0px 0px;
+        font-family: 微软雅黑;
+        margin: 0;
+        font-weight: bold;
+        border-right: 1px solid #F0F8FF;
+        border-left: 1px solid #F0F8FF;
+    }
+
+.menu_list {
+    background: white;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #F5F5F5;
+    border-left: 1px solid #F5F5F5;
+    border-right: 1px solid #F5F5F5;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+    .menu_list ul {
+        margin: 0px;
+        text-align: center;
+    }
+
+        .menu_list ul li {
+            font-weight: 600;
+            height: 45px;
+            width: 100%;
+            padding-top: 10px;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            color: #337ab7;
+            cursor: pointer;
+        }
+
+            .menu_list ul li:hover {
+                background-color: #f04132;
+                color: white;
+                opacity: 0.6;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            .menu_list ul li.hover {
+                background-color: #f04132;
+                text-decoration: none;
+                color: white;
+                cursor: pointer;
+            }
+/*.button {
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    border: 1px solid #AAA;
+    border-top-left-radius: 5PX;
+    border-top-right-radius: 5px;
+    margin-top: 5px;
+    background: #ddd;
+    cursor: pointer;
+}*/
+
+.Textin {
+    margin-left: 30px;
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 微软雅黑;
+    color: #5dbcfe;
+    line-height: 30px;
+    height: 20px;
+    width: 250px;
+    display: inline-block;
+}
+
+.Textin-rain {
+    margin-left: 30px;
+    font-size: 10px;
+    color: #5dbcfe;
+    line-height: 30px;
+    height: 20px;
+    width: 800px;
+    display: inline-block;
+}
+
+.table {
+    margin-left: -8px;
+    color: #2196F3;
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    border-right: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+}
+
+.table-cs {
+    position: absolute;
+    color: #2196F3;
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    border-right: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+}
+
+.tablename {
+    border: 1px solid #aaa;
+    color: #2196F3;
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    background: linear-gradient(to bottom, #D4EBFF, #B5DDFF);
+}
+
+.tablename1 {
+    font-family: 微软雅黑;
+    font-weight: inherit;
+    font-size: 14px;
+    width: 20%;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    text-align: center;
+    line-height: 30px;
+    color: #353333;
+}
+
+.tablename2 {
+    border: 1px solid #aaa;
+    color: #2196F3;
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    display: inline-block;
+    width: 16.5%;
+    text-align: center;
+    background: linear-gradient(to bottom, #D4EBFF, #B5DDFF);
+}
+
+.tablename2_1 {
+    font-family: 微软雅黑;
+    font-weight: inherit;
+    font-size: 14px;
+    width: 16.5%;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    text-align: center;
+    line-height: 30px;
+    color: #353333;
+}
+
+.tablename3 {
+    border: 1px solid #aaa;
+    color: #2196F3;
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    background: linear-gradient(to bottom, #D4EBFF, #B5DDFF);
+}
+
+#tablePf table {
+    width: 100%;
+}
+
+.tablename3_1 {
+    font-family: 微软雅黑;
+    font-weight: inherit;
+    font-size: 14px;
+    width: 25%;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    text-align: center;
+    line-height: 30px;
+    color: #353333;
+}
+
+.precisionRate ul li {
+    float: left;
+    margin-left: 5px;
+}
+
+    .precisionRate ul li button {
+        padding: 0px;
+        width: 69px;
+        height: 33px;
+        line-height: 33px;
+        background: url(../../Images/NewPageImage/bg_btnhour.png) no-repeat;
+        border: 0px #1ea1fb solid;
+        color: #13598f;
+        font-family: 微软雅黑;
+        font-size: 14px;
+        background-color: white;
+        box-shadow: none;
+        outline: none;
+    }
+
+        .precisionRate ul li button:focus, .precisionRate ul li button:hover, .precisionRate ul li button:active, .precisionRate ul li button:active:focus {
+            padding: 0px;
+            width: 69px;
+            height: 33px;
+            line-height: 33px;
+            background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+        .precisionRate ul li button.active {
+            padding: 0px;
+            width: 69px;
+            height: 33px;
+            line-height: 33px;
+            background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+            .precisionRate ul li button.active.focus, .precisionRate ul li button.active:focus, .precisionRate ul li button.active:hover, .precisionRate ul li button:active.focus, .precisionRate ul li button:active:focus, .precisionRate ul li button:active:hover {
+                padding: 0px;
+                width: 69px;
+                height: 33px;
+                background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+                border: 0px white solid;
+                color: white;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+.forcastScore ul li {
+    float: left;
+    margin-left: 5px;
+}
+
+    .forcastScore ul li button {
+        padding: 0px;
+        width: 69px;
+        height: 33px;
+        line-height: 33px;
+        background: url(../../Images/NewPageImage/bg_btnhour.png) no-repeat;
+        border: 0px #1ea1fb solid;
+        color: #13598f;
+        font-family: 微软雅黑;
+        font-size: 14px;
+        background-color: white;
+        box-shadow: none;
+        outline: none;
+    }
+
+        .forcastScore ul li button:focus, .forcastScore ul li button:hover, .forcastScore ul li button:active, .forcastScore ul li button:active:focus {
+            padding: 0px;
+            width: 69px;
+            height: 33px;
+            line-height: 33px;
+            background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+        .forcastScore ul li button.active {
+            padding: 0px;
+            width: 69px;
+            height: 33px;
+            line-height: 33px;
+            background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+            .forcastScore ul li button.active.focus, .forcastScore ul li button.active:focus, .forcastScore ul li button.active:hover, .forcastScore ul li button:active.focus, .forcastScore ul li button:active:focus, .forcastScore ul li button:active:hover {
+                padding: 0px;
+                width: 69px;
+                height: 33px;
+                background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+                border: 0px white solid;
+                color: white;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+#preview {
+    margin-left: 10px;
+}
+
+    #preview ul li {
+        margin-left: 10px;
+        float: left;
+    }
+
+        #preview ul li button {
+            padding: 0px;
+            width: 86px;
+            height: 31px;
+            line-height: 17px;
+            background: url(../../Images/NewPageImage/bg_btn_score.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+            #preview ul li button:focus, #preview ul li button:hover, #preview ul li button:active, #preview ul li button:active:focus {
+                width: 86px;
+                height: 31px;
+                line-height: 17px;
+                background: url(../../Images/NewPageImage/bg_btn_score.png) no-repeat;
+                border: 0px #1ea1fb solid;
+                color: #f04132;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+#preview_skill {
+    margin-left: 10px;
+}
+
+    #preview_skill ul li {
+        margin-left: 20px;
+        float: left;
+    }
+
+        #preview_skill ul li button {
+            padding: 0px;
+            width: 86px;
+            height: 31px;
+            line-height: 17px;
+            background: url(../../Images/NewPageImage/bg_btn_score.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+            #preview_skill ul li button:focus, #preview_skill ul li button:hover, #preview_skill ul li button:active, #preview_skill ul li button:active:focus {
+                width: 86px;
+                height: 31px;
+                line-height: 17px;
+                background: url(../../Images/NewPageImage/bg_btn_score.png) no-repeat;
+                border: 0px #1ea1fb solid;
+                color: #f04132;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+#preview_element {
+    margin-left: 10px;
+}
+
+    #preview_element ul li {
+        margin-left: 20px;
+        float: left;
+    }
+
+        #preview_element ul li button {
+            padding: 0px;
+            width: 86px;
+            height: 31px;
+            line-height: 17px;
+            background: url(../../Images/NewPageImage/bg_btn_score.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+            #preview_element ul li button:focus, #preview_element ul li button:hover, #preview_element ul li button:active, #preview_element ul li button:active:focus {
+                width: 86px;
+                height: 31px;
+                line-height: 17px;
+                background: url(../../Images/NewPageImage/bg_btn_score.png) no-repeat;
+                border: 0px #1ea1fb solid;
+                color: #f04132;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+#preview_forcast {
+    margin-left: 10px;
+}
+
+    #preview_forcast ul li {
+        margin-left: 20px;
+        float: left;
+    }
+
+        #preview_forcast ul li button {
+            padding: 0px;
+            width: 86px;
+            height: 31px;
+            line-height: 17px;
+            background: url(../../Images/NewPageImage/bg_btn_score.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+            #preview_forcast ul li button:focus, #preview_forcast ul li button:hover, #preview_forcast ul li button:active, #preview_forcast ul li button:active:focus {
+                width: 86px;
+                height: 31px;
+                line-height: 17px;
+                background: url(../../Images/NewPageImage/bg_btn_score.png) no-repeat;
+                border: 0px #1ea1fb solid;
+                color: #f04132;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }

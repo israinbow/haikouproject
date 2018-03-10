@@ -1,0 +1,7 @@
+时间:2017-05-22 14:56:47Message:StartIndex 不能小于 0。
+参数名: startIndex
+ Source:mscorlib
+ StackTrace:   在 System.String.Remove(Int32 startIndex)
+   在 DAL.DALGridDatas.GetGridContainObtid(Single[][] _bounds, Int32 ybsx, DateTime foretime, String gridelement) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\DAL.GridDatas.cs:行号 573
+ TargetSiteSystem.String Remove(Int32)
+===============================================================================

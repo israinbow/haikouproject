@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A2BD12E-6151-428A-B692-BEC4B92B5A92}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Models</RootNamespace>
+    <AssemblyName>Models</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoCountEntity.cs" />
+    <Compile Include="ForecastInfo.cs" />
+    <Compile Include="GDFPICTUREEntity.cs" />
+    <Compile Include="LWS_SQUALLDATAEntity.cs" />
+    <Compile Include="LWS_SQULINEDATAEntity.cs" />
+    <Compile Include="ObtcodeEntity.cs" />
+    <Compile Include="StreetAreaEntity.cs" />
+    <Compile Include="T_DISASTERWORDEntity.cs" />
+    <Compile Include="T_INTELLIGENTLTRIPSEntity.cs" />
+    <Compile Include="RainPage\ScoreInfo.cs" />
+    <Compile Include="RainPage\RainProbabilityEntity.cs" />
+    <Compile Include="Setting\LWSSETTING.cs" />
+    <Compile Include="LWS_TVMAILEntity.cs" />
+    <Compile Include="LWS_TVWORDEntity.cs" />
+    <Compile Include="LWS_WARNPREEntity.cs" />
+    <Compile Include="PromptPage\GroupCodeInfo.cs" />
+    <Compile Include="LWSTripsInfo.cs" />
+    <Compile Include="MapTempEntity.cs" />
+    <Compile Include="PromptPage\PondsInfo.cs" />
+    <Compile Include="PromptPage\ScoreInfo.cs" />
+    <Compile Include="ScoreTearEntity.cs" />
+    <Compile Include="Setting\SMSGroupEntity.cs" />
+    <Compile Include="Setting\TripstypeEntity.cs" />
+    <Compile Include="SignalInfo.cs" />
+    <Compile Include="SIGNALSYSINFOEntity.cs" />
+    <Compile Include="SmssampleEntity.cs" />
+    <Compile Include="TransInfo.cs" />
+    <Compile Include="T_FAXEntity.cs" />
+    <Compile Include="T_REPORTEntity.cs" />
+    <Compile Include="T_TyforecastEntity.cs" />
+    <Compile Include="UserEntity.cs" />
+    <Compile Include="PromptPage\UserInfo.cs" />
+    <Compile Include="WarningEntity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WarningInfo.cs" />
+    <Compile Include="WarningInfoNew.cs" />
+    <Compile Include="WarningScoreInfo.cs" />
+    <Compile Include="WarningStstistics.cs" />
+    <Compile Include="WarningTypeInfo.cs" />
+    <Compile Include="PromptPage\WaterInfo.cs" />
+    <Compile Include="PromptPage\WindInfo.cs" />
+    <Compile Include="PromptPage\WeiboImgSource.cs" />
+    <Compile Include="WarntripsEntity.cs" />
+    <Compile Include="WB_INFOEntity.cs" />
+    <Compile Include="WeatherTrackingModel.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

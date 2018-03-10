@@ -1,0 +1,367 @@
+﻿body, * 
+{
+    margin:0px;
+    padding:0px;
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*早期浏览器*/
+    user-select:none;
+}
+* {
+    font-family: "微软雅黑" !important;
+}
+
+.conBox
+{
+    width:100%;
+}
+.conBox .menu
+{
+    height:35px;
+    line-height:35px;
+    color:#fff;
+    font-size:15px;
+    background:#208DDF;
+    border-radius:9px 9px 0px 0px;
+    margin:0;
+    font-weight:bold;
+    padding-left:25px;
+}
+.conBox .subTimemenu
+{
+    height:30px;
+    line-height:30px;
+    margin:5px;
+    margin-bottom:10px;
+}
+.conBox .subTimemenu span
+{
+    float:left;
+    margin-left:15px;
+    display:block;
+}
+.conBox .subTimemenu span:first-child input
+{
+    background-color: #E9E5E2;
+    cursor: pointer; 
+    color:#000;
+    float:left; 
+    margin-left:10px; 
+    border-radius: 4px;
+    border: 1px solid #C7C6C2;
+    width:95px;
+    text-align:center;
+    height:24px;
+    line-height:30px;
+    font-size:12px;
+}
+.conBox .subTimemenu span:first-child input:last-child{
+    width:60px;
+}
+.conBox .subTimemenu span:nth-child(3) div
+{
+    cursor:pointer;
+    text-decoration:none;
+    color:#00508F; 
+    text-decoration:none; 
+    cursor:pointer;
+    font-size:12px;
+    padding:0px 14px;
+    height:26px!important;
+    line-height:26px;
+    display:inline-block;
+    margin-left:10px;
+    background:linear-gradient(top, #DDF3FE,#D1EEFC,#BBE5FE);
+    background:-moz-linear-gradient(top, #DDF3FE,#D1EEFC,#BBE5FE);
+    background:-webkit-linear-gradient(top, #DDF3FE,#D1EEFC,#BBE5FE);
+    background:-ms-linear-gradient(top, #DDF3FE,#D1EEFC,#BBE5FE);
+    border:1px solid #B5E6ED;
+    border-radius:6px;
+}
+.conBox .subTimemenu span:nth-child(3) div:hover, .conBox .subTimemenu span:nth-child(3) .hover{ background: #2981FD;color: #fff;;}
+#pre1, #pre2, #next1, #next2
+{
+    cursor:pointer;
+    text-decoration:none;
+    color:#00508F; 
+    text-decoration:none; 
+    cursor:pointer;
+    font-size:12px;
+    padding:5px 14px;
+    margin-right:10px;
+    background:linear-gradient(top, #DDF3FE,#D1EEFC,#BBE5FE);
+    background:-moz-linear-gradient(top, #DDF3FE,#D1EEFC,#BBE5FE);
+    background:-webkit-linear-gradient(top, #DDF3FE,#D1EEFC,#BBE5FE);
+    background:-ms-linear-gradient(top, #DDF3FE,#D1EEFC,#BBE5FE);
+    border:1px solid #B5E6ED;
+    border-radius:6px;
+}
+#sub_nowwarn{
+    float:right;
+    margin-right:170px;
+    font-size:14px;
+}
+
+/*-------日期表格样式------*/
+.conBox .GridContain
+{
+    background-color:rgb(241,241,241);
+    border-radius:5px;
+    margin:0 5px 5px 5px;
+    /*width:100%;
+    border-top: 1px solid rgba(41,117,211,0.5);*/
+    overflow:hidden;
+    position:relative;
+}
+.GridContain .splitline
+{
+    position: absolute;
+    height:88px;
+    border:1px solid rgb(148,175,204);
+    left:46.8%;
+    top:27px;
+}
+.GridContain .time, .GridContain .trips
+{
+    float:left;
+    margin:10px 10px 0px 42px;
+    font-size:12px;
+}
+.GridContain .trips{
+    margin-top:2px;
+}
+.GridContain .time span 
+{
+    display:block;
+    float:left;
+    margin-right:19px;
+    text-align:left;
+    font-size:12px;
+}
+.GridContain #time2{
+    margin-right:0px;
+    font-size:10px; 
+    -webkit-transform-origin-x: -50px;
+    -webkit-transform: scale(0.88);
+    -moz-transform:scale(0.88);
+}
+.GridContain #time2 span{ 
+    width:62px;
+    margin:0;
+} 
+.GridContain .cate
+{
+    float:left;
+    width:3%;
+    min-height:200px;
+    margin-left:12px;
+    font-size:12px;
+}
+.GridContain .cate div
+{
+    height: 22.5px;
+}
+.GridContain .gridDiv
+{
+    float:left;
+    width:95%;
+}
+.GridContain .gridDiv .gridTable
+{
+    line-height:20px;
+}
+.GridContain .gridDiv .gridTable tr
+{
+    margin-top:1px;
+    margin-bottom:1px;
+}
+.GridContain .gridDiv .gridTable td
+{
+    width:40px;
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+#OZgrid td div{
+    width:25px;
+}
+.GridContain .gridDiv .gridTable td div
+{
+    margin-top:1px;
+    margin-bottom:1px;
+    margin-left:3px;
+    background-color:rgb(211,220,227);
+    border:1px solid rgb(192,204,216);
+    border-radius:3px;
+    cursor:pointer;
+    height:20px;
+}
+
+.GridContain .gridDiv .gridTable td div:hover
+{
+    filter:alpha(opacity=50); 
+    -moz-opacity:0.5; 
+    opacity:0.5;
+}
+.GridContain .trips span
+{
+    float:left; text-align:right;
+}
+/*-------------------*/
+
+
+
+
+/*----预报信息----*/
+.submenu1{
+    margin:20px 0px 15px 15px;
+}
+.submenu1 .menulist{
+    padding:7px 14px;
+    background:linear-gradient(top, #ECECEC,#E0E0E0,#CECECE);
+    background:-moz-linear-gradient(top, #ECECEC,#E0E0E0,#CECECE);
+    background:-webkit-linear-gradient(top, #ECECEC,#E0E0E0,#CECECE);
+    background:-ms-linear-gradient(top, #ECECEC,#E0E0E0,#CECECE);
+    border-radius:7px 7px 0 0;
+    cursor:pointer;
+    margin-right:-4px;
+    border-left:1px solid #EFEFEF;
+    border-right:1px solid #C1C1C1;
+    font-size:13px;
+}
+.conBox .submenu1 span.hover{ color:#fff;background:#2981FD; }
+.conBox .submenu1 .area{ cursor:default;margin-left:25px;}
+.conBox .submenu1 .area a{ color:#00508F; text-decoration:none; margin-left:10px; cursor:pointer;font-size:13px;
+                           padding:5px 15px;background:linear-gradient(top, #DDF3FE,#D1EEFC,#BBE5FE);
+                           background:-moz-linear-gradient(top, #DDF3FE,#D1EEFC,#BBE5FE);
+                           background:-webkit-linear-gradient(top, #DDF3FE,#D1EEFC,#BBE5FE);
+                           background:-ms-linear-gradient(top, #DDF3FE,#D1EEFC,#BBE5FE);
+                           border:1px solid #B5E6ED;border-radius:6px;
+}
+.conBox .submenu1 .area a.active{
+    background:#2981FD;
+    color:#fff;
+}
+.conBox .submenu1 span:last-child ,.conBox .submenu1 span:nth-last-child(2) {
+    font-size: 1.2em; color: rgb(93,156,235); padding:0 15px;
+}
+.conBox .submenu1 span:last-child.hover, .conBox .submenu1 span:nth-last-child(2).hover {
+    background-color:rgb(93,156,235); color:white;
+}
+#sub_nowwarn{
+    font-size:13px;
+    color:#175F85;
+    margin:8px 180px 0px 0px;
+}
+
+.warnInfoBox{
+    background:#F1F1F1;
+    padding:18px;
+}
+
+.boxing{
+    position:relative;
+}
+#pictxt12,pictxt22,pictxt32{
+    position:absolute;
+    top:0;
+    left:40%;
+    font-size:18px;
+}
+#pictxt13,pictxt23,pictxt33{
+    position:absolute;
+    bottom:5px;
+    left:5px;
+    font-size:14px;
+}
+
+
+
+/*----图片区域样式----*/
+.pictureMain{ clear:both;}
+
+.pictureMain .row .boxing div:first-last{ margin-left:0.5%;}
+.pictureMain .row .boxing
+{
+    border:1px solid #D0EBFF;
+    float:left;
+    position:relative;
+}
+.pictureMain > div:not(:last-child) > div:not(:last-child){position:absolute;z-index: 401;}
+#pictxt11,#pictxt21,#pictxt31{
+    display:inline-block;
+    border:none!important;
+    position:absolute;
+    bottom:10px;
+    left:39%;
+    z-index:1000;
+}
+.pictureMain .newWarning{padding:10px; display:inline-block; overflow:auto;}
+.pictureMain .newWarning div{ margin-bottom:5px;}
+.pictureMain .newWarning div span:first-child{ color:rgb(113,148,190);}
+.pictureMain .newWarning img{ width:40px; height:50px; margin-right:10px; margin-bottom:5px;}
+.pictureMain .windWarning div{ margin:10px 15px; font-size:1.3em;}
+
+/*----临近预报----*/
+.conBox .ljybmenu span{ float:right; display:block; margin-right:30px;}
+.conBox .ljybmenu span a{cursor:pointer; text-decoration:none; color:White;}
+.conBox .ljybmenu span:first-child{ float:left;}
+
+
+
+
+/*----欧洲中心----*/
+#datetime12{
+    width: 60px!important;
+    background-color: #E9E5E2;
+    cursor: pointer;
+    color: #000;
+    float: left;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #C7C6C2;
+    width: 95px;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+
+
+
+
+/*滚动条样式*/
+::-webkit-scrollbar/*整体部分*/
+{
+width: 8px;
+height:8px;
+}
+
+::-webkit-scrollbar-track/*滑动轨道*/
+{
+-webkit-box-shadow: inset 0 0 5px rgba(241,241,241,1);
+border-radius: 0px;
+background: rgba(241,241,241,1);
+}
+
+::-webkit-scrollbar-thumb/*滑块*/
+{
+border-radius: 5px;
+-webkit-box-shadow: inset 0 0 5px rgba(101,152,218,1);
+background: rgba(101,152,218,1);
+}
+
+::-webkit-scrollbar-thumb:hover/*滑块效果*/
+{
+border-radius: 5px;
+-webkit-box-shadow: inset 0 0 5px rgba(41,61,239,1);
+background: rgba(41,61,239,1);
+}
+
+
+
+
+
+

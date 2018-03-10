@@ -1,0 +1,365 @@
+时间:2017/12/7 星期四 09:46:14Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 335
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 09:46:18Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.getSpecialReportDatas.DecisionForecastToDB(String table) 位置 e:\pikaqiu\workspace\haikouproject\DAL\getSpecialReportDatas.cs:行号 28
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 10:20:30Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 335
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 10:20:32Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.getSpecialReportDatas.DecisionForecastToDB(String table) 位置 e:\pikaqiu\workspace\haikouproject\DAL\getSpecialReportDatas.cs:行号 28
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 10:35:08Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.getSpecialReportDatas.DecisionForecastToDB(String table) 位置 e:\pikaqiu\workspace\haikouproject\DAL\getSpecialReportDatas.cs:行号 28
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 10:37:39Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.getSpecialReportDatas.DecisionForecastToDB(String table) 位置 e:\pikaqiu\workspace\haikouproject\DAL\getSpecialReportDatas.cs:行号 28
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 10:37:54Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.getSpecialReportDatas.DecisionForecastToDB(String table) 位置 e:\pikaqiu\workspace\haikouproject\DAL\getSpecialReportDatas.cs:行号 28
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 10:38:01Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.getSpecialReportDatas.DecisionForecastToDB(String table) 位置 e:\pikaqiu\workspace\haikouproject\DAL\getSpecialReportDatas.cs:行号 28
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 10:38:17Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.getSpecialReportDatas.DecisionForecastToDB(String table) 位置 e:\pikaqiu\workspace\haikouproject\DAL\getSpecialReportDatas.cs:行号 28
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 10:52:22Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.getSpecialReportDatas.DecisionForecastToDB(String table) 位置 e:\pikaqiu\workspace\haikouproject\DAL\getSpecialReportDatas.cs:行号 28
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 10:52:32Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.getSpecialReportDatas.DecisionForecastToDB(String table) 位置 e:\pikaqiu\workspace\haikouproject\DAL\getSpecialReportDatas.cs:行号 28
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 10:52:34Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.getSpecialReportDatas.DecisionForecastToDB(String table) 位置 e:\pikaqiu\workspace\haikouproject\DAL\getSpecialReportDatas.cs:行号 28
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 10:56:21Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.getSpecialReportDatas.DecisionForecastToDB(String table) 位置 e:\pikaqiu\workspace\haikouproject\DAL\getSpecialReportDatas.cs:行号 28
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 10:56:23Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 10:56:23Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDBRecord(String tableInfoRecord) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 149
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 10:56:30Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 11:00:52Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 11:00:55Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 335
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 11:00:59Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 11:00:59Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDBRecord(String tableInfoRecord) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 149
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 11:01:02Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 335
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/12/7 星期四 11:04:44Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 11:09:27Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 14:49:12Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 17:14:18Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 17:14:18Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 17:14:18Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 17:14:18Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 17:14:18Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 17:14:18Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 17:14:19Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 17:14:19Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 17:14:19Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 17:14:19Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 17:14:19Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 17:14:19Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/12/7 星期四 17:27:00Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================

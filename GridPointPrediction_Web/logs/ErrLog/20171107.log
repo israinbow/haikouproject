@@ -1,0 +1,617 @@
+时间:2017/11/7 星期二 09:22:39Message:ORA-12170: TNS: 连接超时
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 349
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 09:34:58Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 09:37:14Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 09:39:52Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 09:53:44Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 10:08:12Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 10:16:37Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 10:23:00Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 10:23:02Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 10:23:02Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 10:23:05Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 10:23:10Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 10:26:14Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 10:53:54Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 10:59:43Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 11:00:07Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 14:08:54Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 14:08:54Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 14:23:00Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 14:23:23Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 14:23:26Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 14:23:48Message:在位置 60 处没有任何行。
+ Source:System.Data
+ StackTrace:   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 125
+ TargetSiteNodePath GetNodeByIndex(Int32)
+===============================================================================
+时间:2017/11/7 星期二 14:26:17Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 14:31:58Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 14:41:59Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 15:14:13Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 15:20:42Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 16:00:11Message:ORA-00972: 标识符过长
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String table1, String table2) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 120
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 16:00:57Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 16:08:29Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 16:08:35Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String table1, String table2) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:08:39Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String table1, String table2) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:10:29Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String table1, String table2) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:12:27Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 16:13:10Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String table1, String table2) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:19:36Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:22:18Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 16:22:30Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:22:41Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:22:43Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:22:43Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:22:43Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:22:46Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:22:53Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:23:04Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:23:05Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:23:05Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:23:06Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:23:06Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:23:06Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:23:07Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:23:07Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:23:07Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:23:09Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:23:09Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:23:10Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:23:10Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:25:43Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:26:00Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:28:39Message:已添加了具有相同键的项。
+ Source:mscorlib
+ StackTrace:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 137
+ TargetSiteVoid ThrowArgumentException(System.ExceptionResource)
+===============================================================================
+时间:2017/11/7 星期二 16:49:06Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 16:55:31Message:ORA-00942: 表或视图不存在
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 16:57:25Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 16:58:08Message:ORA-00942: 表或视图不存在
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 17:00:05Message:ORA-00942: 表或视图不存在
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 17:00:10Message:ORA-00942: 表或视图不存在
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 17:00:57Message:ORA-00942: 表或视图不存在
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 17:02:28Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 17:05:46Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================
+时间:2017/11/7 星期二 17:40:23Message:ORA-01858: 在要求输入数字处找到非数字字符
+ Source:Oracle Data Provider for .NET
+ StackTrace:   在 Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   在 Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   在 Oracle.DataAccess.Client.OracleDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 177
+ TargetSiteVoid HandleErrorHelper(Int32, Oracle.DataAccess.Client.OracleConnection, IntPtr, Oracle.DataAccess.Client.OpoSqlValCtx*, System.Object, System.String, Boolean)
+===============================================================================

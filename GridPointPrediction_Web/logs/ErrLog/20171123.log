@@ -1,0 +1,1107 @@
+时间:2017/11/23 星期四 09:10:19Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:12:11Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:12:51Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:14:26Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:14:36Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:14:38Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:14:38Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:15:05Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:15:05Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:15:08Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:15:08Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:15:18Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:15:18Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:16:10Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:16:10Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:17:05Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:17:05Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:17:22Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:17:22Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:17:24Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:17:24Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:18:13Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:18:13Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:18:45Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:18:45Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:19:28Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:19:28Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:19:31Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:19:31Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:19:39Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:19:39Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:19:44Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:19:44Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:20:04Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:20:04Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:20:47Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:20:48Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:21:48Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:21:49Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:21:52Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:21:52Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:21:58Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:21:58Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:22:12Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:22:12Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:22:30Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:22:30Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:23:00Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:23:00Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:24:22Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:24:22Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:24:35Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:24:35Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:24:42Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:24:42Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:24:49Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:24:58Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:26:06Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:27:37Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:27:37Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:27:42Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:30:48Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:02Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 335
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:14Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:28Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:29Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDBRecord(String tableInfoRecord) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 150
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:38Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:38Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDBRecord(String tableInfoRecord) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 150
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:40Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:42Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 335
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:43Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:43Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:43Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:43Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:44Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:44Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:44Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:44Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:44Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:44Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:44Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 09:31:44Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 10:04:14Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 335
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 14:14:53Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 335
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 14:35:00Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 14:35:00Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDBRecord(String tableInfoRecord) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 150
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 14:35:01Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 14:35:01Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDBRecord(String tableInfoRecord) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 150
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 14:35:02Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 14:35:03Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDBRecord(String tableInfoRecord) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 150
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 14:35:16Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 14:35:16Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDBRecord(String tableInfoRecord) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 150
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 14:35:20Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 15:18:07Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 15:24:17Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 15:24:20Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 15:55:44Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 15:55:47Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 15:55:47Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDBRecord(String tableInfoRecord) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 150
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:01:56Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteScalar(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 335
+   在 DAL.DALGridDatas.GetGridDatas_New(String NewTime, String model, String ybsx, String savetype, String username) 位置 e:\pikaqiu\workspace\haikouproject\DAL\DAL.GridDatas.cs:行号 171
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:12Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:12Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:12Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:12Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:12Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:12Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:12Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:13Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:13Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:13Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:13Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:13Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ZoneForecastDAL.GetForecastInfo(DateTime dt, String area, DateTime dtStart) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ZoneForecastDAL.cs:行号 29
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:20Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:27Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:27Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetScwcasDatasToDB(String NewTime) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 67
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:36Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 16:02:36Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDBRecord(String tableInfoRecord) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 150
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 17:01:54Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 17:01:54Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDBRecord(String tableInfoRecord) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 150
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 17:01:57Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 17:01:58Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDBRecord(String tableInfoRecord) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 150
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 17:02:05Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDB(String tableInfo) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 115
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================
+时间:2017/11/23 星期四 17:02:05Message:无法加载 DLL“OraOps10.dll”: 找不到指定的模块。 (异常来自 HRESULT:0x8007007E)。
+ Source:Oracle.DataAccess
+ StackTrace:   在 Oracle.DataAccess.Client.OpsSql.AllocSqlValCtx(OpoSqlValCtx*& pOpoSqlValCtx)
+   在 Oracle.DataAccess.Client.OracleCommand.Initialize()
+   在 Oracle.DataAccess.Client.OracleCommand..ctor()
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 e:\pikaqiu\workspace\haikouproject\DAL\OracleDBHelper.cs:行号 243
+   在 DAL.ScwcasDatas.GetOperatCatalogDatasToDBRecord(String tableInfoRecord) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ScwcasDatas.cs:行号 150
+ TargetSiteInt32 AllocSqlValCtx(Oracle.DataAccess.Client.OpoSqlValCtx* ByRef)
+===============================================================================

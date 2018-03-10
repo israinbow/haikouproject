@@ -1,0 +1,479 @@
+﻿body {
+    background:#F0F8FF;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+input,select{
+    outline: none;
+}
+
+.top,#secondhead{
+    height: 60px;
+    line-height:60px;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+.top ul {
+        padding: 0px;
+        float: left;
+        height: 33px;
+    }
+
+        .top ul li {
+            float: left;
+            margin-left: 5px;
+        }
+
+            .top ul li button {
+                padding: 0px;
+                width: 69px;
+                height: 33px;
+                line-height: 33px;
+                background: url(../../Images/NewPageImage/bg_btnhour.png) no-repeat;
+                border: 0px #1ea1fb solid;
+                color: #13598f;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+                .top ul li button:focus, .top ul li button:hover, .top ul li button:active, .top ul li button:active:focus {
+                    padding: 0px;
+                    width: 69px;
+                    height: 33px;
+                    line-height: 33px;
+                    background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+                    border: 0px #1ea1fb solid;
+                    color: white;
+                    font-family: 微软雅黑;
+                    font-size: 14px;
+                    background-color: white;
+                    box-shadow: none;
+                    outline: none;
+                }
+
+                .top ul li button.active {
+                    padding: 0px;
+                    width: 69px;
+                    height: 33px;
+                    line-height: 33px;
+                    background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+                    border: 0px #1ea1fb solid;
+                    color: white;
+                    font-family: 微软雅黑;
+                    font-size: 14px;
+                    background-color: white;
+                    box-shadow: none;
+                    outline: none;
+                }
+#publishPre {
+    width: 138px;
+    height: 31px;
+    line-height: 19px;
+    background: url(../../Images/NewPageImage/bg_publishpreview.png) no-repeat;
+    border: 0px #1ea1fb solid;
+    color: white;
+    font-family: 微软雅黑;
+    font-size: 15px;
+    background-color: white;
+    box-shadow: none;
+    outline: none;
+    margin-left: 40px;
+    margin-bottom: 3px;
+}
+
+#ForecastZone ul li{
+    display:inline-block;
+}
+#ForecastZone ul li button{
+    width: 93px;
+    height: 36px;
+    line-height: 0px;
+    background: url(../../Images/NewPageImage/bg_colourspot.png) no-repeat;
+    color: #13598f;
+    border: 0px solid #A9A9A9;
+    text-align: center;
+    font-size: 15px;
+    font-family: "微软雅黑";
+    box-shadow: none;
+    outline: none;
+}
+#ForecastZone ul li button.active,#ForecastZone ul li button:hover{
+    padding: 0px;
+    width: 93px;
+    height: 36px;
+    line-height: 0px;
+    background: url(../../Images/NewPageImage/bg_colourspot_s.png) no-repeat;
+    border: 0px #1ea1fb solid;
+    color: white;
+    font-family: 微软雅黑;
+    font-size: 15px;
+    background-color: white;
+    box-shadow: none;
+    outline: none;
+}
+
+.summary,.national_weather_trend,.national_weather_details,.gaokao_weather_trend,.gaokao_weather_details,.gaokao_suggest,.zhongkao_weather_trend,.zhongkao_weather_details,.zhongkao_suggest,.spring_weather_trend,.spring_weather_details,.spring_suggest,.duanwu_weather_trend,.duanwu_weather_details,.subhead,.gaokao_subhead{
+    background:#fff;
+    margin:auto;
+    border: 2px solid #F5F5F5;
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+
+
+
+#national_table,#gaokao_table,#zhongkao_table,#spring_table,#duanwu_table{
+    border:1px solid #BFC4C6;
+	border-collapse: collapse;
+    width:98%;
+    font-size:13px;
+    margin:10px auto;
+}
+#national_table th,#gaokao_table th,#zhongkao_table th,#spring_table th,#duanwu_table th{
+    color: #005E9D;
+	background-color: #C8E6FF;
+    text-align:center;
+    width:120px;
+    height:35px;
+    line-height:35px;
+}
+#national_table td,#gaokao_table td,#zhongkao_table td,#spring_table td,#duanwu_table td{
+	border:1px solid #BFC4C6; 
+    width:120px;
+    height:60px;
+    text-align:center;
+}
+#national_table .pic,#gaokao_table .pic,#zhongkao_table .pic,#spring_table .pic,#duanwu_table .pic{
+    margin-top:7px;
+    margin-bottom:3px;
+    height:30px;
+}
+#national_table tr td:nth-child(1),#gaokao_table tr td:nth-child(1),#zhongkao_table tr td:nth-child(1),#spring_table tr td:nth-child(1),#duanwu_table tr td:nth-child(1){
+    font-size:12px;
+}
+#national_table tr:nth-child(odd),#gaokao_table tr:nth-child(odd),#zhongkao_table tr:nth-child(odd),#spring_table tr:nth-child(odd),#duanwu_table tr:nth-child(odd){
+    background:#E9F1F5;
+}
+#national_table tr:nth-child(even),#gaokao_table tr:nth-child(even),#zhongkao_table tr:nth-child(even),#spring_table tr:nth-child(even),#duanwu_table tr:nth-child(even){
+    background:#fff;
+}
+#haikouWeather_table tbody td img,#gaokao_table tbody td img,#zhongkao_table tbody td img,#spring_table tbody td img,,#duanwu_table tbody td img{
+    display:inline-block
+}
+.weather{
+    text-align:center;
+}
+
+
+.nationalInfo td .pic{
+    display:block;
+    margin-top:5px;
+}
+.nationalInfo th{
+    background:#CCFFFF;
+    height:30px!important;
+}
+.nationalInfo td,.nationalInfo th{
+    font-size:15px;
+    height: 60px;
+    border-top:1px solid #F0F0F0;
+    border-left:1px solid #F0F0F0;
+    border-right:1px solid #A0A0A0;
+    border-bottom:1px solid #A0A0A0;
+    text-align:center;
+    text-indent:0;
+  
+}
+.nationalInfo{
+    width:100%;
+    margin:20px auto;
+    border:1px solid #A0A0A0;
+}
+
+.gaokaoInfo,.zhongkaoInfo{
+    width:100%;
+    margin:20px auto;
+    border:1px solid #000;
+    font-weight:bold;
+}
+.gaokaoInfo td .pic,.zhongkaoInfo td .pic{
+    display:block;
+    margin-top:5px;
+}
+.gaokaoInfo td,.gaokaoInfo th,.zhongkaoInfo td,.zhongkaoInfo th{
+    font-size:15px;
+    height: 60px;
+    text-align:center;
+    text-indent:0;
+    border:1px solid #000;
+}
+.gaokaoInfo tr td:first-child,.zhongkaoInfo tr td:first-child{
+    background:#EAF1DD;
+}
+.gaokaoInfo tr:nth-child(odd) td:nth-child(2),.zhongkaoInfo tr:nth-child(odd) td:nth-child(2){
+    background:#EAF1DD;
+}
+.zhongkaoInfo tr:nth-child(3) td,.zhongkaoInfo tr:nth-child(4) td{
+    background:#fff!important;
+}
+.springInfo{
+    border-collapse:separate;
+    border-top:1px solid #F0F0F0;
+    border-left:1px solid #F0F0F0;
+    border-bottom:1px solid #A0A0A0;
+    border-right:1px solid #A0A0A0;
+    padding:2px;
+    border-spacing:2px;
+    margin:20px 0;
+}
+.springInfo td, .springInfo th{
+    border-bottom: 1px solid #F0F0F0;
+    border-right: 1px solid #F0F0F0;
+    border-top: 1px solid #A0A0A0;
+    border-left: 1px solid #A0A0A0;
+    padding: 5px;
+    text-align:center;
+    text-indent:0;
+}
+.duanwuInfo{
+    width:100%;
+    margin:15px auto;
+}
+.duanwuInfo th{
+    background:#800000;
+    color:#fff;
+}
+.duanwuInfo td{
+    background:#FCFCDB;
+}
+.duanwuInfo td,.duanwuInfo th{
+    text-align:center;
+    text-indent:0;
+    font-size:14px;
+    padding:5px 0;
+}
+
+.previewContainer{
+    width:61%;
+    margin:-15px auto;
+    background:#fff;
+    text-align:center;
+    padding:70px 65px;
+    font-size:17px;
+}
+.copyright{
+    margin-top:5px;
+    border-bottom:3px solid red;
+}
+.gaokao_preview .copyright,.zhongkao_preview .copyright,.duanwu_preview .copyright{
+    border-bottom:3px solid #009900;
+}
+.cont1,.cont2,.cont3{
+    text-align:left;
+    text-indent:2em;
+    font-size:16px;
+}
+.cont1 .title,.cont2 .title,.cont3 .title{
+    font-weight:bold;
+}
+.cont span{
+    display:block;
+}
+.release_time{
+    display:block;
+    font-size:16px;
+    margin:30px 0px 0px 380px;
+}
+.back{
+    display:inline-block;
+    width: 80px;
+    height: 25px;
+    line-height:25px;
+    color:#fff;
+    text-align:center;
+    background:#306FDA;
+    cursor:pointer;
+}
+p{
+    text-indent:2em;
+    text-align:left;
+}
+.national_preview .cont2 p{
+    font-weight:bold;
+}
+
+
+#previewImg img{
+    width:115px;
+    height:90px;
+    border:1px solid #808080;
+}
+#previewImg span:first-child{
+    margin-right:2px!important;
+}
+.btn_choose,.btn_up {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    padding: 3px 11px;
+    overflow: hidden;
+    color: #1E88C7;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+    margin:-5px 10px 0 0;
+}
+.btn_choose input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.btn_choose:hover {
+    background: #AADFFD;
+    border-color: #78C3F3;
+    color: #004974;
+    text-decoration: none;
+}
+#previewShow img{
+    border:1px solid #808080;
+}
+
+.xuanfu {
+    overflow: auto;
+    position: fixed;
+    height: 500px;
+    width: 850px;
+    z-index: 10;
+    top: 25%;
+    background: #fff;
+    left: 28%;
+    border: 7px solid #90CAF9;
+    background: #E3E7EB;
+}
+
+.xuanfu label{
+    margin:0;
+}
+
+.leixing {
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    width: 830px;
+    height: 25px;
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#national_table td,#spring_table td,#duanwu_table td,#gaokao_table td,#zhongkao_table td{
+	border:1px solid #BFC4C6; 
+    width:120px;
+    height:60px;
+    text-align:center;
+}
+
+#national_table td input,#spring_table td input,#duanwu_table td input,#gaokao_table td input,#zhongkao_table td input{
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding:5px;
+}
+#national_table .pic,#spring_table .pic,#duanwu_table .pic,#gaokao_table .pic,#zhongkao_table .pic{
+    margin-bottom:3px;
+    height:30px;
+}
+#national_table tr td:nth-child(1),#spring_table tr td:nth-child(1),#duanwu_table tr td:nth-child(1),#gaokao_table tr td:nth-child(1),#zhongkao_table tr td:nth-child(1){
+    font-size:12px;
+}
+#national_table tr:nth-child(odd) input,#spring_table tr:nth-child(odd) input,#duanwu_table tr:nth-child(odd) input,#gaokao_table tr:nth-child(odd) input,#zhongkao_table tr:nth-child(odd) input{
+    background:#E9F1F5;
+    border: 1px solid #E9F1F5;
+}
+#national_table tr:nth-child(even) input,#spring_table tr:nth-child(even) input,#duanwu_table tr:nth-child(even) input,#gaokao_table tr:nth-child(even) input,#zhongkao_table tr:nth-child(even) input{
+    background:#fff;
+    border: 1px solid #fff;
+}
+
+#national_table tr:nth-child(odd) div,#national_table tr:nth-child(odd) td:nth-child(2),#spring_table tr:nth-child(odd) div,#spring_table tr:nth-child(odd) td:nth-child(2),#duanwu_table tr:nth-child(odd) div,#duanwu_table tr:nth-child(odd) td:nth-child(2),#gaokao_table tr:nth-child(odd) div,#gaokao_table tr:nth-child(odd) td:nth-child(2),#zhongkao_table tr:nth-child(odd) div,#zhongkao_table tr:nth-child(odd) td:nth-child(2){
+    background:#E9F1F5; 
+}
+#national_table tr:nth-child(even) div,#national_table tr:nth-child(even) td:nth-child(2),#spring_table tr:nth-child(even) div,#spring_table tr:nth-child(even) td:nth-child(2),#duanwu_table tr:nth-child(even) div,#duanwu_table tr:nth-child(even) td:nth-child(2),#gaokao_table tr:nth-child(even) div,#gaokao_table tr:nth-child(even) td:nth-child(2),#zhongkao_table tr:nth-child(even) div,#zhongkao_table tr:nth-child(even) td:nth-child(2){
+    background:#fff;
+}
+
+#national_table tbody td img,#spring_table tbody td img,#duanwu_table tbody td img,#gaokao_table tbody td img,#zhongkao_table tbody td img{
+    display:inline-block;
+}
+#national_table .weather label,#spring_table .weather label,#duanwu_table .weather label,#gaokao_table .weather label,#zhongkao_table .weather label{
+    display:inline-block; 
+    margin-right:10px;
+}
+#national_table .weather label img,#spring_table .weather label img,#duanwu_table .weather label img,#gaokao_table .weather label img,#zhongkao_table .weather label img{
+    width:40px;
+}
+#national_table .weather .pic,#spring_table .weather .pic,#duanwu_table .weather .pic,#gaokao_table .weather .pic,#zhongkao_table .weather .pic{
+    display:inline-block;
+}
+#national_table tbody td.weather,#spring_table tbody td.weather,#duanwu_table tbody td.weather,#gaokao_table tbody td.weather,#zhongkao_table tbody td.weather{
+    text-align:center;
+}
+
+#national_table tr:nth-child(odd),#spring_table tr:nth-child(odd),#duanwu_table tr:nth-child(odd),#gaokao_table tr:nth-child(odd),#zhongkao_table tr:nth-child(odd){
+    background:#E9F1F5;
+}
+#national_table tr:nth-child(even),#spring_table tr:nth-child(even),#duanwu_table tr:nth-child(even),#gaokao_table tr:nth-child(even),#zhongkao_table tr:nth-child(even){
+    background:#fff;
+}
+#national_table tbody td img,#spring_table tbody td img,#duanwu_table tbody td img,#gaokao_table tbody td img,#zhongkao_table tbody td img{
+    display:inline-block
+}
+#national_table tbody td.weather,#spring_table tbody td.weather,#duanwu_table tbody td.weather,#gaokao_table tbody td.weather,#zhongkao_table tbody td.weather{
+    text-align:center;
+}
+
+#previewImg img{
+    height:400px;
+    border:1px solid #808080;
+}
+#previewImg span:first-child{
+    margin-right:2px!important;
+}
+
+.releaseReport{
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.25);
+    float: left;
+    margin-top: 20px;
+    background-color: grey;
+    text-decoration:none;
+    font-weight: normal;
+    font-style: normal;
+    outline: none;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    cursor:pointer;
+}
+.releaseReport:hover{
+    color: #fff;
+    text-decoration:none;
+    background: rgb(56, 121, 217);
+    cursor:pointer;
+}
+

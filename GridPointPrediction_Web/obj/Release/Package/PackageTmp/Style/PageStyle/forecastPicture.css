@@ -1,0 +1,74 @@
+﻿        .button {
+            cursor: pointer;
+            width: 50px;
+            background: red;
+            height: 25px;
+            display: inline-block;
+            line-height: 25px;
+            text-align: center;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            color: #fff;
+
+
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+        }
+        .buttonof {
+            cursor: pointer;
+            width: 50px;
+            background: #428bca;
+            height: 25px;
+            display: inline-block;
+            line-height: 25px;
+            text-align: center;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            color: #fff;
+
+
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    background-color: #337ab7;
+    /*border-color: #2e6da4;*/
+        }
+        #shici {
+        border: 1px solid #aaa;
+        width: 50px;
+        height: 24px;
+        background: #ddd;
+        border-radius: 5px;
+        }
+.buttonof:hover {
+background-color:#2969a0;
+}

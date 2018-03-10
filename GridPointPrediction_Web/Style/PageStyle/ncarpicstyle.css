@@ -1,0 +1,220 @@
+﻿body {
+    background:#F0F8FF;
+}
+#head {
+    height: 60px;
+    margin-top: 10px;
+    padding-left: 15px;
+    line-height: 60px;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    -webkit-border-radius: 10px;
+}
+#NCARImg {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    -webkit-border-radius: 10px;
+}
+.left {
+    line-height: 30px;
+    float: left;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+meanil {
+    cursor: pointer;
+}
+
+.meantop {
+    display: inline-block;
+    background: #0f82e2;
+    width: 200px;
+    height: 35px;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    cursor: pointer;
+}
+.select_hour {
+    float: left;
+    width: 40px;
+    height: 30px;
+    line-height: 20px;
+    margin-top:15px;
+    padding: 0px;
+    color: #ff4433;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+    border: #808080 solid 1px;
+    background: #F0F8FF;
+}
+.button {
+    cursor: pointer;
+    width: 50px;
+    background: red;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.txtdate ul li {
+    float: left;
+    margin-left: 5px;
+}
+
+    .txtdate ul li button {
+        padding: 0px;
+        width: 69px;
+        height: 33px;
+        line-height: 33px;
+        background: url(../../Images/NewPageImage/bg_btnhour.png) no-repeat;
+        border: 0px #1ea1fb solid;
+        color: #13598f;
+        font-family: 微软雅黑;
+        font-size: 14px;
+        background-color: white;
+        box-shadow: none;
+        outline: none;
+    }
+
+        .txtdate ul li button:focus, .txtdate ul li button:hover, .txtdate ul li button:active, .txtdate ul li button:active:focus {
+            padding: 0px;
+            width: 69px;
+            height: 33px;
+            line-height: 33px;
+            background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+        .txtdate ul li button.active {
+            padding: 0px;
+            width: 69px;
+            height: 33px;
+            line-height: 33px;
+            background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+            .txtdate ul li button.active.focus, .txtdate ul li button.active:focus, .txtdate ul li button.active:hover, .txtdate ul li button:active.focus, .txtdate ul li button:active:focus, .txtdate ul li button:active:hover {
+                padding: 0px;
+                width: 69px;
+                height: 33px;
+                background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+                border: 0px white solid;
+                color: white;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+.Area ul li {
+    float: left;
+    margin-left: 5px;
+}
+
+    .Area ul li button {
+        padding: 0px;
+        width: 69px;
+        height: 33px;
+        line-height: 33px;
+        background: url(../../Images/NewPageImage/bg_btnhour.png) no-repeat;
+        border: 0px #1ea1fb solid;
+        color: #13598f;
+        font-family: 微软雅黑;
+        font-size: 14px;
+        background-color: white;
+        box-shadow: none;
+        outline: none;
+    }
+
+        .Area ul li button:focus, .Area ul li button:hover, .Area ul li button:active, .Area ul li button:active:focus {
+            padding: 0px;
+            width: 69px;
+            height: 33px;
+            line-height: 33px;
+            background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+        .Area ul li button.active {
+            padding: 0px;
+            width: 69px;
+            height: 33px;
+            line-height: 33px;
+            background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+            .Area ul li button.active.focus, .Area ul li button.active:focus, .Area ul li button.active:hover, .Area ul li button:active.focus, .Area ul li button:active:focus, .Area ul li button:active:hover {
+                padding: 0px;
+                width: 69px;
+                height: 33px;
+                background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+                border: 0px white solid;
+                color: white;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+.buttonof {
+    cursor: pointer;
+    width: 50px;
+    background: #428bca;
+    height: 25px;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#qiya {
+    border-radius: 5px;
+    width: 65px;
+    font-size: 12px;
+    height: 23px;
+    background: #ddd;
+    border: 1px solid #aaa;
+}

@@ -1,0 +1,55 @@
+<style type="text/css">
+    #sub_menu_div  a {
+        font-family: Arial;
+        display: inline-block;
+        font-weight: bold;
+        background-repeat: no-repeat;
+        text-decoration: none;
+        cursor: pointer;
+        text-align: center;
+        height:47px;
+        width:80px;
+    }
+
+        #sub_menu_div a:hover,
+        #sub_menu_div a.active {
+            background-color: #208dde!important;
+        }
+</style>
+<div id="sub_menu_div" style="position: absolute;margin-left: 370px; margin-top: 8px; z-index: 500; ">
+    <a class="active" href="wind.html?ver=1.1" style="background:#1054c9 url(../Images/PageImage/风速.png)"></a><a href="temperature.html?ver=1.1" style="background: #1054c9 url(../Images/PageImage/温度.png)"></a><a href="rain.html?ver=1.1" style="background: #1054c9 url(../Images/PageImage/雨量.png)"></a><a href="humidity.html?ver=1.1" style="background: #1054c9 url(../Images/PageImage/湿度.png)"></a><a href="pressure.html?ver=1.1" style="background: #1054c9 url(../Images/PageImage/气压.png); width: 85px;"></a>
+</div>
+<script>
+
+    (function checkIE() {
+        var ie = (function () {
+            if (navigator.appName == "Microsoft Internet Explorer") {
+                var version = navigator.appVersion.split(";");
+                var trim_Version = version[1].replace(/[ ]/g, "");
+                if (trim_Version == "MSIE10.0") return 10;
+                if (trim_Version == "MSIE9.0") return 9;
+                if (trim_Version == "MSIE8.0") return 8;
+                if (trim_Version == "MSIE7.0") return 7;
+                if (trim_Version == "MSIE6.0") return 6;
+            }
+        })();
+        if (ie < 10) {
+            var warning = "您的浏览器版本(Internet Explorer " + ie + ")不受支持，\r\n请使用谷歌、火狐等浏览器打开\r\n点击【确定】下载谷歌浏览器";
+            if (confirm(warning))
+                document.location.href = "/data/ChromeStandaloneSetup.exe";
+        }
+    })();
+
+    var aindex;
+    switch (document.location.pathname) {
+        case "/Default.aspx": aindex = 0; break;
+        case "/":
+        case "/wind.html": aindex = 1; break;
+        case "/temperature.html": aindex = 2; break;
+        case "/rain.html": aindex = 3; break;
+        case "/humidity.html": aindex = 4; break;
+        case "/pressure.html": aindex = 5; break;
+        case "/visibility.html": aindex = 6; break;
+    }
+    aindex = null;
+</script>

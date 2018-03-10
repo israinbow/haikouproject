@@ -1,0 +1,16 @@
+E:\pikaqiu\workspace\haikouproject\API\bin\Debug\API.dll
+E:\pikaqiu\workspace\haikouproject\API\bin\Debug\API.pdb
+E:\pikaqiu\workspace\haikouproject\API\bin\Debug\DAL.dll
+E:\pikaqiu\workspace\haikouproject\API\bin\Debug\Microsoft.Office.Interop.Word.dll
+E:\pikaqiu\workspace\haikouproject\API\bin\Debug\Common.dll
+E:\pikaqiu\workspace\haikouproject\API\bin\Debug\Models.dll
+E:\pikaqiu\workspace\haikouproject\API\bin\Debug\Oracle.DataAccess.dll
+E:\pikaqiu\workspace\haikouproject\API\bin\Debug\office.dll
+E:\pikaqiu\workspace\haikouproject\API\bin\Debug\Microsoft.Vbe.Interop.dll
+E:\pikaqiu\workspace\haikouproject\API\bin\Debug\Newtonsoft.Json.dll
+E:\pikaqiu\workspace\haikouproject\API\bin\Debug\DAL.pdb
+E:\pikaqiu\workspace\haikouproject\API\bin\Debug\Common.pdb
+E:\pikaqiu\workspace\haikouproject\API\bin\Debug\Models.pdb
+E:\pikaqiu\workspace\haikouproject\API\obj\Debug\API.csprojResolveAssemblyReference.cache
+E:\pikaqiu\workspace\haikouproject\API\obj\Debug\API.dll
+E:\pikaqiu\workspace\haikouproject\API\obj\Debug\API.pdb

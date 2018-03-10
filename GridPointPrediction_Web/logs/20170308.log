@@ -1,0 +1,9 @@
+时间：2017-03-08 14:31:57 Message:<target>.MINTEMPERATURE 和 <source>.MINTEMPERATURE 的属性冲突: DataType 属性不匹配。 
+ Source:System.Data 
+ StackTrace:   在 System.Data.Merger.MergeSchema(DataTable table)
+   在 System.Data.Merger.MergeTableData(DataTable src)
+   在 System.Data.Merger.MergeTable(DataTable src)
+   在 System.Data.DataTable.Merge(DataTable table, Boolean preserveChanges, MissingSchemaAction missingSchemaAction)
+   在 System.Data.DataTable.Merge(DataTable table)
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 335  
+ TargetSiteSystem.Data.DataTable MergeSchema(System.Data.DataTable)

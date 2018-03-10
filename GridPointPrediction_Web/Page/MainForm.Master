@@ -1,0 +1,86 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainForm.master.cs" Inherits="GridPointPrediction_Web.Page.MainForm" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>海口市山洪地质灾害防御系统</title>
+    <link href="../Style/PageStyle/MainFormMaster.css?v0.12" rel="stylesheet" type="text/css"/>
+     <!-- jQuery文件 -->
+    <script src="../Script/jquery-1.11.3/jquery-1.11.1.min.js"></script>
+    <script src="../Script/leaflet-1.0.2/leaflet.js"></script>
+    <link href="../Style/leaflet-1.0.2/leaflet.css" rel="stylesheet" />
+    <script src="../Script/leaflet-1.0.2/esri-leaflet.js"></script>
+    <script src="../Script/time/My97DatePicker/WdatePicker.js"></script>
+    <script src="../Script/util/jquery.mousewheel.min.js"></script>
+    <script src="../Script/data/DataJson.js?v0.0.1"></script>
+    <!-- Bootstrap 核心 CSS 文件 -->
+    <link href="../Script/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap 核心 JavaScript 文件 -->
+    <script src="../Script/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <script src="../Script/d3/d3.min.js"></script>
+    <script src="../Script/util/common.js"></script>
+    <script src="../Script/layer/layer.js"></script>
+    <script src="../Script/time/ToolsDateTime.js"></script>
+    <script src="../Script/PageScript/MainFormMaster.js?v0.0.3"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="headerwrapper">
+                <div class="logo"></div>                
+            </div>
+            <div class="header-menu"></div>
+            <div class="headermemu"></div>         
+        </div>
+        <div id="SecondLevelMenu" style="display: none;">
+            <div id="headSecondMenu">
+            </div>
+            <div id="bottomSecondMenu">
+                <div class="subNav currentDd currentDt">产品展示</div>
+                <ul class="navContent" style="display:block;">
+                    <li id="ncarproduct" style="padding-left: 105px;background:#F0F8FF;color:#277fc2;opacity: 1;cursor:default;">NCAR产品</li>
+                    <li id="twoTemp_2MTemperature">2米气温</li>
+                    <li id="sixrain_6HTPRain">6小时降雨</li>
+                    <li id="tenwind_10MiWind">10米风</li>
+                    <li id="humit_200hpaRH">200hpa相对湿度</li>
+                    <%--<li id="temptest_TempInspection">温度检验</li>
+                    <li id="windforecast_WindInspection">风预报检验</li>
+                    <li id="humitTest_RhInspection">湿度检验</li>
+                    <li id="thunderstormproduct" style="padding-left: 105px;background:#F0F8FF;color:#277fc2;opacity: 1;cursor:default;">雷暴产品</li>
+                    <li id="Haps">雷暴尺度</li>--%>
+                </ul>
+                <div class="subNav">预报制作</div>
+                <ul class="navContent" style="display:none;">
+                    <li style="padding-left: 105px;display:none;">短时预报制作</li>
+                    <li style="padding-left: 105px;display:none;">内涝预报制作</li>
+                    <li style="padding-left: 105px;display:none;">景点预报制作</li>
+                    <li style="padding-left: 105px;display:none;">乡镇预报制作</li>
+                    <li style="padding-left: 105px;display:none;">空气污染预报制作</li>
+                    <li id="decision_Forecast" style="padding-left: 105px;" title="决策预报制作">决策预报制作</li>
+                    <li id="spring_Forecast" style="padding-left: 105px;" title="春运专报制作">春运专报制作</li>
+                    <li id="traffic_Forecast" style="padding-left: 105px;" title="交通专报制作">交通专报制作</li>
+                    <li id="farm_Forecast" style="padding-left: 105px;" title="农业专报制作">农业专报制作</li>
+                    <li id="city_Forecast" style="padding-left: 105px;" title="市政府专报制作">政府专报制作</li>
+                    <li id="holidays_Forecast" style="padding-left: 105px;" title="特定节假日专报制作">假日专报制作</li>
+                    <li id="tenday_Forecast" style="padding-left: 105px;" title="旬报制作">旬报制作</li>
+                    <li id="month_Forecast" style="padding-left: 105px;" title="月报制作">月报制作</li>
+                    <li id="typhoon_windRain" style="padding-left: 105px;" title="台风快讯和风雨实况预报制作">实况预报制作</li>
+                    <li id="dayliy_Forecast" style="padding-left: 105px;" title="日常服务产品预报制作">日常预报制作</li>
+                </ul>                   
+            </div>            
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+<script>
+    window.onbeforeunload = function () {
+        if (event.clientX > document.body.clientWidth && event.clientY < 0 || event.altKey) {
+            window.event.returnValue = "确定要退出本页吗？";
+        }
+    }
+</script>

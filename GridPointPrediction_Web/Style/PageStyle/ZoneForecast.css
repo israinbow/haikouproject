@@ -1,0 +1,702 @@
+﻿body {
+    background:#F0F8FF;
+}
+
+* {
+    margin: 0px auto;
+    padding: 0;
+    list-style: none;
+}
+
+    * ul li {
+        float: left;
+    }
+
+
+.txt {
+    color: #3C7EDC;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+
+#Max {
+    _height: 500px;
+    min-height: 500px;
+    background-color: #F0F8FF;
+    border: 0px solid #EEEEEE;
+}
+
+#head {
+    width: 93%;
+    height: 65px;
+    margin-top: 10px;
+    background-color: white;
+    padding-left: 15px;
+    line-height: 60px;
+    border: 2px solid #F5F5F5;
+    -webkit-border-radius: 10px;
+}
+
+#secondhead{
+    width: 93%;
+    height: 70px;
+    margin-top: 10px;
+    background-color: white;
+    padding-left: 15px;
+    line-height: 60px;
+    border: 2px solid #F5F5F5;
+    -webkit-border-radius: 10px;
+}
+#content, #foot {
+    width: 93%;
+    height: 100%;
+    margin-top: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: 2px solid #F5F5F5;
+    -webkit-border-radius: 10px;
+}
+
+.txtdate ul li {
+    float: left;
+    margin-left: 15px;
+}
+
+    .txtdate ul li button {
+        padding: 0px;
+        width: 69px;
+        height: 33px;
+        line-height: 33px;
+        background: url(../../Images/NewPageImage/bg_btnhour.png) no-repeat;
+        border: 0px #1ea1fb solid;
+        color: #13598f;
+        font-family: 微软雅黑;
+        font-size: 14px;
+        background-color: white;
+        box-shadow: none;
+        outline: none;
+    }
+
+        .txtdate ul li button:focus, .txtdate ul li button:hover, .txtdate ul li button:active, .txtdate ul li button:active:focus {
+            padding: 0px;
+            width: 69px;
+            height: 33px;
+            line-height: 33px;
+            background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+        .txtdate ul li button.active {
+            padding: 0px;
+            width: 69px;
+            height: 33px;
+            line-height: 33px;
+            background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+            .txtdate ul li button.active.focus, .txtdate ul li button.active:focus, .txtdate ul li button.active:hover, .txtdate ul li button:active.focus, .txtdate ul li button:active:focus, .txtdate ul li button:active:hover {
+                padding: 0px;
+                width: 69px;
+                height: 33px;
+                background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+                border: 0px white solid;
+                color: white;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+#forecast {
+    margin-left: 10px;
+    float: left;
+}
+
+    #forecast ul li {
+        float: left;
+    }
+
+.txtbox {
+    width: 100px;
+    height: 25px;
+    background-color: #E6F0F9;
+}
+
+#pwd {
+    margin-left: 10px;
+    line-height: 10px;
+    border: 1px solid #A9A9A9;
+}
+
+#ForecastType {
+    margin-left: 400px;
+}
+
+    #ForecastType ul li {
+        margin-left: 20px;
+    }
+
+        #ForecastType ul li button {
+            width: 113px;
+            height: 36px;
+            line-height: 11px;
+            text-align: center;
+            background: url(../../Images/NewPageImage/bg_aws.png) no-repeat;
+            color: #13598f;
+            border: 0px solid #A9A9A9;
+            font-size: 15px;
+            font-family: "微软雅黑";
+            box-shadow: none;
+            outline: none;
+        }
+
+            #ForecastType ul li button:focus, #ForecastType ul li button:hover, #ForecastType ul li button:active, #ForecastType ul li button:active:focus {
+                padding: 0px;
+                width: 113px;
+                height: 36px;
+                line-height: 0px;
+                background: url(../../Images/NewPageImage/bg_aws_s.png) no-repeat;
+                border: 0px #1ea1fb solid;
+                color: white;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+            #ForecastType ul li button.active {
+                padding: 0px;
+                width: 113px;
+                height: 36px;
+                line-height: 0px;
+                background: url(../../Images/NewPageImage/bg_aws_s.png) no-repeat;
+                border: 0px #1ea1fb solid;
+                color: white;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+                #ForecastType ul li button.active.focus, #ForecastType ul li button.active:focus, #ForecastType ul li button.active:hover, #ForecastType ul li button:active.focus, #ForecastType ul li button:active:focus, #ForecastType ul li button:active:hover {
+                    padding: 0px;
+                    width: 113px;
+                    height: 36px;
+                    background: url(../../Images/NewPageImage/bg_aws_s.png) no-repeat;
+                    border: 0px white solid;
+                    color: white;
+                    font-family: 微软雅黑;
+                    font-size: 14px;
+                    background-color: white;
+                    box-shadow: none;
+                    outline: none;
+                }
+#ForecastZone ul li button {
+    width: 93px;
+    height: 36px;
+    line-height: 0px;
+    background: url(../../Images/NewPageImage/bg_colourspot.png) no-repeat;
+    color: #13598f;
+    border: 0px solid #A9A9A9;
+    text-align: center;
+    font-size: 15px;
+    font-family: "微软雅黑";
+    box-shadow: none;
+    outline: none;
+}
+
+    #ForecastZone ul li button:focus, #ForecastZone ul li button:hover, #ForecastZone ul li button:active, #ForecastZone ul li button:active:focus {
+        padding: 0px;
+        width: 93px;
+        height: 36px;
+        line-height: 0px;
+        background: url(../../Images/NewPageImage/bg_colourspot_s.png) no-repeat;
+        border: 0px #1ea1fb solid;
+        color: white;
+        font-family: 微软雅黑;
+        font-size: 15px;
+        background-color: white;
+        box-shadow: none;
+        outline: none;
+    }
+
+    #ForecastZone ul li button.active {
+        padding: 0px;
+        width: 93px;
+        height: 36px;
+        line-height: 0px;
+        background: url(../../Images/NewPageImage/bg_colourspot_s.png) no-repeat;
+        border: 0px #1ea1fb solid;
+        color: white;
+        font-family: 微软雅黑;
+        font-size: 15px;
+        background-color: white;
+        box-shadow: none;
+        outline: none;
+    }
+
+        #ForecastZone ul li button.active.focus, #ForecastZone ul li button.active:focus, #ForecastZone ul li button.active:hover, #ForecastZone ul li button:active.focus, #ForecastZone ul li button:active:focus, #ForecastZone ul li button:active:hover {
+            padding: 0px;
+            width: 93px;
+            height: 36px;
+            background: url(../../Images/NewPageImage/bg_colourspot_s.png) no-repeat;
+            border: 0px white solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 15px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+#DetailDiv ul li {
+    margin-left:40px;
+}
+
+    #DetailDiv ul li button {
+        padding: 0px;
+        width: 138px;
+        height: 31px;
+        line-height: 17px;
+        background: url(../../Images/NewPageImage/bg_publishpreview.png) no-repeat;
+        border: 0px #1ea1fb solid;
+        color: white;
+        font-family: 微软雅黑;
+        font-size: 14px;
+        background-color: white;
+        box-shadow: none;
+        outline: none;
+    }
+
+        #DetailDiv ul li button:focus, #DetailDiv ul li button:hover, #DetailDiv ul li button:active, #DetailDiv ul li button:active:focus {
+            width: 138px;
+            height: 31px;
+            line-height: 17px;
+            background: url(../../Images/NewPageImage/bg_publishpreview.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: #f04132;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+    #DetailDiv ul li.disabled button {
+        width: 138px;
+        height: 31px;
+        line-height: 17px;
+        background: url(../../Images/NewPageImage/bg_publishpreview_disable.png) no-repeat;
+        color: white;
+        cursor: not-allowed;
+        border: 0px #1ea1fb solid;
+        font-family: 微软雅黑;
+        font-size: 14px;
+        background-color: white;
+        box-shadow: none;
+        outline: none;
+    }
+#ForecastZone ul li {
+    margin-left: 5px;
+}
+
+#CopyData ul li button {
+    padding: 0px;
+    width: 138px;
+    height: 31px;
+    line-height: 17px;
+    background: url(../../Images/NewPageImage/bg_publishpreview.png) no-repeat;
+    border: 0px #1ea1fb solid;
+    color: white;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    background-color: white;
+    box-shadow: none;
+    outline: none;
+}
+
+    #CopyData ul li button:focus, #CopyData ul li button:hover, #CopyData ul li button:active, #CopyData ul li button:active:focus {
+        width: 138px;
+        height: 31px;
+        line-height: 17px;
+        background: url(../../Images/NewPageImage/bg_publishpreview.png) no-repeat;
+        border: 0px #1ea1fb solid;
+        color: #f04132;
+        font-family: 微软雅黑;
+        font-size: 14px;
+        background-color: white;
+        box-shadow: none;
+        outline: none;
+    }
+
+#CopyData ul li.disabled button {
+    width: 138px;
+    height: 31px;
+    line-height: 17px;
+    background: url(../../Images/NewPageImage/bg_publishpreview_disable.png) no-repeat;
+    color: white;
+    cursor: not-allowed;
+    border: 0px #1ea1fb solid;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    background-color: white;
+    box-shadow: none;
+    outline: none;
+}
+/*#CopyData button {
+    width: 125px;
+    height: 26px;
+    line-height: 11px;
+    text-align: center;
+    background-color: #E6F0F9;
+    color: #306DA8;
+    border: 1px solid #A9A9A9;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+
+#DetailDiv button {
+    width: 125px;
+    height: 26px;
+    line-height: 11px;
+    text-align: center;
+    background-color: #E6F0F9;
+    color: #306DA8;
+    border: 1px solid #A9A9A9;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}*/
+
+#c_head, #AWSInfo p {
+    height: 45px;
+    line-height: 37px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid #A9A9A9;
+}
+
+    #c_head label {
+        margin-right: 30px;
+    }
+
+    #c_head ul li {
+        margin-right: 10px;
+    }
+
+#copydata:hover {
+    cursor: pointer;
+    color: red;
+}
+
+
+
+#CopyData ul li {
+    margin-left: 10px;
+}
+
+#CopyData button {
+    width: 75px;
+    height: 26px;
+    line-height: 11px;
+    text-align: center;
+    background-color: #E6F0F9;
+    color: #306DA8;
+    border: 1px solid #A9A9A9;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+
+#ChartT {
+    height: 320px;
+    padding-top:10px;
+}
+
+#DataShow table, #HistoryData table, #AWSInfo table {
+    text-align: center;
+    margin-top:10px;
+    width: 99%;
+    border: 2px solid #bde2f9;
+}
+
+    #DataShow table tr th, #HistoryData table tr th, #AWSInfo table tr th {
+        text-align: center;
+        height: 40px;
+        background: linear-gradient(to bottom, #D4EBFF, #B5DDFF);
+    }
+
+    #DataShow table tr td, #HistoryData table tr td, #AWSInfo table tr td {
+        height: 40px;
+        border: 1px solid #BFC3C5;
+    }
+
+/*编辑提示框信息开始*/
+#Mes_Max {
+    width: 850px;
+    height: 490px;
+    background-color: #E5E8EB;
+}
+
+#Mes_Head {
+    width: 850px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+#Mes_center {
+    width: 850px;
+    height: 380px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#Mes_Left {
+    width: 600px;
+    height: 380px;
+    float: left;
+}
+
+#Mes_text {
+    width: 590px;
+    height: 380px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+#Mes_Right {
+    width: 225px;
+    height: 380px;
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+    #Mes_Right h4 {
+        font-weight: bold;
+    }
+
+    #Mes_Right p {
+        font-size: 12px;
+    }
+
+#Mes_Foot {
+    width: 850px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+/*编辑提示框信息结束*/
+/*#TypeFile {
+    height: 60px;
+    background-color: white;
+    padding-left: 15px;
+    line-height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #A9A9A9;
+}*/
+/*======翻页============*/
+#Flip {
+    text-align: right;
+    margin-right: 60px;
+    padding-right: 10px;
+}
+
+
+.MessagePreview {
+    width: 702px;
+    height: 670px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    background: white;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.mp_content {
+    height: 370px;
+}
+
+.mp_con .mp_line.top {
+    margin-top: 30px;
+    border-bottom: 2px solid red;
+    height: 30px;
+    line-height: 30px;
+}
+
+.mp_con .mp_line.bottom {
+    margin-top: 30px;
+    border-top: 2px solid red;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+.Text {
+    margin: auto;
+    width: 930px;
+    height: 620px;
+    border: 1px solid #aaa;
+    overflow: auto;
+}
+
+.content {
+    margin: auto;
+    width: 820px;
+    height: 660px;
+}
+
+.topTitle {
+    font-size: 40px;
+    text-align: center;
+    height: 60px;
+    width: 800px;
+    line-height: 60px;
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.xuhao {
+    line-height: 30px;
+    text-align: center;
+    height: 30px;
+    border-bottom: 2px solid red;
+}
+
+.footContent {
+    width: 800px;
+    font-size: 14px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.canlle {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #aaa;
+    background-color: #00BCD4;
+    border-radius: 5px;
+    font-family:微软雅黑;
+    cursor: pointer;
+}
+
+.realse {
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 27px;
+    line-height: 27px;
+    border: 1px solid #aaa;
+    background-color: red;
+    border-radius: 5px;
+    font-family:微软雅黑;
+    cursor: pointer;
+}
+
+.realsePage {
+    height: 750px;
+    width: 100%;
+    z-index: 10;
+    top: 100px;
+    background: #fff;
+    position: center;
+}
+
+#AreaN {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+    #AreaN ul li button {
+        width: 93px;
+        height: 36px;
+        line-height: 0px;
+        background: url(../../Images/NewPageImage/bg_colourspot.png) no-repeat;
+        color: #13598f;
+        border: 0px solid #A9A9A9;
+        text-align: center;
+        font-size: 15px;
+        font-family: "微软雅黑";
+        box-shadow: none;
+        outline: none;
+    }
+
+        #AreaN ul li button:focus, #AreaN ul li button:hover, #AreaN ul li button:active, #AreaN ul li button:active:focus {
+            padding: 0px;
+            width: 93px;
+            height: 36px;
+            line-height: 0px;
+            background: url(../../Images/NewPageImage/bg_colourspot_s.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 15px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+        #AreaN ul li button.active {
+            padding: 0px;
+            width: 93px;
+            height: 36px;
+            line-height: 0px;
+            background: url(../../Images/NewPageImage/bg_colourspot_s.png) no-repeat;
+            border: 0px #1ea1fb solid;
+            color: white;
+            font-family: 微软雅黑;
+            font-size: 15px;
+            background-color: white;
+            box-shadow: none;
+            outline: none;
+        }
+
+            #AreaN ul li button.active.focus, #AreaN ul li button.active:focus, #AreaN ul li button.active:hover, #AreaN ul li button:active.focus, #AreaN ul li button:active:focus, #AreaN ul li button:active:hover {
+                padding: 0px;
+                width: 93px;
+                height: 36px;
+                background: url(../../Images/NewPageImage/bg_colourspot_s.png) no-repeat;
+                border: 0px white solid;
+                color: white;
+                font-family: 微软雅黑;
+                font-size: 15px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+.layui-layer-title {
+    background: #208dde !important;
+    height: 40px !important;
+    line-height: 35px !important;
+}

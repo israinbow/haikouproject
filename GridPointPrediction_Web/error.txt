@@ -1,0 +1,17 @@
+2017/11/15 09:10
+ORA-12170: TNS: 连接超时
+
+   在 System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   在 System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   在 System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.OracleClient.OracleConnection.Open()
+   在 DAL.Access`1.getDataTable(String sqlWhere, OracleParameter[] dbParams, String colList, String orderBy, UInt32 skip, UInt32 take, String tableName) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ORACLE.cs:行号 135
+   在 DAL.Access`1.getList(String sqlWhere, String colList, OracleParameter[] dbParams, String orderBy, UInt32 skip, UInt32 take, String tableName, Boolean queryByTable) 位置 e:\pikaqiu\workspace\haikouproject\DAL\ORACLE.cs:行号 149
+   在 API.AWSCode.get_OBTCodeList() 位置 e:\pikaqiu\workspace\haikouproject\API\AWSCode.cs:行号 59

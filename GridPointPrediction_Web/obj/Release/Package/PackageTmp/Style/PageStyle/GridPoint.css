@@ -1,0 +1,507 @@
+﻿body {
+}
+
+* {
+    font-family: "Microsoft YaHei ";
+}
+
+ul li {
+    list-style: none;
+}
+
+#map {
+    min-height: 400px;
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+}
+
+#mapid {
+    /*height: 100%;*/
+    width: 100%;
+    margin-top: 0px;
+}
+
+#mapup {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -6px;
+    z-index: 999999999;
+    background: rgba(255, 255, 255, 0);
+}
+
+.mapcircle {
+    position: absolute;
+    z-index: 99999999999;
+}
+
+/*.media-left {
+    border-collapse: collapse;
+    left: 15px;
+    position: absolute;
+    z-index: 1000;
+    width: 316px;
+    height: 400px;
+    background-color: #5ABCFF;
+    border-radius: 5px;
+    top: 110px;
+}
+
+.div-time {
+    position: absolute;
+    top: 35px;
+    left: 9px;
+    z-index: 2000;
+    width: 295px;
+    height: 315px;
+    background-color: #FFFFFF;
+}
+
+.btn-default {
+    color: red;
+    width: 35px;
+    font-size: 10px;
+    text-align: center;
+    height: 30px;
+    padding: 0;
+    border: 0px;
+}
+
+.ForehourChoice .btn-group {
+    margin-top: 15px;
+    margin-left: 13px;
+}
+
+
+.ForehourChoice label.btn-primary {
+    width: 45px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: white;
+    color: black;
+}
+
+.btn-group-day {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.btn-primary-day {
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+    padding: 4px;
+    margin-top: 5px;
+    background-color: #33A0E0;
+}
+
+    .btn-primary-day:hover {
+        background-color: red;
+        border-color: red;
+    }
+
+.btn-primary-Time {
+    width: 45px;
+    height: 25px;
+    margin-right: 2px;
+    padding: 4px;
+    margin-top: 0px;
+    line-height: 1.2;
+    background-color: #33A0E0;
+}
+
+    .btn-primary-Time:hover {
+        background-color: red;
+        border-color: red;
+    }
+
+.btn-primary-hour:hover {
+    background-color: #3C7EDC;
+    border-color: #3C7EDC;
+    color: white;
+}
+
+.div-forestTime {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.media-right {
+    position: absolute;
+    top: 110px;
+    right: 40px;
+    z-index: 1000;
+    width: 568px;
+    background-color: #FFFFFF;
+}
+
+.lb-time-title {
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.div-everyOneHou {
+    height: 60px;
+}
+
+.everyOneHour {
+    float: left;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 微软雅黑;
+    margin-top: 5px;
+}
+
+.div-btn-group.ForehourChoice {
+    float: left;
+    background-color: #D9E7FF;
+    margin-top: 16px;
+    height: 210px;
+}*/
+
+.layui-layer-title {
+    background: rgb(90, 188, 255) !important;
+    height: 35px !important;
+    line-height: 35px !important;
+}
+
+/*时次选择*/
+#TimeChoice {
+    padding: 10px;
+    width: 310px;
+    /*height: 350px;*/
+    background: white;
+    /*margin-bottom:20px;*/
+    float: left;
+    display: none;
+}
+
+.tc_forestTime {
+    float: left;
+    width: 279px;
+    margin: 0px auto;
+    height: 40px;
+    line-height: 40px;
+}
+
+    .tc_forestTime input {
+        float: left;
+        height: 28px;
+        line-height: 28px;
+        width: 110px;
+        margin-top: 10px;
+        margin-left: 8px;
+        /*text-align:center;*/
+        font-weight: bold;
+    }
+
+    .tc_forestTime ul {
+        padding: 0px;
+        float: left;
+        height: 40px;
+        line-height: 40px;
+    }
+
+        .tc_forestTime ul li {
+            float: left;
+            margin-left: 5px;
+        }
+
+            .tc_forestTime ul li button {
+                padding: 0px;
+                width: 46px;
+                height: 30px;
+                background: white;
+                border: 1px #1ea1fb solid;
+                color: #1ea1fb;
+                font-weight: bold;
+            }
+
+                .tc_forestTime ul li button:focus, .tc_forestTime ul li button:hover, .tc_forestTime ul li button:active, .tc_forestTime ul li button:active:focus {
+                    background: #3c7edc;
+                    border: 0px;
+                }
+
+                .tc_forestTime ul li button.active {
+                    background: #3c7edc !important;
+                    border: 0px;
+                }
+
+.Prescription {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px;
+}
+
+    .Prescription ul {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        padding: 0px;
+    }
+
+        .Prescription ul li {
+            float: left;
+            margin-left: 5px;
+        }
+
+            .Prescription ul li button {
+                padding: 0px;
+                width: 35px;
+                height: 25px;
+                background: white;
+                border: 1px #1ea1fb solid;
+                color: #1ea1fb;
+                font-weight: bold;
+            }
+
+                .Prescription ul li button:focus, .Prescription ul li button:hover, .Prescription ul li button:active, .Prescription ul li button:active:focus {
+                    background: #3c7edc;
+                    border: 0px;
+                }
+
+            .Prescription ul li.active button {
+                background: #3c7edc !important;
+                border: 0px;
+                color: white;
+            }
+
+.ybsx {
+    width: 100%;
+    margin: 0px;
+    background: #d8ebfe;
+    float: left;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+    .ybsx ul {
+        float: left;
+        width: 100%;
+        padding: 0px;
+    }
+
+        .ybsx ul li {
+            float: left;
+            text-align: center;
+            width: 30px;
+            height: 35px;
+            line-height: 35px;
+            margin-left: 7px;
+        }
+
+            .ybsx ul li button {
+                text-align: center;
+                padding: 0px;
+                width: 30px;
+                height: 30px;
+                background: white;
+                border: 1px #1ea1fb solid;
+                color: #1ea1fb;
+                font-weight: bold;
+            }
+
+                .ybsx ul li button:focus, .ybsx ul li button:hover, .ybsx ul li button:active, .ybsx ul li button:active:focus, .ybsx ul li button.active:focus {
+                    background: #3c7edc;
+                    border: 0px;
+                }
+
+            .ybsx ul li.active button {
+                background: #3c7edc !important;
+                border: 0px;
+                color: white;
+            }
+
+            .ybsx ul li.disabled button {
+                background: #808080;
+                color: white;
+                cursor: not-allowed;
+            }
+
+/*要素选择*/
+.map_toolbar {
+    /*border: 1px solid red;*/
+    position: absolute;
+    z-index: 1000;
+    top: 10px;
+    right: 18px;
+}
+
+.map_toolbarcon {
+    /*width: 1000px;*/
+    height: 80px;
+    line-height: 80px;
+    background-color: #e6f0f9;
+    /*padding:8px;*/
+}
+
+.map_toolbar_item {
+    margin-top: 10px;
+    height: 60px;
+    width: 63px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 8px;
+    padding: 0px;
+}
+
+.map_gridoperation {
+    position: absolute;
+    z-index: 1000;
+    top: 95px;
+    right: 18px;
+    min-width: 270px;
+    /*height: 50px;
+    line-height: 50px;*/
+    background: white;
+    border: 1px solid #5abcff;
+}
+
+    .map_gridoperation label._title {
+        margin-left: 10px;
+        font-size: 14px;
+        display: inline !important;
+    }
+
+    .map_gridoperation label:not(._title) {
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    .map_gridoperation span {
+        display: block;
+        float: left;
+        text-align: center;
+    }
+
+    .map_gridoperation .windtool {
+        width: 80%;
+        margin: auto;
+        /*border:1px solid #808080;*/
+        padding: 5px;
+    }
+
+        .map_gridoperation .windtool legend {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0px;
+        }
+
+        .map_gridoperation .windtool p {
+            height: 30px;
+            line-height: 30px;
+            margin: 0px;
+        }
+
+            .map_gridoperation .windtool p label {
+                margin-left: 5px;
+            }
+
+.imgselect {
+    width: 45px;
+    cursor: pointer;
+}
+/*.map_gridoperation img {
+        margin-right: 5px;
+    }*/
+
+.valuestxt {
+    color: black;
+    font-weight: bold;
+    cursor: default;
+    /*text-shadow:2px 2px 2px white;*/
+}
+
+.gridwind {
+    margin-top: -39px !important;
+    z-index: 200 !important;
+}
+
+.valuestxtSelected {
+    color: white;
+    stroke: rgb(247, 7, 7);
+    stroke-opacity: 1;
+    stroke-width: 2px;
+}
+
+.map_toolbar .map_toolbarcon .map_toolbar_item img {
+    cursor: pointer;
+}
+/*图层工具层*/
+#LayerTools {
+    width: 142px;
+    height: 104px;
+    display: none;
+}
+
+    #LayerTools ul {
+        width: 142px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+        #LayerTools ul li {
+            padding: 0px;
+            margin: 0px;
+            text-align: left;
+            float: left;
+            padding-left: 15px;
+            padding-top: 5px;
+            cursor: pointer;
+        }
+
+            #LayerTools ul li i {
+                padding-right: 5px;
+                font-size: 20px;
+                top: 6px;
+                color: #808080;
+            }
+
+            #LayerTools ul li.active i {
+                color: #1ea1fb;
+            }
+            .showobtcode{
+                cursor: pointer;
+            }
+.showobtcode:hover {
+    cursor: pointer;
+    animation: UtypePoint 0.8s infinite;
+    stroke-width: 7;
+        stroke-opacity: 0.9;
+}
+
+@keyframes UtypePoint {
+    0% {
+        stroke-width: 6;
+        stroke-opacity: 1;
+    }
+
+    25% {
+        stroke-width: 7;
+        stroke-opacity: 0.9;
+    }
+
+    50% {
+        stroke-width: 8;
+        stroke-opacity: 0.8;
+    }
+
+    75% {
+        stroke-width: 9;
+        stroke-opacity: 0.7;
+    }
+
+    100% {
+        stroke-width: 10;
+        stroke-opacity: 0.6;
+    }
+}

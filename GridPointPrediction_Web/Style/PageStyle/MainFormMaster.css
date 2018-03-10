@@ -1,0 +1,264 @@
+﻿HTML {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+HR {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BODY {
+	FONT: 13px/1.5 "微软雅黑"; COLOR: #000
+}
+INPUT {
+	FONT-SIZE: 12px
+}
+SELECT {
+	FONT-SIZE: 12px
+}
+TEXTAREA {
+	FONT-SIZE: 12px
+}
+BUTTON {
+	FONT-SIZE: 12px
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+OL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+UL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+.table {
+	BORDER-SPACING: 0; BORDER-COLLAPSE: collapse
+}
+.clear {
+	LINE-HEIGHT: 0; DISPLAY: block; HEIGHT: 0px; CLEAR: both; FONT-SIZE: 0px
+}
+A {
+	OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; FONT-FAMILY: Arial; COLOR: #000; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A.red {
+	COLOR: #ff0000
+}
+A.blue {
+	LINE-HEIGHT: 22px; COLOR: #0d09be; TEXT-DECORATION: underline
+}
+label {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+body {
+    margin: 0px auto;
+}
+.header {
+	overflow: hidden; 
+    height:170px;    
+    margin: 0px auto; 
+    width:auto;
+    max-width:1920px;
+    position:relative;
+}
+.header-menu {
+     position:absolute;
+     width:100%;
+     height:106px;
+     background:url(../../Images/NewPageImage/levelmenu_bg.png) repeat-x;
+     top:90px;
+     bottom:0px;
+}
+.headerwrapper {
+    margin: 0px auto; 
+    width: 1920px;
+    background:url(../../Images/NewPageImage/banner_img.png) no-repeat center;
+    position:relative;
+    height:140px;
+}
+.header .logo {
+    overflow: hidden;
+	width: 784px;
+    height:100px;
+    position:absolute;
+    top:12px;
+    left:10px;
+    background:url(../../Images/NewPageImage/logoandname.png) no-repeat;
+}
+ .headermemu{
+    position:absolute;
+    top:118px;
+    height:106px;
+ }
+ .headermemu img{
+     float:left;
+ }
+ .headermemu span a{
+    display:inline-block;
+    width:188px;
+    height:52px;
+    float:left;
+    cursor:pointer;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+    line-height:44px;
+    font-family:微软雅黑;
+    font-size:17px;
+}
+.headermemu span a:hover {
+      background:url(../../Images/NewPageImage/levelmenu_select.png) no-repeat;
+      color:white;
+      text-decoration:none;
+}
+ .headermemu span a.hover {
+      background:url(../../Images/NewPageImage/levelmenu_select.png) no-repeat;
+      text-decoration:none;
+      color:white;
+}
+
+#SecondLevelMenu {
+    /*padding: 10px;*/
+    width: 290px;
+    height: 600px;
+    background: white;
+    /*margin-bottom:20px;*/
+    float: left;
+    display: none;
+}
+#SecondLevelMenu img{
+     float:left;
+ }
+#SecondLevelMenu span a{
+    display:inline-block;
+    width:290px;
+    height:46px;
+    padding-left: 90px;
+    float:left;
+    cursor:pointer;
+    color:white;
+    text-align:left;
+    font-weight:bold;
+    line-height:44px;
+    font-family:微软雅黑;
+    font-size:14px;
+    color:blue;    
+}
+#SecondLevelMenu span a:hover {
+      /*background:url(../../Images/NewPageImage/levelmenu_select.png) no-repeat;*/
+      background-color:#f04132;
+      color:white;
+      opacity:0.6;
+      text-decoration:none;
+}
+#SecondLevelMenu span a.hover {
+      /*background:url(../../Images/NewPageImage/levelmenu_select.png) no-repeat;*/
+      background-color:#f04132;
+      text-decoration:none;
+      color:white;
+}
+
+
+
+.subNav {
+    background: url(../../Images/NewPageImage/jiantou1.jpg) no-repeat;
+    background-position: 95% 50%;
+    width:290px;
+    height:46px;
+    line-height:44px;
+    padding-left: 90px;
+    float:left;
+    cursor:pointer;
+    color:blue;
+    text-align:left;
+    font-weight:bold;
+    font-family:微软雅黑;
+    font-size:14px;
+}
+
+.currentDd {
+    color: blue;
+}
+
+.currentDt {
+    background-image: url(../../Images/NewPageImage/jiantou.jpg);
+    border-bottom: solid 1px #e5e3da;
+}
+
+.navContent {
+    display: none;
+    display: block;   
+    font-family: 微软雅黑;
+    font-size: 14px;
+    font-weight: bold;
+    color:#277fc2;
+    float: left;
+}
+#bottomSecondMenu {
+    background: white;
+    float: left;
+}
+
+    #bottomSecondMenu ul li {
+        height: 38px;
+        width: 290px;
+        padding-top: 10px;
+        padding-left: 115px;
+        cursor:pointer;
+    }
+
+        #bottomSecondMenu ul li:hover {
+            background-color: #f04132;
+            color: white;
+            opacity: 0.6;
+            text-decoration: none;
+            cursor:pointer;
+        }
+
+        #bottomSecondMenu ul li.hover {
+            background-color: #f04132;
+            text-decoration: none;
+            color: white;
+            cursor:pointer;
+        }

@@ -1,0 +1,137 @@
+﻿.time_selectbox{
+    height:52px;
+    background:#fff;
+    border-radius:9px;
+    padding-left:25px!important;
+    color:#296E9B;
+    margin-bottom:8px;
+}
+* {
+    font-family: "微软雅黑" !important;
+}
+#datetimePicker_div input{
+    width:90px!important;
+}
+#datetimePicker_div select{
+    width:45px!important;
+}
+#datetimePicker_div input,#datetimePicker_div select{
+    color:#000;
+    font-size:12px;
+    text-align:center;
+    background:#E9E5E2;
+    border-radius:4px;
+    border:1px solid #C7C6C2;
+}
+.btn_divup,.btn_divdown{
+    width:50px;
+    height:24px;
+    line-height:24px;
+    text-align:center;
+    display:inline-block;
+    background:linear-gradient(top, #DCF5F9,#D2EEFF,#BAE7FE);
+    background:-moz-linear-gradient(left, #73AAD6,#ADCBE7,#D6E3EF);
+    background:-webkit-linear-gradient(top, #DCF5F9,#D2EEFF,#BAE7FE);
+    background:-ms-linear-gradient(left, #73AAD6,#ADCBE7,#D6E3EF);
+    border:1px solid #C8E5F0;
+    border-radius:4px;
+    font-size:12px;
+    margin:0px 10px 0px 10px;
+}
+.btn_divup a,.btn_divdown a{
+    color:#155F82;
+}
+.time_selectbox .active{
+    width:50px;
+    height:24px;
+    line-height:24px;
+    text-align:center;
+    display:inline-block;
+    background:#2981FF;
+    border:1px solid #2471E6;
+    border-radius:4px;
+    font-size:12px;
+}
+.time_selectbox .active a{
+    color:#fff!important;
+}
+
+
+/*预报时次*/
+.predictTime{
+    display:inline-block;
+    margin:0px -15px 0px 60px;
+}
+#predictTime_table{
+    display:inline-block;
+    margin-top:4px;
+}
+#playerContainer_td{
+    width:280px!important;
+    position:relative;
+    top:-10px;
+}
+#table_date{
+    color:#fff;
+    font-size:11px;
+    font-weight:400;
+}
+#table_date td span{
+    background-color:#1E8DDC;
+    display:inline-block;
+    margin:0px!important;
+    text-align:center;
+    height:19px;
+    line-height:20px;
+    font-size:11px;
+}
+#flash_img{
+    position:relative;
+    top:-22px;
+    left:-45px;
+}
+#flash_img img{
+    width:45px;
+}
+
+.map_box{
+    background:#fff;
+    border-radius:9px;
+    height:660px;
+}
+.row{
+    padding:8px;
+}
+.map{
+    height:644px;
+    border:1px solid #B5CFE8;
+    padding:0!important;
+}
+.map .predict_time{
+    display:inline-block;
+    width:200px;
+    height:18px;
+    line-height:18px;
+    text-align:center;
+    font-weight:bold;
+    font-size:12px;
+    background-color:#ADDBE7;
+    position:absolute;
+    top:25px;
+    right:20px;
+}
+.map .imgNote{
+    position:absolute;
+    right:0;
+    top:405px;
+}
+.lineChart{
+    
+    height:644px;
+    border:1px solid #B5CFE8;
+}
+
+
+
+
+

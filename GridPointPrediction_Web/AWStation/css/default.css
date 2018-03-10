@@ -1,0 +1,81 @@
+﻿ body{ font-family:微软雅黑; background-color:#D9EBF7}
+.blueButton{background-image:url(/images/zone_a.gif);  outline:none; background-repeat:no-repeat;  width:71px;  height:21px; border-style:none; cursor:pointer}
+.blueButton:hover,.blueButton:lang(chked){background-image:url(/images/zone_a_hover2.gif);color:White;}
+
+.blueRadiusButton,.blueRadiusButton:lang(uchked){    
+    width: 50px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    background: linear-gradient(top, #DCF5F9,#D2EEFF,#BAE7FE);
+    background: -moz-linear-gradient(left, #73AAD6,#ADCBE7,#D6E3EF);
+    background: -webkit-linear-gradient(top, #DCF5F9,#D2EEFF,#BAE7FE);
+    background: -ms-linear-gradient(left, #73AAD6,#ADCBE7,#D6E3EF);
+    border: 1px solid #C8E5F0;
+    border-radius: 4px;
+    margin-right:5px;
+    font-size: 12px;
+    color:#296E9B;
+    outline:none;
+
+}
+.blueRadiusButton:hover,.blueRadiusButton:lang(chked){
+    width: 50px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: inline-block;
+    background: #2981FF;
+    border: 1px solid #2471E6;
+    border-radius: 4px;
+    font-size: 12px;
+    color:#fff;
+    outline:none;
+}
+
+
+.whiteSmallButton{background-image:url('/images/shortSeaButton.png'); color:#4483CD; font-weight:bolder; outline:0 none !important;  background-repeat:no-repeat; width:44px;  height:29px; border-style:none;cursor:pointer}
+.whiteSmallButton:hover,.whiteSmallButton:lang(chked){background-image:url('/images/shortSeaButton_chked.png');}
+.whiteMiddleButton{background-image:url('/images/midSeaButton.png'); color:#4483CD; font-weight:bolder; outline:0 none !important;  background-repeat:no-repeat; width:71px;  height:29px; border-style:none;cursor:pointer}
+.whiteMiddleButton:hover,.whiteMiddleButton:lang(chked) {background-image: url('/images/midSeaButton_chked.png'); }
+.whiteBigButton{background-image:url('/images/seaButton.png'); color:#4483CD; font-weight:bolder;outline:0 none !important; background-repeat:no-repeat; width:85px;  height:29px; border-style:none;cursor:pointer}
+.whiteBigButton:hover,.whiteBigButton:lang(chked){background-image:url('/images/seaButton_chked.png');}
+
+.clothesBoxTitle{height:16px; background:#3C7EDC;font-size: 15px;  color:White;  text-align:center; cursor:pointer}
+
+.boxShadow{box-shadow: 0px 5px 10px #adadad;}
+
+a {color: #000000; vertical-align:baseline;} 
+a:link { text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {color: red; text-decoration:none;}  
+a:active{color: red;text-decoration:none; }  
+a[onclick] {cursor:pointer;}
+a[onclick]:hover{color:Red;cursor:pointer;}
+
+.radio_left { padding:3px; text-align:center;outline:0 none !important; border:1px solid #479DE8;display:inline-block;border-radius:5px 0 0 5px;box-shadow: 0 3px 10px #adadad; margin-right:0;}
+.radio_center{padding:3px; text-align:center;outline:0 none !important; background-color:#F1F3F3;display:inline-block; border:1px solid #479DE8; border-left:none; box-shadow:2px 2px 10px #adadad;  margin-right:0;}
+.radio_right{ padding:3px; text-align:center;outline:0 none !important; background-color:#F1F3F3; display:inline-block; border-radius:0 5px 5px 0;box-shadow: 2px 2px 10px #adadad; border:1px solid #479DE8;border-left:none; margin-left:0;}
+.radio_left:lang(chked),.radio_center:lang(chked),.radio_right:lang(chked){background-color:#479DE8; color:#fff }
+.radio_left:lang(chked) a,.radio_center:lang(chked) a,.radio_right:lang(chked) a{background-color:#479DE8; color:#fff }
+
+text[text-decoration="none"] {text-shadow: #edeaea 1px 0 0,#edeaea 0 1px 0,#edeaea -1px 0 0,#edeaea 0 -1px 0;filter:glow(color=white,strength=5);}
+ #ex1Slider .slider-selection {
+            background: #3C7EDC;
+        }
+
+        #ex1Slider .slider-track-high {
+            background: #BABABA;
+        }
+
+        .slider-tick {
+            background: #BABABA;
+        }
+
+        .table_footer td {
+            border: 1px solid #C3C3C3;
+            width: 20px;
+            text-align: center;
+        }
+

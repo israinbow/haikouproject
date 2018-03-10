@@ -1,0 +1,658 @@
+﻿* {
+    font-family: "Microsoft YaHei ";
+}
+
+ul li {
+    list-style: none;
+}
+
+#map {
+    min-height: 400px;
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+}
+
+#mapid {
+    /*height: 100%;*/
+    width: 100%;
+    margin-top: 0px;
+}
+
+#mapup {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -6px;
+    z-index: 999999999;
+    background: rgba(255, 255, 255, 0);
+}
+
+.mapcircle {
+    position: absolute;
+    z-index: 99999999999;
+}
+
+.layui-layer-title {
+    background: #208dde !important;
+    height: 40px !important;
+    line-height: 35px !important;
+}
+
+/*时次选择*/
+#TimeChoice {
+    padding: 5px;
+    width: 380px;
+    /*height: 350px;*/
+    background: white;
+    /*margin-bottom:20px;*/
+    float: left;
+    display: none;
+    /*cursor: pointer;*/
+    border-radius: 20px;
+}
+
+.tc_forestTime {
+    float: left;
+    width: 380px;
+    margin: 0px auto;
+    height: 40px;
+    line-height: 40px;
+}
+
+    .tc_forestTime input {
+        float: left;
+        height: 32px;
+        line-height: 32px;
+        width: 120px;
+        margin-top: 6px;
+        margin-left: 8px;
+        /*text-align:center;*/
+        font-weight: bold;
+    }
+
+    .tc_forestTime ul {
+        padding: 0px;
+        float: left;
+        height: 40px;
+        line-height: 40px;
+    }
+
+        .tc_forestTime ul li {
+            float: left;
+            margin-left: 12px;
+        }
+
+            .tc_forestTime ul li button {
+                padding: 0px;
+                width: 69px;
+                height: 33px;
+                background: url(../../Images/NewPageImage/bg_btnhour.png) no-repeat;
+                border: 0px #1ea1fb solid;
+                color: #13598f;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                /*font-weight: bold;*/
+                background-color: white;
+                box-shadow: none;
+                outline: none;/*去除按钮的外框线*/
+            }
+
+                .tc_forestTime ul li button:focus, .tc_forestTime ul li button:hover, .tc_forestTime ul li button:active, .tc_forestTime ul li button:active:focus {
+                    padding: 0px;
+                    width: 69px;
+                    height: 33px;
+                    background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+                    border: 0px #1ea1fb solid;
+                    color: white;
+                    font-family: 微软雅黑;
+                    font-size: 14px;
+                    /*font-weight: bold;*/
+                    background-color: white;
+                    box-shadow: none;
+                    outline: none;
+                }
+
+                .tc_forestTime ul li button.active {
+                    padding: 0px;
+                    width: 69px;
+                    height: 33px;
+                    background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+                    border: 0px #1ea1fb solid;
+                    color: white;
+                    font-family: 微软雅黑;
+                    font-size: 14px;
+                    /*font-weight: bold;*/
+                    background-color: white;
+                    box-shadow: none;
+                    outline: none;
+                }
+
+                    .tc_forestTime ul li button.active.focus, .tc_forestTime ul li button.active:focus, .tc_forestTime ul li button.active:hover, .tc_forestTime ul li button:active.focus, .tc_forestTime ul li button:active:focus, .tc_forestTime ul li button:active:hover {
+                        padding: 0px;
+                        width: 69px;
+                        height: 33px;
+                        background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+                        border: 0px white solid;
+                        color: white;
+                        font-family: 微软雅黑;
+                        font-size: 14px;
+                        /*font-weight: bold;*/
+                        background-color: white;
+                        box-shadow: none;
+                        outline: none;
+                    }
+
+.Prescription {
+    width: 380px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px;
+}
+
+    .Prescription ul {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        padding: 0px;
+    }
+
+        .Prescription ul li {
+            float: left;
+            margin-left: 5px;
+        }
+
+            .Prescription ul li button {
+                padding: 0px;
+                width: 48px;
+                height: 33px;
+                background-image: url(../../Images/NewPageImage/bg_btnday.png);
+                border: none;
+                color: #13598f;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+                .Prescription ul li button:focus, .Prescription ul li button:hover, .Prescription ul li button:active, .Prescription ul li button:active:focus {
+                    padding: 0px;
+                    width: 48px;
+                    height: 33px;
+                    background-image: url(../../Images/NewPageImage/bg_btnday_s.png);
+                    border: none;
+                    color: white;
+                    font-family: 微软雅黑;
+                    font-size: 14px;
+                    background-color: white;
+                    box-shadow: none;
+                    outline: none;
+                }
+
+            .Prescription ul li.active button {
+                padding: 0px;
+                width: 48px;
+                height: 33px;
+                background-image: url(../../Images/NewPageImage/bg_btnday_s.png);
+                border: none;
+                color: white;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+            .Prescription ul li button.active.focus, .Prescription ul li button.active:focus, .Prescription ul li button.active:hover, .Prescription ul li button:active.focus, .Prescription ul li button:active:focus, .Prescription ul li button:active:hover{
+                padding: 0px;
+                width: 48px;
+                height: 33px;
+                background-image: url(../../Images/NewPageImage/bg_btnday_s.png);
+                border: none;
+                color: white;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+.ybsx {
+    width: 365px;
+    margin: 0px;
+    background: white;
+    float: left;
+    padding: 0px;
+    margin-top: 10px;
+    border-radius: 0px;
+}
+
+    .ybsx ul {
+        float: left;
+        width: 365px;
+        padding: 0px;
+    }
+
+        .ybsx ul li {
+            float: left;
+            text-align: center;
+            width: 52px;
+            height: 52px;
+            line-height: 52px;
+            /*margin-left: 2px;
+            margin-right: 7px;*/
+        }
+
+            .ybsx ul li button {
+                text-align: center;
+                padding: 0px;
+                width: 52px;
+                height: 52px;
+                background: url(../../Images/NewPageImage/bg_btn24hour.png) no-repeat;
+                border:1px solid #bde2f9;
+                color: #13598f;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                border-radius:0px;
+                /*outline:thin dotted;
+                outline:5px auto #bde2f9;
+                outline-offset:-2px;*/
+            }
+
+                .ybsx ul li button:focus, .ybsx ul li button:hover, .ybsx ul li button:active, .ybsx ul li button:active:focus, .ybsx ul li button.active:focus {
+                    background: url(../../Images/NewPageImage/bg_btn24hour_s.png) no-repeat;
+                    border: 1px solid #bde2f9;
+                    color: white;
+                    font-family: 微软雅黑;
+                    font-size: 14px;
+                    background-color: white;
+                    box-shadow: none;
+                    outline: none;
+                    border-radius:0px;
+                }
+
+            .ybsx ul li.active button {
+                background: url(../../Images/NewPageImage/bg_btn24hour_s.png) no-repeat;
+                border: 1px solid #bde2f9;
+                color: white;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+                border-radius:0px;
+            }
+
+            .ybsx ul li.disabled button {
+                /*background: url(../../Images/NewPageImage/bg_btn24hour_disable.png) no-repeat;*/
+                background: #8B8989;
+                color:white;
+                cursor: not-allowed;
+                border: 1px solid #bde2f9;
+                border-radius:0px;
+            }
+
+.BtncopyData {
+    width: 370px;
+    float: left; 
+    height: 36px; 
+    margin-top: 3px;
+    padding-left:30px;    
+}
+    .BtncopyData button {
+        width:160px;
+        height:36px;
+        line-height:36px;
+        background: url(../../Images/NewPageImage/bg_btncopy_next.png) no-repeat;
+        padding:0px;
+        border: none;
+        color: white;
+        font-family: 微软雅黑;
+        font-size: 14px;
+        box-shadow: none;
+        outline: none;
+    }
+        .BtncopyData button:focus, .BtncopyData button:hover, .BtncopyData button:active, .BtncopyData button:active:focus, .BtncopyData button.active:focus {
+            width: 160px;
+            height: 36px;
+            line-height: 36px;
+            background: url(../../Images/NewPageImage/bg_btncopy_next.png) no-repeat;
+            padding: 0px;
+            border: none;
+            color: #f04132;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            box-shadow: none;
+            outline: none;
+        }
+
+.forcastinfo {
+    opacity: 1;
+    color: white;
+    font-family: 微软雅黑;
+    font-size: 15px;
+    padding-top:10px;
+    z-index:999999
+}
+
+.layui-layer-hui .layui-layer-content {
+    background-color: #208dde;
+    opacity: 0.7;
+}
+
+
+/*要素选择*/
+.map_toolbar {
+    /*border: 1px solid red;*/
+    position: absolute;
+    z-index: 1000;
+    top: 5px;
+    right: 18px;
+}
+
+.map_toolbarcon {
+    /*width: 1000px;*/
+    height: 60px;
+    line-height: 80px;
+    background-color: #208dde;
+    /*padding:8px;*/
+}
+
+.map_toolbar_item {
+    /*margin-top: 2px;*/
+    height: 50px;
+    line-height: 50px;
+    /*margin-left: 8px;*/
+    padding: 0px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.toolbar_btn {
+    position: absolute;
+    z-index: 1000;
+    top: 70px;
+    right: 410px;
+    min-width: 270px;
+    /*height: 50px;
+    line-height: 50px;*/
+    background: white;
+    border: 1px solid #5abcff;
+}
+
+    .toolbar_btn ul {
+        padding: 0px;
+        float: left;
+        height: 33px;
+        line-height: 33px;
+        margin-top: 9px;
+    }
+
+        .toolbar_btn ul li {
+            float: left;
+            margin-left: 12px;
+        }
+
+            .toolbar_btn ul li button {
+                width: 68px;
+                height: 33px;
+                line-height: 19px;
+                background: url(../../Images/NewPageImage/bg_save.png) no-repeat;
+                border: 0px #1ea1fb solid;
+                color: white;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+                .toolbar_btn ul li button:focus, .toolbar_btn ul li button:hover, .toolbar_btn ul li button:active, .toolbar_btn ul li button:active:focus {
+                    width: 68px;
+                    height: 33px;
+                    line-height: 19px;
+                    background: url(../../Images/NewPageImage/bg_save.png) no-repeat;
+                    border: 0px #1ea1fb solid;
+                    color: #f04132;
+                    font-family: 微软雅黑;
+                    font-size: 14px;
+                    background-color: white;
+                    box-shadow: none;
+                    outline: none;
+                }
+
+            .toolbar_btn ul li.disabled button {
+                width: 68px;
+                height: 33px;
+                line-height: 19px;
+                background: url(../../Images/NewPageImage/bg_release_disable.png) no-repeat;
+                color: white;
+                cursor: not-allowed;
+                border: 0px #1ea1fb solid;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+/*#btnsave {
+    width: 68px;
+    height: 33px;
+    line-height: 19px;
+    background: url(../../Images/NewPageImage/bg_save.png) no-repeat;
+    border: 0px #1ea1fb solid;
+    color: white;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    background-color: white;
+    box-shadow: none;
+    outline: none;
+    margin-left: 10px;
+}
+
+    #btnsave:focus, #btnsave:hover, #btnsave:active, #btnsave:active:focus {
+        color: #f04132;
+    }
+
+#btnsave.disabled, #btnsave.disabled:hover,#btnsave.disabled:focus {
+    background: url(../../Images/NewPageImage/bg_release_disable.png) no-repeat;
+    color: white;
+    cursor: not-allowed;
+}*/
+
+.forcastproduct:hover {
+    color:#f04132;
+}
+.forcastproduct.hover {
+    color:#f04132;
+}
+.map_gridoperation {
+    position: absolute;
+    z-index: 1000;
+    top: 135px;
+    right: 410px;
+    min-width: 270px;
+    /*height: 50px;
+    line-height: 50px;*/
+    background: white;
+    border: 1px solid #5abcff;
+}
+
+    .map_gridoperation label._title {
+        margin-left: 10px;
+        font-size: 14px;
+        display: inline !important;
+    }
+
+    .map_gridoperation label:not(._title) {
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    .map_gridoperation span {
+        display: block;
+        float: left;
+        text-align: center;
+        margin-left: 8px;
+    }
+
+    .map_gridoperation .windtool {
+        width: 80%;
+        margin: auto;
+        /*border:1px solid #808080;*/
+        padding: 5px;
+    }
+
+        .map_gridoperation .windtool legend {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0px;
+        }
+
+        .map_gridoperation .windtool p {
+            height: 30px;
+            line-height: 30px;
+            margin: 0px;
+        }
+
+            .map_gridoperation .windtool p label {
+                margin-left: 5px;
+            }
+
+.imgselect {
+    width: 45px;
+    cursor: pointer;
+}
+
+    .imgselect img.disabled {
+        cursor: not-allowed;
+    }
+/*.map_gridoperation img {
+        margin-right: 5px;
+    }*/
+
+.valuestxt {
+    color: black;
+    font-weight: bold;
+    cursor: default;
+    margin-left: -15px !important;
+    /*text-shadow:2px 2px 2px white;*/
+}
+
+.gridwind {
+    margin-top: -39px !important;
+    z-index: 200 !important;
+}
+
+.valuestxtSelected {
+    color: #ff7002;
+    stroke: rgb(255, 112, 2);
+    stroke-opacity: 1;
+    stroke-width: 2px;
+}
+
+.map_toolbar .map_toolbarcon .map_toolbar_item img {
+    cursor: pointer;
+    border-radius: 0px;
+}
+/*图层工具层*/
+#LayerTools {
+    width: 380px;
+    height: 48px;
+    display: none;
+}
+
+    #LayerTools ul {
+        width: 380px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+        #LayerTools ul li {
+            padding: 0px;
+            margin: 0px;
+            text-align: left;
+            float: left;
+            padding-left: 12px;
+            padding-top: 5px;
+            cursor: pointer;
+        }
+
+            #LayerTools ul li i {
+                padding-right: 5px;
+                font-size: 20px;
+                top: 6px;
+                color: #808080;
+            }
+
+            #LayerTools ul li.active i {
+                color: #1ea1fb;
+            }
+            #LayerTools ul li button {
+                width: 113px;
+                height: 36px;
+                line-height: 36px;
+                background: url(../../Images/NewPageImage/bg_aws.png) no-repeat;
+                padding: 0px;
+                border: none;
+                color: #13598f;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                box-shadow: none;
+                outline: none;
+            }
+                #LayerTools ul li button:focus, #LayerTools ul li button:hover, #LayerTools ul li button:active, #LayerTools ul li button:active:focus, #LayerTools ul li button.active:focus {
+                    width: 113px;
+                    height: 36px;
+                    line-height: 36px;
+                    background: url(../../Images/NewPageImage/bg_aws_s.png) no-repeat;
+                    padding: 0px;
+                    border: none;
+                    color: white;
+                    font-family: 微软雅黑;
+                    font-size: 14px;
+                    box-shadow: none;
+                    outline: none;
+                }
+.showobtcode {
+    cursor: pointer;
+}
+
+    .showobtcode:hover {
+        cursor: pointer;
+        animation: UtypePoint 0.8s infinite;
+        stroke-width: 7;
+        stroke-opacity: 0.9;
+    }
+
+@keyframes UtypePoint {
+    0% {
+        stroke-width: 6;
+        stroke-opacity: 1;
+    }
+
+    25% {
+        stroke-width: 7;
+        stroke-opacity: 0.9;
+    }
+
+    50% {
+        stroke-width: 8;
+        stroke-opacity: 0.8;
+    }
+
+    75% {
+        stroke-width: 9;
+        stroke-opacity: 0.7;
+    }
+
+    100% {
+        stroke-width: 10;
+        stroke-opacity: 0.6;
+    }
+}

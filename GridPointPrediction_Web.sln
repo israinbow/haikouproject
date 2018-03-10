@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridPointPrediction_Web", "GridPointPrediction_Web\GridPointPrediction_Web.csproj", "{D6878CB4-9E02-4D0D-AA02-48FD486F2912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{4EA4E9CF-3700-4DA2-A97C-E9F3BA1F5210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{5184CE1F-9182-4BA4-B259-ACA0048BE050}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{295FA305-6D19-4120-9E67-859AB4B48313}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{0A2BD12E-6151-428A-B692-BEC4B92B5A92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{9ED75698-CD94-4712-86FF-D1E4E02F9D1D}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 7
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GridPointPrediction_Web\\GridPointPrediction_Web.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = GridPointPrediction_Web\\
+		SccProjectUniqueName2 = DAL\\DAL.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = DAL\\
+		SccProjectUniqueName3 = BLL\\BLL.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = BLL\\
+		SccProjectUniqueName4 = Common\\Common.csproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = Common\\
+		SccProjectUniqueName5 = Models\\Models.csproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = Models\\
+		SccProjectUniqueName6 = API\\API.csproj
+		SccProjectName6 = \u0022$/海口市山洪地质灾害防御系统/海口市山洪地质灾害防御系统源代码/GridPointPrediction_Web/API\u0022,\u0020HOVAAAAA
+		SccLocalPath6 = API
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6878CB4-9E02-4D0D-AA02-48FD486F2912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6878CB4-9E02-4D0D-AA02-48FD486F2912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6878CB4-9E02-4D0D-AA02-48FD486F2912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6878CB4-9E02-4D0D-AA02-48FD486F2912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA4E9CF-3700-4DA2-A97C-E9F3BA1F5210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA4E9CF-3700-4DA2-A97C-E9F3BA1F5210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA4E9CF-3700-4DA2-A97C-E9F3BA1F5210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA4E9CF-3700-4DA2-A97C-E9F3BA1F5210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5184CE1F-9182-4BA4-B259-ACA0048BE050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5184CE1F-9182-4BA4-B259-ACA0048BE050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5184CE1F-9182-4BA4-B259-ACA0048BE050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5184CE1F-9182-4BA4-B259-ACA0048BE050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{295FA305-6D19-4120-9E67-859AB4B48313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295FA305-6D19-4120-9E67-859AB4B48313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295FA305-6D19-4120-9E67-859AB4B48313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295FA305-6D19-4120-9E67-859AB4B48313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2BD12E-6151-428A-B692-BEC4B92B5A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2BD12E-6151-428A-B692-BEC4B92B5A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2BD12E-6151-428A-B692-BEC4B92B5A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2BD12E-6151-428A-B692-BEC4B92B5A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ED75698-CD94-4712-86FF-D1E4E02F9D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED75698-CD94-4712-86FF-D1E4E02F9D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED75698-CD94-4712-86FF-D1E4E02F9D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED75698-CD94-4712-86FF-D1E4E02F9D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

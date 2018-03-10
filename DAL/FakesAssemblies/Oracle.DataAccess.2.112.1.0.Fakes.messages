@@ -1,0 +1,524 @@
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.TZInfo 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.TimeStampConv 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.TimeStamp 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoTSCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleTimeStampTZ 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleBFile 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoSubscrCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.SubscrListenerInfo 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsSubscr 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoObjValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoObjRefCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsObj 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoDatValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsDat 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoDacValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsDac 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleError 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoErrCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsErr 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoDscValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoDscRefCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.AttrMetaVal 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.AttrMetaRef 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsDsc 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleXmlQueryProperties 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleNotificationEventArgs 生成存根: 类型没有系列可见的构造函数。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoUdtAttrValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoUdtValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoUdtCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsUdt 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraclePermissionAttribute 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 resfinder 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleConnection 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleInfoMessageEventHandler 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleFailoverEventHandler 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraFailoverCallback_FPtr 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.FetchArrayGetCallbackFuncPtr 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.FetchArrayPutCallbackFuncPtr 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleHAEventHandler 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ConAttrib 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.PromotableTxnMgr 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.FetchArrayPooler 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.BatchUpdateHelper 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleUdtDescriptor 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleRefCursor 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleIntervalDS 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoIDSCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.ITLMethods 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleDate 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoDatCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsTrace 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsInit 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.RefErr 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsRef 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OPOBulkCopyRefCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OPOBulkCopyColRefCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OPOBulkCopyColCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OPOBufferNode 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OPOBulkCopyValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OPOBulkCopyObjCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsBC 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleInfoMessageEventArgs 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.StatementDetails 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleTuningAgent 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleBulkCopy 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleRowsCopiedEventHandler 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQMessageAvailableEventHandler 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OnAQNTFNCallback 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleGlobalConstants 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleXmlCommandType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraLobType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraRefCursorState 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleDbType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.CustomTypeCode 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraSqlCS 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleParameterStatus 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.FailoverType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.FailoverEvent 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.FailoverReturnCode 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleCollectionType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.DataProviderInfo 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.SQLT 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OciTypeCode 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoExecutionMode 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoStmtType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.PrmEnumType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.DBAPrivType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraGlobInfo 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraGlobType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OSAuthent 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ConCache 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.HAEventType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.RLBMetricsFlag 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.RLBMsgStatus 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleNotificationType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleNotificationSource 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleNotificationInfo 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleRowidInfo 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleDBStartupMode 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleDBShutdownMode 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleBulkCopyOptions 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraclePublicKey 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ODPType 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ConfigInfo 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleHAEventSource 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleHAEventStatus 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQMessageType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQMessageState 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQDequeueMode 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQNavigationMode 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQVisibilityMode 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQMessageDeliveryMode 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQNotificationGroupingType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQNotificationType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.NotificationDefaults 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.EnqOptsInfo 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.DeqOptsInfo 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.DotNetNumericAccessor 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleUdtStatus 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleUdtFetchOption 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleXmlType 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleArrayMappingAttribute 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.Number 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.DecimalInfo 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.DecimalConv 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.DateTimeConv 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.TimeSpanConv 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.LongConv 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.NumberType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.NumberErr 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsDec 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoConValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoConRefCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.PooledConCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.TxnType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoConCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoHACtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoRLBCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsCon 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleResourcePool 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleFailoverEventArgs 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleHAEventArgs 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleDataSourceEnumerator 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsStr 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.PoolMember 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ConnDataPool 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.Pooler 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ConPooler 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleParameter 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraDb_DbTypeTable 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleDataAdapter 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleRowUpdatingEventHandler 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleRowUpdatedEventHandler 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleConnectionStringBuilder 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleCommand 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.CThreadPool 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.CmdTimeoutCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleClientFactory 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleBulkCopyColumnMapping 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQMessage 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ErrRes 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleNullValueException 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleClob 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleBlob 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleTransaction 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleResourceHolder 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleUdtWrapper 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.LobProperties 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoLobValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsLob 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleXmlSaveProperties 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.PerfCounterLevel 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraTrace 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.MiniDumpInfo 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleInit 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraclePerfCounter 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleRef 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.UTF8CommandText 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.DacDef 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoSqlValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsSql 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleTimeStamp 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleCustomTypeMappingAttribute 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsTSL 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsIYM 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleDatabase 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleRowUpdatingEventArgs 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleErrorCollection 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleDataReader 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleTypeMapper 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OnChangeEventHandler 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OnChangeCallback 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQEnqueueOptions 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleObjectMappingAttribute 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoTSValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.TimeStampType 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.DateTimeErr 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsTS 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsTSA 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQConst 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQEnqOptionsValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQDeqOptionsRefCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQDeqOptionsValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQMsgPropsValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQMsgPropsRefCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQMsgValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQMsgIdValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQDequeueArrayPtrs 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQAgentRefCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQNtfnDataRefCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsAQ 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraGlobStruct 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleGlobalization 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQAgent 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoPrmValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoPrmCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsPrm 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleBulkCopyColumnMappingCollection 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleDecimal 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoDecCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoTxnValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsTxn 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsTSZ 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ColMetaVal 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ColMetaRef 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoMetValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoMetRefCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.MetaData 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsMet 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleException 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoErrResManager 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleNotificationRequest 生成存根: 类型没有系列可见的构造函数。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleXmlStream 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleTimeStampLTZ 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleIntervalYM 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoIYMCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsRow 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleRowUpdatedEventArgs 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleCommandBuilder 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.DeriveParamInfo 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQDequeueOptions 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.Counter 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ConnectionPool 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ConnectionDispenser 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraHACallbackFuncPtr 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraRLBCallbackFuncPtr 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.RLBCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.RLBMetrics 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.RLBMetricsComparer 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.CPCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.CallbackHashCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.EncryptedPassword 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleTruncateException 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoXmlTypeValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoXmlTypeRefCtx 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsXmlType 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoXmlStreamReadParamList 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsXmlStream 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsRes 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsBool 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsInd 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsCom 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.NotiVal 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.NotiTblVal 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.NotiTblRef 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.NotiRowVal 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.NotiRowRef 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsChgNTFN 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleString 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleBinary 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.CompareNullEnum 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.InternalTypes 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.Interval 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoITLValCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.IDSCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.IYMCtx 生成存根: 类型是一个值类型。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsIDS 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsITL 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsBin 生成存根: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraclePermission 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraclePerfCounterCollection 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleParameterCollection 生成存根: 类型已密封。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 <PrivateImplementationDetails>{04E86BD9-5DFC-40B8-A6E8-1BC395995A2C} 生成存根: 类型不受支持，因为存在内部限制。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.TZInfo 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.TimeStampConv 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.TimeStamp 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoTSCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.INullable 生成填充码: 类型是一个接口。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoSubscrCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.SubscrListenerInfo 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsSubscr 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoObjValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoObjRefCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsObj 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoDatValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsDat 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoDacValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsDac 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoErrCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsErr 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoDscValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoDscRefCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.AttrMetaVal 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.AttrMetaRef 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsDsc 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoUdtAttrValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoUdtValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoUdtCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsUdt 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 resfinder 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleConnection+ExtProcEnv 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleConnection+PSPEPrimaryConnectionInfo 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleConnection+ThreadData 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleInfoMessageEventHandler 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleFailoverEventHandler 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraFailoverCallback_FPtr 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.FetchArrayGetCallbackFuncPtr 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.FetchArrayPutCallbackFuncPtr 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleHAEventHandler 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ConAttrib 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.PromotableTxnMgr 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.FetchArrayPooler 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.BatchUpdateHelper 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleUdtDescriptor 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoIDSCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.ITLMethods 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoDatCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsTrace 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsInit 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.RefErr 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsRef 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OPOBulkCopyRefCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OPOBulkCopyColRefCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OPOBulkCopyColCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OPOBufferNode 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OPOBulkCopyValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OPOBulkCopyObjCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsBC 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.StatementDetails 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleTuningAgent 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleBulkCopy+SourceType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleRowsCopiedEventHandler 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQQueue+EventWrapper 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQQueue+NtfnInfo 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQMessageAvailableEventHandler 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OnAQNTFNCallback 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleGlobalConstants 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleXmlCommandType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraLobType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraRefCursorState 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleDbType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.CustomTypeCode 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraSqlCS 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleParameterStatus 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.FailoverType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.FailoverEvent 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.FailoverReturnCode 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleCollectionType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.DataProviderInfo 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.SQLT 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OciTypeCode 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoExecutionMode 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoStmtType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.PrmEnumType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.DBAPrivType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraGlobInfo 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraGlobType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OSAuthent 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ConCache 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.HAEventType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.RLBMetricsFlag 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.RLBMsgStatus 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleNotificationType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleNotificationSource 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleNotificationInfo 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleRowidInfo 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleDBStartupMode 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleDBShutdownMode 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleBulkCopyOptions 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraclePublicKey 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ODPType 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ConfigInfo 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleHAEventSource 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleHAEventStatus 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQMessageType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQMessageState 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQDequeueMode 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQNavigationMode 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQVisibilityMode 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQMessageDeliveryMode 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQNotificationGroupingType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleAQNotificationType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.NotificationDefaults 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.EnqOptsInfo 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.DeqOptsInfo 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.DotNetNumericAccessor 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleUdtStatus 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleUdtFetchOption 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.IOracleCustomType 生成填充码: 类型是一个接口。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.IOracleCustomTypeFactory 生成填充码: 类型是一个接口。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.IOracleArrayTypeFactory 生成填充码: 类型是一个接口。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.Number 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.DecimalInfo 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.DecimalConv 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.DateTimeConv 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.TimeSpanConv 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.LongConv 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.NumberType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.NumberErr 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsDec 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoConValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoConRefCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.PooledConCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.TxnType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoConCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoHACtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoRLBCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsCon 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleResourcePool 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsStr 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.PoolMember 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ConnDataPool 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.Pooler 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ConPooler 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraDb_DbTypeTable 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleRowUpdatingEventHandler 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleRowUpdatedEventHandler 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.CThreadPool 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.CmdTimeoutCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ErrRes 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleResourceHolder 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OracleUdtWrapper 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.LobProperties 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoLobValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsLob 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.PerfCounterLevel 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraTrace 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.MiniDumpInfo 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleInit 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraclePerfCounter 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.UTF8CommandText 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.DacDef 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoSqlValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsSql 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsTSL 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsIYM 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleTypeMapper 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OnChangeEventHandler 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OnChangeCallback 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoTSValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.TimeStampType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.DateTimeErr 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsTS 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsTSA 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQConst 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQEnqOptionsValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQDeqOptionsRefCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQDeqOptionsValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQMsgPropsValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQMsgPropsRefCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQMsgValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQMsgIdValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQDequeueArrayPtrs 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQAgentRefCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoAQNtfnDataRefCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsAQ 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraGlobStruct 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoPrmValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoPrmCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsPrm 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OracleBulkCopyColumnMappingCollection+MappingType 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoDecCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoTxnValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsTxn 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsTSZ 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ColMetaVal 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ColMetaRef 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoMetValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoMetRefCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.MetaData 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsMet 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpoErrResManager 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoIYMCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsRow 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.DeriveParamInfo 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.Counter 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ConnectionPool 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.ConnectionDispenser 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraHACallbackFuncPtr 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraRLBCallbackFuncPtr 生成填充码: 类型是一个委托。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.RLBCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.RLBMetrics 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.RLBMetricsComparer 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.CPCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.CallbackHashCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.EncryptedPassword 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoXmlTypeValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoXmlTypeRefCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsXmlType 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoXmlStreamReadParamList 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsXmlStream 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsRes 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsBool 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsInd 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsCom 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.NotiVal 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.NotiTblVal 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.NotiTblRef 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.NotiRowVal 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.NotiRowRef 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OpsChgNTFN 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.CompareNullEnum 生成填充码: 类型是一个枚举。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.InternalTypes 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.Interval 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpoITLValCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.IDSCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.IYMCtx 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsIDS 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsITL 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Types.OpsBin 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 Oracle.DataAccess.Client.OraclePerfCounterCollection 生成填充码: 类型对 exported or assembly(Oracle.DataAccess.2.112.1.0.Fakes) 不可见。
+E:\pikaqiu\workspace\haikouproject\DAL\Fakes\Oracle.DataAccess01.fakes : warning : 无法为 <PrivateImplementationDetails>{04E86BD9-5DFC-40B8-A6E8-1BC395995A2C} 生成填充码: 类型不受支持，因为存在内部限制。

@@ -1,0 +1,1114 @@
+时间：2017-02-26 18:58:35 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 18:59:39 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 18:59:40 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 18:59:48 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:00:51 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:03:21 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:05:20 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:05:23 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:05:24 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:05:35 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:07:36 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:09:15 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:14:28 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:17:08 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:17:21 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:17:44 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:20:11 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:21:22 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:24:00 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:25:37 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:26:01 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:27:27 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:28:43 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:33:21 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:33:33 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:41:43 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:44:21 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:44:21 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:45:29 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:27 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:30 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:30 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:46:30 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:30 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12InfoList(String Strdt, String Strdt2) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 1031  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:46:30 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:30 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 281  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:46:30 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 281  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:46:30 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:30 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:46:30 Message:未将对象引用设置到对象的实例。 
+ Source:DAL 
+ StackTrace:   在 DAL.CityForecast12HourDAL.Get12HourForecaster(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 32  
+ TargetSiteSystem.String Get12HourForecaster(System.DateTime)
+时间：2017-02-26 19:46:30 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:30 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:46:30 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:30 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:46:32 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:32 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:32 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:46:32 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12InfoList(String Strdt, String Strdt2) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 1031  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:46:33 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:33 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 281  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:46:33 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 281  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:46:33 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:33 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:46:33 Message:未将对象引用设置到对象的实例。 
+ Source:DAL 
+ StackTrace:   在 DAL.CityForecast12HourDAL.Get12HourForecaster(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 32  
+ TargetSiteSystem.String Get12HourForecaster(System.DateTime)
+时间：2017-02-26 19:46:33 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:33 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:33 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12InfoList(String Strdt, String Strdt2) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 1031  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:46:33 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:33 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:46:33 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:46:33 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:48:40 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:48:45 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:48:45 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:48:45 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:48:45 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 281  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:48:45 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 281  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:48:45 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:48:45 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:48:45 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:48:45 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:48:45 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:48:45 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12InfoList(String Strdt, String Strdt2) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 1031  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:48:46 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:48:47 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:48:47 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:48:47 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:48:47 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12InfoList(String Strdt, String Strdt2) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 1031  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:48:47 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:48:47 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 281  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:48:47 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:48:47 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 281  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:48:47 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:48:47 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:48:47 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:48:47 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:48:47 Message:未将对象引用设置到对象的实例。 
+ Source:DAL 
+ StackTrace:   在 DAL.CityForecast12HourDAL.Get12HourForecaster(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 32  
+ TargetSiteSystem.String Get12HourForecaster(System.DateTime)
+时间：2017-02-26 19:48:48 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:49:42 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:49:59 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:50:00 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:50:00 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:50:00 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:50:00 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:50:00 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:50:00 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:50:00 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 281  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:50:00 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 281  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:50:00 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:50:00 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:50:00 Message:未将对象引用设置到对象的实例。 
+ Source:DAL 
+ StackTrace:   在 DAL.CityForecast12HourDAL.Get12HourForecaster(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 32  
+ TargetSiteSystem.String Get12HourForecaster(System.DateTime)
+时间：2017-02-26 19:50:02 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:50:03 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:50:03 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:50:03 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:50:03 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 281  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:50:03 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.db_GreateQuery(String strSQL) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 281  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:50:03 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:50:03 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12UserInfo() 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 60  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:50:03 Message:未将对象引用设置到对象的实例。 
+ Source:DAL 
+ StackTrace:   在 DAL.CityForecast12HourDAL.Get12HourForecaster(DateTime dt) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 32  
+ TargetSiteSystem.String Get12HourForecaster(System.DateTime)
+时间：2017-02-26 19:50:03 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:50:03 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.Get12HourForecastInfos(DateTime dt, String areaName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 186  
+ TargetSiteVoid Open()
+时间：2017-02-26 19:50:03 Message:项“EJETDB247LFSData”已添加。 (F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\GridPointPrediction_Web\web.config line 19) 
+ Source:System.Configuration 
+ StackTrace:   在 System.Configuration.BaseConfigurationRecord.EvaluateOne(String[] keys, SectionInput input, Boolean isTrusted, FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult)
+   在 System.Configuration.BaseConfigurationRecord.Evaluate(FactoryRecord factoryRecord, SectionRecord sectionRecord, Object parentResult, Boolean getLkg, Boolean getRuntimeObject, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSectionRecursive(String configKey, Boolean getLkg, Boolean checkPermission, Boolean getRuntimeObject, Boolean requestIsHere, Object& result, Object& resultRuntimeObject)
+   在 System.Configuration.BaseConfigurationRecord.GetSection(String configKey)
+   在 System.Web.HttpContext.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.GetSection(String sectionName)
+   在 System.Web.Configuration.HttpConfigurationSystem.System.Configuration.Internal.IInternalConfigSystem.GetSection(String configKey)
+   在 System.Configuration.ConfigurationManager.get_ConnectionStrings()
+   在 DAL.OracleHelper..ctor(String connName) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 35  
+ TargetSiteSystem.Object EvaluateOne(System.String[], System.Configuration.SectionInput, Boolean, System.Configuration.FactoryRecord, System.Configuration.SectionRecord, System.Object)
+时间：2017-02-26 19:50:03 Message:OracleConnection.ConnectionString is invalid 
+ Source:Oracle.DataAccess 
+ StackTrace:   在 Oracle.DataAccess.Client.OracleConnection.Open()
+   在 DAL.OracleHelper.PrepareCommand(OracleCommand command, OracleConnection connection, OracleTransaction trans, CommandType cmdType, String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 456
+   在 DAL.OracleHelper.ExecuteDataTable(String cmdText, OracleParameter[] commandParameters) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\OracleDBHelper.cs:行号 260
+   在 DAL.CityForecast12HourDAL.GetHour12InfoList(String Strdt, String Strdt2) 位置 F:\SunChao\项目\深圳气象局\精细化格点预报系统\项目\前台\GridPointPrediction_Web\DAL\CityForecast12HourDAL.cs:行号 1031  
+ TargetSiteVoid Open()

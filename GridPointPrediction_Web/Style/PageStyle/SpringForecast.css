@@ -1,0 +1,317 @@
+﻿body {
+    background:#F0F8FF;
+}
+a{
+    text-decoration:none;
+}
+* {
+    font-family: "微软雅黑" !important;
+}
+li{
+    list-style:none;
+}
+input,select{
+    outline:none;
+}
+.top {
+    width: 99.5%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+    -webkit-border-radius: 10px;
+}
+
+    .top ul {
+        padding: 0px;
+        float: left;
+        height: 33px;
+        line-height: 40px;
+        margin-top: 3px;
+    }
+
+        .top ul li {
+            float: left;
+            margin-left: 5px;
+        }
+
+            .top ul li button {
+                padding: 0px;
+                width: 69px;
+                height: 33px;
+                line-height: 33px;
+                background: url(../../Images/NewPageImage/bg_btnhour.png) no-repeat;
+                border: 0px #1ea1fb solid;
+                color: #13598f;
+                font-family: 微软雅黑;
+                font-size: 14px;
+                background-color: white;
+                box-shadow: none;
+                outline: none;
+            }
+
+                .top ul li button:focus, .top ul li button:hover, .top ul li button:active, .top ul li button:active:focus {
+                    padding: 0px;
+                    width: 69px;
+                    height: 33px;
+                    line-height: 33px;
+                    background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+                    border: 0px #1ea1fb solid;
+                    color: white;
+                    font-family: 微软雅黑;
+                    font-size: 14px;
+                    background-color: white;
+                    box-shadow: none;
+                    outline: none;
+                }
+
+                .top ul li button.active {
+                    padding: 0px;
+                    width: 69px;
+                    height: 33px;
+                    line-height: 33px;
+                    background: url(../../Images/NewPageImage/bg_btnhour_s.png) no-repeat;
+                    border: 0px #1ea1fb solid;
+                    color: white;
+                    font-family: 微软雅黑;
+                    font-size: 14px;
+                    background-color: white;
+                    box-shadow: none;
+                    outline: none;
+                }
+#publishPre {
+    width: 138px;
+    height: 31px;
+    line-height: 19px;
+    background: url(../../Images/NewPageImage/bg_publishpreview.png) no-repeat;
+    border: 0px #1ea1fb solid;
+    color: white;
+    font-family: 微软雅黑;
+    font-size: 15px;
+    background-color: white;
+    box-shadow: none;
+    outline: none;
+    margin-left: 40px;
+    margin-bottom: 3px;
+}
+.trend_predict,.nextThreeday_forecast,.nextFourtoSeven{
+    background:#fff;
+    margin:auto;
+    border: 2px solid #F5F5F5;
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+
+.xuanfu {
+    overflow: auto;
+    position: fixed;
+    height: 500px;
+    width: 850px;
+    z-index: 10;
+    top: 25%;
+    background: #fff;
+    left: 28%;
+    border: 7px solid #90CAF9;
+    background: #E3E7EB;
+}
+
+.xuanfu label{
+    margin:0;
+}
+
+.leixing {
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    width: 830px;
+    height: 25px;
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#nextThreeday_info{
+    border:1px solid #BFC4C6;
+	border-collapse: collapse;
+    width:98%;
+    font-size:13px;
+    margin:10px auto;
+}
+#nextThreeday_info th{
+    color: #005E9D;
+	background-color: #C8E6FF;
+    width:120px;
+    text-align:center;
+    height:35px;
+    line-height:35px;
+}
+
+#nextThreeday_info td{
+    height:90px;
+	border:1px solid #BFC4C6; 
+    text-align:center;
+}
+#nextThreeday_info td input{
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding:0;
+}
+#nextThreeday_info .pic{
+    padding-bottom:3px;
+    height:30px;
+}
+#nextThreeday_info tr td:nth-child(1){
+    font-size:12px;
+}
+#nextThreeday_info tr:nth-child(odd) input{
+    background:#E9F1F5;
+    border: 1px solid #E9F1F5;
+}
+#nextThreeday_info tr:nth-child(even) input{
+    background:#fff;
+    border: 1px solid #fff;
+}
+
+#nextThreeday_info tr:nth-child(odd) div,#nextThreeday_info tr:nth-child(odd) td:nth-child(2){
+    background:#E9F1F5; 
+}
+#nextThreeday_info tr:nth-child(even) div,#nextThreeday_info tr:nth-child(even) td:nth-child(2){
+    background:#fff;
+}
+
+#nextThreeday_info tbody td img{
+    display:inline-block;
+}
+#nextThreeday_info .weather label{
+    display:inline-block; 
+    margin-right:10px;
+}
+#nextThreeday_info .weather label img{
+    width:40px;
+}
+#nextThreeday_info .weather .pic{
+    display:inline-block;
+}
+#nextThreeday_info tbody td.weather{
+    text-align:center;
+}
+
+
+
+.previewContainer{
+    width:61%;
+    margin:-15px auto;
+    background:#fff;
+    text-align:center;
+    padding:70px 65px;
+    font-size:17px;
+}
+.copyright{
+    margin-top:5px;
+    border-bottom:3px solid red;
+}
+.cont1,.cont2,.cont3{
+    text-align:left;
+    font-size:16px;
+}
+.cont1 .title,.cont2 .title:first-child,.cont3 .title{
+    font-weight:bold;
+    margin-top:20px;
+    text-indent:2em;
+}
+.cont2 b,.cont2 span{
+    display:block;
+    text-indent:2em;
+    font-weight:bold;
+}
+.cont2 span.title{
+    text-indent:0;
+}
+.cont1 p,.cont2 p,.cont3 p{
+    line-height:24px;
+    text-indent:2em;
+}
+.release_time{
+    display:block;
+    font-size:16px;
+    margin:30px 0px 0px 380px;
+}
+.back{
+    display:inline-block;
+    width: 80px;
+    height: 25px;
+    line-height:25px;
+    color:#fff;
+    text-align:center;
+    background:#306FDA;
+    cursor:pointer;
+}
+
+.showInfo td .pic{
+    display:block;
+    margin-top:5px;
+}
+.showInfo td,.showInfo th{
+    font-weight:bold;
+    font-size:15px;
+    height: 60px;
+    border:1px solid #000;
+    text-align:center;
+}
+.showInfo{
+	border-collapse: collapse;
+    width:100%;
+    margin:20px auto;
+}
+.releaseReport{
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.25);
+    float: left;
+    margin-top: 20px;
+    background-color: grey;
+    text-decoration:none;
+    font-weight: normal;
+    font-style: normal;
+    outline: none;
+    font-family: "microsoft yahei";
+    font-size: 14px;
+    cursor:pointer;
+}
+.releaseReport:hover{
+    color: #fff;
+    text-decoration:none;
+    background: rgb(56, 121, 217);
+    cursor:pointer;
+}
+.eroupe {
+    width: 10%;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    margin-left: 35px;
+}
+.skystate {
+    width: 30%;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    text-align: center;
+}
+.temp, .landwindl, .seawindl {
+    width: 10.5%;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    text-align: center;
+}
+.landwindx, .seawindx {
+    width: 11.5%;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    text-align: center;
+}
+

@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>登录</title>
+    <script src="../Script/jquery-1.11.3/jquery.min.js"></script>
+    <link href="../Script/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../Script/layer/layer.js"></script>
+    <script src="../Script/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        /*.login-box {
+            width: 100%;
+            max-width: 500px;
+            height: 400px;
+            margin: 0px auto;
+            position: absolute;
+            top: 50%;
+            bottom: 50%;
+            left: 50%;
+            right: 50%;
+        }*/
+        .form {
+            width: 400px;
+            height: 200px;
+            margin: auto;
+            padding-top: 30px;
+        }
+
+        .login-content {
+            width: 100%;
+            max-width: 500px;
+            background-color: rgba(255, 250, 2550, .6);
+            float: left;
+        }
+
+        .input-group {
+            margin: 0px 0px 20px 0px !important;
+        }
+
+        .form-control,
+        .input-group {
+            height: 40px;
+        }
+
+        .form-group {
+            margin-bottom: 0px !important;
+        }
+
+        .login-title {
+            display: none;
+            padding: 20px 10px;
+            background-color: rgba(0, 0, 0, .6);
+        }
+
+            .login-title h1 {
+                margin-top: 10px !important;
+            }
+
+            .login-title small {
+                color: #fff;
+            }
+
+        .btn-sm {
+            padding: 8px 24px !important;
+            font-size: 16px !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form action="">
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                        <!--<input type="text" id="username" name="username" class="form-control" placeholder="用户名">-->
+                        <select id="username" class="form-control">
+                            <option>加载中……</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                        <input type="password" id="password" name="password" class="form-control" placeholder="密码" autocomplete="off">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group form-actions">
+                <div class="col-xs-4 col-xs-offset-4">
+                    <button type="button" class="btn btn-sm btn-info" onclick="Login()"> 登录<!--<span class="glyphicon glyphicon-circle-arrow-right"></span>--></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+<script>
+    $.post('/WebService.asmx/GetUserInfo', function (data, textStatus, xhr) {
+        if (data === null || data === undefined || data === "[]") {
+            return;
+        }
+        var userdatas = JSON.parse(data);
+        var strhtml = "";
+        $(userdatas).each(function () {
+            strhtml += "<option value='" + this.USERNAME + "'>" + this.USERNAME + "</option>";
+        })
+        $("#username").html(strhtml);
+    }).error(function (xhr) {
+        layer.msg('数据出错，请刷新重试。', {
+            icon: 5
+        });
+    });
+    function Login() {
+        var username = $("#username").val();
+        var password = $("#password").val();
+        if (username.trim() == "") {
+            layer.msg('用户名不能为空', {
+                icon: 5, anim: 6
+            });
+            return;
+        }
+        if (password.trim() == "") {
+            layer.msg('密码不能为空', {
+                icon: 5, anim: 6
+            });
+            return;
+        }
+        $.post('/WebService.asmx/exitSysUser', {
+            username: username,
+            password: password
+        }, function (data, textStatus, xhr) {
+            if (data == "1") {
+                layer.msg('登录成功！', {
+                    icon: 1
+                });
+               
+                var index = parent.layer.getFrameIndex(window.name); //先得到当前iframe层的索引
+
+                parent.RefreshPage(username);
+                parent.sx();
+                parent.layer.close(index);
+
+            } else {
+                layer.msg('登录失败！', {
+                    icon: 5,
+                    anim: 6
+                });
+            }
+        }).error(function (xhr) {
+            layer.msg('数据出错，请刷新重试。', {
+                icon: 5, anim: 6
+            });
+        });
+    }
+    //设置cookie
+    function setCookie(name, value) {
+        var Days = 30;
+        var exp = new Date();
+        exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
+        if (name == "password") {
+            document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();
+        } else {
+            document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();
+        }
+    }
+    //读取cookie
+    function getCookie(name) {
+        var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+        if (arr = document.cookie.match(reg))
+            return unescape(arr[2]);
+        else
+            return null;
+    }
+</script>
